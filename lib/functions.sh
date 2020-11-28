@@ -32,7 +32,6 @@ copy_files() {
     copy_file "$CHOME" ".vuerc"
     copy_file "$CHOME" ".gitconfig"
     copy_file "$CHOME" ".Xresources"
-    copy_file "$CHOME" ".Xdefaults"
     copy_dir "$CONFHOME/nvim"
     copy_file "$CONFHOME/dunst" "dunstrc"
 }

@@ -1,0 +1,128 @@
+# i3 config file (v4)
+# I3WM config Woomy
+
+#Set super Key to "mod" key
+set $mod Mod4
+
+# I just love this font
+font pango:Cascadia Code:style=Regular 10
+
+font pango:IcoFont:style=Regular 10
+#Important features
+
+#Move floating windows
+floating_modifier $mod
+# Starts a terminal
+bindsym $mod+Return exec alacritty
+# Kill the focused window
+bindsym $mod+Shift+a kill
+# Starts Rofi
+bindsym $mod+d exec "bash ${HOME}/bin/applaunch/launch-rofi.sh"
+# Changes focus
+bindsym $mod+Left focus left
+bindsym $mod+Down focus down
+bindsym $mod+Up focus up
+bindsym $mod+Right focus right
+
+# Move Windows 
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
+
+# Split to horizontal
+bindsym $mod+h split h
+
+# Split to vertical
+bindsym $mod+v split v
+
+# Toggle fullscreen for focused window
+bindsym $mod+f fullscreen toggle
+
+# Changes layout
+bindsym $mod+s layout stacking
+bindsym $mod+z layout tabbed
+bindsym $mod+e layout toggle split
+
+# Toggle Floating / Tiling
+bindsym $mod+Shift+space floating toggle
+
+# Focus the parent
+bindsym $mod+q focus parent
+
+# Sets workspaces names
+set $ws1 "1"
+set $ws2 "2"
+set $ws3 "3"
+set $ws4 "4"
+set $ws5 "5"
+set $ws6 "6"
+set $ws7 "7"
+set $ws8 "8"
+set $ws9 "9"
+set $ws10 "10"
+
+# To change workspaces
+bindsym $mod+ampersand workspace $ws1
+bindsym $mod+eacute workspace $ws2
+bindsym $mod+quotedbl workspace $ws3
+bindsym $mod+apostrophe workspace $ws4
+bindsym $mod+parenleft workspace $ws5
+bindsym $mod+section workspace $ws6
+bindsym $mod+egrave workspace $ws7
+bindsym $mod+exclam workspace $ws8
+bindsym $mod+ccedilla workspace $ws9
+bindsym $mod+agrave workspace $ws10
+
+# Sends window to Workspace
+bindsym $mod+Shift+ampersand move container to workspace $ws1
+bindsym $mod+Shift+eacute move container to workspace $ws2
+bindsym $mod+Shift+quotedbl move container to workspace $ws3
+bindsym $mod+Shift+apostrophe move container to workspace $ws4
+bindsym $mod+Shift+5 move container to workspace $ws5
+bindsym $mod+Shift+section move container to workspace $ws6
+bindsym $mod+Shift+egrave move container to workspace $ws7
+bindsym $mod+Shift+exclam move container to workspace $ws8
+bindsym $mod+Shift+ccedilla move container to workspace $ws9
+bindsym $mod+Shift+agrave move container to workspace $ws10
+
+# Reload I3 conf
+bindsym $mod+Shift+c reload
+# Restars i3 (preserve windows)
+bindsym $mod+Shift+r restart
+# Resize mode
+mode "resize" {
+        # Resize Windows
+        bindsym Left resize shrink width 10 px or 10 ppt
+        bindsym Down resize grow height 10 px or 10 ppt
+        bindsym Up resize shrink height 10 px or 10 ppt
+        bindsym Right resize grow width 10 px or 10 ppt
+
+        # Go to classic mode
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+        bindsym $mod+r mode "default"
+}
+
+bindsym $mod+r mode "resize"
+# Set to resize mode
+
+#FlameShot
+bindsym $mod+Print exec flameshot gui
+
+# I3-gaps config
+gaps inner 10 
+gaps outer 4
+
+#Reduces windows borders
+for_window [class=".*"] border pixel 1
+
+# Setup screen extend
+exec  --no-startup-id xrandr --output DVI-D-1 --primary --mode 1680x1050 --pos 0x0 --rotate normal --output HDMI-1 --off --output VGA-1 --mode 1920x1080 --pos 1680x0 --rotate normal
+
+#Startup scripts
+exec --no-startup-id bash "$HOME/bin/theming/wallpaper.sh" # Starts random wallpapers
+exec --no-startup-id /lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+exec --no-startup-id polybar -c "$HOME/.config/polybar/config.ini" top # Starts polybar
+exec --no-startup-id picom -b # Compositor
+exec --no-startup-id dunst & # Notification dameon

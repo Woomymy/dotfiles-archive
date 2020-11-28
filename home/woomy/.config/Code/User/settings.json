@@ -1,0 +1,10 @@
+{
+    "workbench.colorTheme": "Signed Dark Pro",
+    "window.zoomLevel": 1,
+    "git.autofetch": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "explorer.confirmDelete": false,
+    "terminal.integrated.shell.linux": "/bin/zsh"
+}

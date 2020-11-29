@@ -128,7 +128,8 @@ bindsym XF86MonBrightnessUp exec --no-startup-id light -A 10
 
 #Startup scripts
 exec --no-startup-id bash "$HOME/bin/theming/wallpaper.sh" # Starts random wallpapers
-exec --no-startup-id /lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+exec --no-startup-id /lib/polkit-gnome/polkit-gnome-authentication-agent-1 & # launchs policykit
+exec --no-startup-id bash "$HOME/bin/power/battery.sh" & # Start power manager
 exec --no-startup-id polybar -c "$HOME/.config/polybar/config.ini" top # Starts polybar
 exec --no-startup-id picom -b # Compositor
 exec --no-startup-id dunst & # Notification dameon

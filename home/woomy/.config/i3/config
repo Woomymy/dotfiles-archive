@@ -117,8 +117,14 @@ gaps outer 4
 #Reduces windows borders
 for_window [class=".*"] border pixel 1
 
-# Setup screen extend
-exec  --no-startup-id xrandr --output DVI-D-1 --primary --mode 1680x1050 --pos 0x0 --rotate normal --output HDMI-1 --off --output VGA-1 --mode 1920x1080 --pos 1680x0 --rotate normal
+# Special function keys
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5% 
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -5%
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle
+# Pacman -S light || emerge dev-libs/light
+bindsym XF86MonBrightnessDown exec --no-startup-id light -U 10
+bindsym XF86MonBrightnessUp exec --no-startup-id light -A 10
+
 
 #Startup scripts
 exec --no-startup-id bash "$HOME/bin/theming/wallpaper.sh" # Starts random wallpapers

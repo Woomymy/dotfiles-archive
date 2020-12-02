@@ -32,7 +32,7 @@ copy_files() {
     copy_file "$CHOME" ".Xresources"
     copy_dir "$CONFHOME/nvim"
     copy_file "$CONFHOME/dunst" "dunstrc"
-    $(yay -Qqe | grep -v manjaro | grep -v xf | grep -v xorg | grep -v systemd | grep -v thunar | grep -v pulseaudio  | grep -v xdg  | grep -v networkmanager) > systempackges
+    yay -Qqe | grep -v manjaro | grep -v xf | grep -v xorg | grep -v systemd | grep -v thunar | grep -v pulseaudio  | grep -v xdg  | grep -v networkmanager > systempackges
 }
 commit_and_push() {
     greenprint "Commiting to git"

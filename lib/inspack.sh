@@ -1,5 +1,5 @@
 source "lib/colors.sh"
-if [[ "$(grep $1 "/var/lib/portage/world")" ]]; then
+if [[ "$(yay -Qq | grep $1)" ]]; then
 	exit 
 fi
 greenprint "Installing packages ${1}"

@@ -1,10 +1,10 @@
 source "./lib/colors.sh"
 run_syschecks(){
-	check_is_calculate
+	check_is_archbased
 	check_ping
 }
-check_is_calculate() {
-	if [[ ! "$(command -v "cl-install")" ]]
+check_is_archbased() {
+	if [[ ! "$(command -v "yay")" ]]
 	then
 		redprint "This system isn't a calculate Linux System!"
 		exit 1

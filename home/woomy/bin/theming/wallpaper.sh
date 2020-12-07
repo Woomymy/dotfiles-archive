@@ -5,3 +5,4 @@ files=($WALLPATH/*)
 num=${#files[@]}
 wall="${files[RANDOM % num]}"
 feh --bg-fill "${wall}"
+wal -i "${wall}"

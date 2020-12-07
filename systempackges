@@ -46,6 +46,7 @@ dunst
 e2fsprogs
 ecryptfs-utils
 efibootmgr
+elinks
 engrampa
 epiphany
 exa
@@ -181,6 +182,7 @@ nvidia-455xx-utils
 nvidia-prime
 olive
 onlyoffice-desktopeditors
+oomox
 openresolv
 openssh
 optimus-manager
@@ -209,6 +211,7 @@ powershell-bin
 powertop
 procps-ng
 psmisc
+pywal-git
 qemu
 qpdfview
 qt5-translations
@@ -231,9 +234,11 @@ sudo
 sysfsutils
 syslinux
 tar
+telegram-desktop-bin
 terminus-font
 texinfo
 tlp
+tor-browser
 tree
 ttf-cascadia-code
 ttf-dejavu

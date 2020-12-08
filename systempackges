@@ -6,8 +6,7 @@ alacritty
 alsa-firmware
 alsa-utils
 amd-ucode
-anbox-git
-android-tools
+android-sdk-platform-tools
 android-udev
 anydesk-bin
 aria2
@@ -211,7 +210,6 @@ powershell-bin
 powertop
 procps-ng
 psmisc
-pywal-git
 qemu
 qpdfview
 qt5-translations
@@ -225,6 +223,7 @@ samba
 screenfetch
 sed
 shadow
+simple-mtpfs
 solaar
 spectre-meltdown-checker
 speedtest-cli

@@ -1,7 +1,5 @@
 # i3 config file (v4)
-# I3WM config Woomy
-
-#Set super Key to "mod" key
+#Set "mod" key to "super" key
 set $mod Mod4
 
 # I just love this font
@@ -9,6 +7,8 @@ font pango:Cascadia Code:style=Regular 10
 
 font pango:IcoFont:style=Regular 10
 #Important features
+
+exec --no-startup-id bash "$HOME/bin/theming/wallpaper.sh" # Starts random wallpapers and pywal
 
 #Move floating windows
 floating_modifier $mod
@@ -125,9 +125,19 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ to
 bindsym XF86MonBrightnessDown exec --no-startup-id light -U 10
 bindsym XF86MonBrightnessUp exec --no-startup-id light -A 10
 
+set_from_resource $fg i3wm.color7 #f0f0f0
+set_from_resource $bg i3wm.color2 #f0f0f0
+
+# class                 border  backgr. text indicator child_border
+client.focused          $bg     $bg     $fg  $bg       $bg
+client.focused_inactive $bg     $bg     $fg  $bg       $bg
+client.unfocused        $bg     $bg     $fg  $bg       $bg
+client.urgent           $bg     $bg     $fg  $bg       $bg
+client.placeholder      $bg     $bg     $fg  $bg       $bg
+
+client.background       $bg
 
 #Startup scripts
-exec --no-startup-id bash "$HOME/bin/theming/wallpaper.sh" # Starts random wallpapers
 exec --no-startup-id /lib/polkit-gnome/polkit-gnome-authentication-agent-1 & # launchs policykit
 exec --no-startup-id bash "$HOME/bin/power/battery.sh" & # Start power manager
 exec --no-startup-id polybar -c "$HOME/.config/polybar/config.ini" top # Starts polybar

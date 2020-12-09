@@ -107,6 +107,7 @@ intel-ucode
 inxi
 iproute2
 iputils
+jdk11-openjdk
 jfsutils
 krita
 less

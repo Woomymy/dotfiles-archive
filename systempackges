@@ -39,6 +39,7 @@ discord
 dmidecode
 dmraid
 dnsmasq
+docker
 dosfstools
 dracut
 dunst
@@ -194,6 +195,7 @@ pamac-flatpak-plugin
 pamac-gtk
 pamac-snap-plugin
 parole
+parsec-bin
 patch
 pavucontrol
 pciutils
@@ -209,6 +211,7 @@ polybar
 poppler-glib
 powershell-bin
 powertop
+premid
 procps-ng
 psmisc
 qemu
@@ -237,6 +240,7 @@ tar
 telegram-desktop-bin
 terminus-font
 texinfo
+thunderbird
 tlp
 tor-browser
 tree

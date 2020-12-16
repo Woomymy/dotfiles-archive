@@ -9,6 +9,7 @@ amd-ucode
 android-sdk-platform-tools
 android-udev
 anydesk-bin
+arandr
 aria2
 authy
 autoconf
@@ -51,6 +52,7 @@ engrampa
 epiphany
 exa
 exo
+expect
 f2fs-tools
 fakeroot
 feh
@@ -177,6 +179,7 @@ npm
 nss-mdns
 ntfs-3g
 ntp
+nuclear-player-bin
 numlockx
 nushell-bin
 nvidia-455xx-utils
@@ -211,7 +214,6 @@ polybar
 poppler-glib
 powershell-bin
 powertop
-premid
 procps-ng
 psmisc
 qemu
@@ -241,6 +243,7 @@ telegram-desktop-bin
 terminus-font
 texinfo
 thunderbird
+thunderbird-i18n-be
 tlp
 tor-browser
 tree
@@ -266,6 +269,7 @@ wget
 which
 winetricks
 wpa_supplicant
+wps-office
 xcursor-simpleandsoft
 xcursor-vanilla-dmz-aa
 xdialog

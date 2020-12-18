@@ -6,7 +6,7 @@ ZSH_THEME="sulfurium"
 ENABLE_CORRECTION="true"
 
 # Add "sudo" ZSH plugin
-plugins=(sudo)
+plugins=(sudo node)
 
 # Loads OMZ
 source $ZSH/oh-my-zsh.sh

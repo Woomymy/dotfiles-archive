@@ -2,7 +2,7 @@
 	name = Woomy4680-exe
 	email = matzar1808@gmail.com
 [credential]
-	helper = store
+	helper = cache
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f

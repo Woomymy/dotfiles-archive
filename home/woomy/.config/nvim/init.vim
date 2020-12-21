@@ -7,6 +7,7 @@ Plug 'dracula/vim'
 Plug 'scrooloose/nerdtree'
 Plug 'ryanoasis/vim-devicons'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'dylanaraps/wal.vim'
 set softtabstop=2
 source ~/.config/nvim/ext/terminal.vim
 source ~/.config/nvim/ext/fileexp.vim

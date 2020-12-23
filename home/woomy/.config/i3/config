@@ -115,7 +115,7 @@ gaps inner 10
 gaps outer 4
 
 #Reduces windows borders
-for_window [class=".*"] border pixel 1
+for_window [class=".*"] border none
 
 # Special function keys
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5% 
@@ -141,5 +141,6 @@ client.background       $bg
 exec --no-startup-id /lib/polkit-gnome/polkit-gnome-authentication-agent-1 & # launchs policykit
 exec --no-startup-id bash "$HOME/bin/power/battery.sh" & # Start power manager
 exec --no-startup-id polybar -c "$HOME/.config/polybar/config.ini" top # Starts polybar
+exec --no-startup-id nohup premid &> /dev/null # Discord rich presence
 exec --no-startup-id picom -b # Compositor
 exec --no-startup-id dunst & # Notification dameon

@@ -9,4 +9,4 @@ fi
 files=($WALLPATH/*)
 num=${#files[@]}
 wall="${files[RANDOM % num]}"
-wal -i "${wall}"
+wal -i "$HOME/Pictures/wallpapers/1059_Wall-1.jpg"

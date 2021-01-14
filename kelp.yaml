@@ -49,4 +49,6 @@ homedir:
     path: ".config/Code/User/settings.json"
     onlyon: ~
     backuponly: ~
+  - name: Custom binaries
+    path: "bin"
 rootfiles: []

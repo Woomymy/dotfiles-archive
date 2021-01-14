@@ -1,0 +1,52 @@
+---
+name: Dotfiles
+homedir:
+  - name: I3 config
+    path: ".config/i3/config"
+    onlyon: ~
+    backuponly: ~
+  - name: Rofi config
+    path: ".config/rofi"
+    onlyon: ~
+    backuponly: ~
+  - name: ZSH Config
+    path: ".zshrc"
+    onlyon: ~
+    backuponly: ~
+  - name: Bash config
+    path: ".bashrc"
+    onlyon: ~
+    backuponly: ~
+  - name: Polybar config
+    path: ".config/polybar"
+    onlyon: ~
+    backuponly: ~
+  - name: Dunst config
+    path: ".config/dunst/dunstrc"
+    onlyon: ~
+    backuponly: ~
+  - name: Neovim config
+    path: ".config/nvim"
+    onlyon: ~
+    backuponly: ~
+  - name: Picom config
+    path: ".config/picom"
+    onlyon: ~
+    backuponly: ~
+  - name: Nushell config
+    path: ".config/nu/config.toml"
+    onlyon: ~
+    backuponly: ~
+  - name: Alacritty config
+    path: ".config/alacritty/alacritty.yml"
+    onlyon: ~
+    backuponly: ~
+  - name: Xresources config
+    path: ".Xresources"
+    onlyon: ~
+    backuponly: ~
+  - name: VS Code config
+    path: ".config/Code/User/settings.json"
+    onlyon: ~
+    backuponly: ~
+rootfiles: []

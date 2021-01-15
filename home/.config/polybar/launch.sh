@@ -4,10 +4,15 @@ then
 	killall polybar 
 	sleep 1
 fi
-WALLPATH="$HOME/.config/polybar/colors"
-FILES=($WALLPATH/*.ini)
-NUM=${#FILES[@]}
-COLOR_FILE="${FILES[RANDOM % NUM]}"
+if [[ -f "${HOME}/.config/polybar/colors/${1}.ini" ]]
+then
+	COLOR_FILE="${HOME}/.config/polybar/colors/${1}.ini"
+else 
+	WALLPATH="$HOME/.config/polybar/colors"
+	FILES=($WALLPATH/*.ini)
+	NUM=${#FILES[@]}
+	COLOR_FILE="${FILES[RANDOM % NUM]}"
+fi	
 cp $COLOR_FILE $HOME/.config/polybar/colors.ini
 BARS=(top)
 for BAR in ${BARS[*]}

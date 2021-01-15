@@ -51,4 +51,6 @@ homedir:
     backuponly: ~
   - name: Custom binaries
     path: "bin"
+  - name: Wallpapers
+    path: "wallpapers"
 rootfiles: []

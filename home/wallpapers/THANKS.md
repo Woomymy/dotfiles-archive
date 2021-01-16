@@ -17,3 +17,6 @@ Photo by [Rachel Coyne](https://unsplash.com/@rachellynette?utm_source=unsplash&
 
 ![LightGreen](./lightgreen.jpg)
 [Photo by Fabrizio Conti](https://unsplash.com/photos/sw6MlHbmTXo?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink) on Unsplash
+
+![Turquoise](./lightturquoise.jpg)
+[Photo by Erol Ahmed](https://unsplash.com/photos/aIYFR0vbADk?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink) on Unsplash

@@ -1,57 +1,71 @@
 # Dotfiles-Portable
+
 My dotfiles for Calculate Linux on my laptop
-## blue
+
+## Softwares
+
+- [Rofi](./home/.config/rofi/config): Used as "applications" menu
+- [I3](./home/.config/i3/config) Window manager
+- [ZSH](./home/.zshrc) Shell
+- [Visual Studio Code](./home/.config/Code/User/settings.json) Text editor
+- [Neovim](./home/.config/nvim/init.vim) text editor
+- [Picom](./home/.config/picom/picom.conf) Compositor
+- [Alacritty](home/.config/alacritty/alacritty.yml) Terminal emulator
+- [Dunst](home/.config/dunst/dunstrc) Notification daemon
+- [Polybar](home/.config/polybar/launch.sh) status bar
+
+## Blue
 
 ![blue](./screenshots/blue.png)
 
-## darkblue
+## Darkblue
 
 ![darkblue](./screenshots/darkblue.png)
 
-## darkblue-alt
+## Darkblue-alt
 
 ![darkblue-alt](./screenshots/darkblue-alt.png)
 
-## green
+## Green
 
 ![green](./screenshots/green.png)
 
-## grey
+## Grey
 
 ![grey](./screenshots/grey.png)
 
-## lightblue
+## Lightblue
 
 ![lightblue](./screenshots/lightblue.png)
 
-## lightgreen
+## Lightgreen
 
 ![lightgreen](./screenshots/lightgreen.png)
 
-## lightturquoise
+## Lightturquoise
 
 ![lightturquoise](./screenshots/lightturquoise.png)
 
-## orange
+## Orange
 
 ![orange](./screenshots/orange.png)
 
-## pink
+## Pink
 
 ![pink](./screenshots/pink.png)
 
-## purple
+## Purple
 
 ![purple](./screenshots/purple.png)
 
-## red
+## Red
 
 ![red](./screenshots/red.png)
 
-## turquoise
+## Turquoise
 
 ![turquoise](./screenshots/turquoise.png)
 
-## yellow
+## Yellow
 
 ![yellow](./screenshots/yellow.png)

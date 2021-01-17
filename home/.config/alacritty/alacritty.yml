@@ -23,7 +23,7 @@ scrolling:
 
 font:
   normal:
-    family: MesloLGS NF
+    family: Cascadia Code
     style: Regular
 
   bold:

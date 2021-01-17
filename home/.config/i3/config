@@ -87,7 +87,6 @@ gaps inner 10
 gaps outer 4
 
 for_window [class=".*"] border none
-border_radius 5
 bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 10%
 bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -inc 10%
 

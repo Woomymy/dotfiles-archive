@@ -1,0 +1,6 @@
+app-emulation/docker-credential-helpers gnome-keyring
+x11-misc/polybar network
+dev-vcs/git gnome-keyring
+net-misc/networkmanager-dmenu -dmenu rofi
+sys-apps/calculate-utils -install qt5
+dev-util/ostree curl

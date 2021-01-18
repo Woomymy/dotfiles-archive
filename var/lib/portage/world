@@ -102,6 +102,7 @@ sys-apps/ifplugd
 sys-apps/inxi
 sys-apps/less
 sys-apps/openrc
+sys-apps/ripgrep
 sys-apps/usbutils
 sys-auth/pam_update
 sys-block/gparted

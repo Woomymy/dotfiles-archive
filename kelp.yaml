@@ -61,7 +61,7 @@ rootfiles:
   - name: Repos.conf
     path: /etc/portage/repos.conf/
     onlyon: ~
-    backuponly: ~
+    backuponly: true
   - name: Packages uses
     path: /etc/portage/package.use/
     onlyon: ~

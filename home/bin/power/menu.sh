@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 power_off=" Power Off"
 reboot="⭘ Reboot"
 log_out=" Logout"

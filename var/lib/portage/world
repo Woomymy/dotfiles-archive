@@ -39,6 +39,7 @@ app-shells/gentoo-zsh-completions
 app-shells/nushell-bin
 app-shells/pwsh-bin
 app-shells/zsh
+app-text/calibre
 app-text/tree
 app-vim/gentoo-syntax
 dev-db/pgadmin4

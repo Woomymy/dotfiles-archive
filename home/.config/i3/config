@@ -82,7 +82,7 @@ mode "resize" {
 bindsym $mod+r mode resize
 # Screenshot
 bindsym $mod+Print exec flameshot gui &
-
+bindsym $mod+Shift+b exec ~/bin/theming/colors.sh &
 gaps inner 10 
 gaps outer 4
 

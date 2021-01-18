@@ -93,5 +93,7 @@
     "discord.lowerDetailsDebugging": "Debugging: {workspace} on {gitbranch}",
     "material-icon-theme.opacity": 1,
     "material-icon-theme.activeIconPack": "vue",
-    "material-icon-theme.folders.color": "#e91e63"
+    "material-icon-theme.folders.color": "#e91e63",
+    "editor.cursorStyle": "line-thin",
+    "editor.fontSize": 15
 }

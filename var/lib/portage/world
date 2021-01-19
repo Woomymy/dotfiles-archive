@@ -91,6 +91,7 @@ net-misc/networkmanager-dmenu
 net-misc/x11-ssh-askpass
 net-misc/youtube-dl
 net-p2p/qbittorrent
+net-vpn/protonvpn-cli
 net-wireless/iw
 net-wireless/wireless-tools
 net-wireless/wpa_supplicant

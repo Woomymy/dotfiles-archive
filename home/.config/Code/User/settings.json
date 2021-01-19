@@ -95,5 +95,6 @@
     "material-icon-theme.activeIconPack": "vue",
     "material-icon-theme.folders.color": "#e91e63",
     "editor.cursorStyle": "line-thin",
-    "editor.fontSize": 15
+    "editor.fontSize": 15,
+    "material-icon-theme.folders.theme": "specific"
 }

@@ -123,6 +123,7 @@ sys-fs/eudev
 sys-fs/reiserfsprogs
 sys-fs/squashfs-tools-ng
 sys-fs/xfsprogs
+sys-kernel/calculate-sources
 sys-kernel/dracut
 sys-process/htop
 virtual/cron

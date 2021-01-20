@@ -86,7 +86,7 @@
     },
     "git.autofetchPeriod": 300,
     "typescript.updateImportsOnFileMove.enabled": "always",
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 0,
     "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback', 'MesloLGS NF'",
     "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
     "discord.lowerDetailsEditing": "Workspace: {workspace} on {gitbranch}",
@@ -96,5 +96,6 @@
     "material-icon-theme.folders.color": "#e91e63",
     "editor.cursorStyle": "line-thin",
     "editor.fontSize": 15,
-    "material-icon-theme.folders.theme": "specific"
+    "material-icon-theme.folders.theme": "specific",
+    "diffEditor.ignoreTrimWhitespace": false
 }

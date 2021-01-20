@@ -1,4 +1,3 @@
-sys-kernel/calculate-sources -minimal -vmlinuz uksm fsync
 app-emulation/docker-credential-helpers gnome-keyring
 x11-misc/polybar network
 dev-vcs/git gnome-keyring

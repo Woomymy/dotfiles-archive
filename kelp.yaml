@@ -56,21 +56,21 @@ homedir:
 rootfiles: 
   - name: Portage configs
     path: /var/lib/portage/world
-    onlyon: ~
+    onlyon: gentoo
     backuponly: true
   - name: Repos.conf
     path: /etc/portage/repos.conf/
-    onlyon: ~
+    onlyon: gentoo
     backuponly: true
   - name: Packages uses
     path: /etc/portage/package.use/
-    onlyon: ~
+    onlyon: gentoo
     backuponly: ~
   - name: Packages accept keywords
     path: /etc/portage/package.accept_keywords/
-    onlyon: ~
+    onlyon: gentoo
     backuponly: ~
   - name: Make.conf
     path: /etc/portage/make.conf/
-    onlyon: ~
+    onlyon: gentoo
     backuponly: ~

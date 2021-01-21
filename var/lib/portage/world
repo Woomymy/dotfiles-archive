@@ -29,6 +29,7 @@ app-misc/fii-id-bin
 app-misc/jq
 app-misc/neofetch
 app-misc/premid
+app-misc/sl
 app-misc/tmux
 app-misc/xorg-meta
 app-office/libreoffice
@@ -57,6 +58,8 @@ dev-util/idea-community
 dev-vcs/git
 games-action/minecraft-launcher
 games-fps/xonotic
+games-misc/cowsay
+games-misc/xcowsay
 gnome-base/gnome-desktop
 gnome-extra/gnome-characters
 gnome-extra/nm-applet

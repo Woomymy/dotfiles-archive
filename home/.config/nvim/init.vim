@@ -1,10 +1,7 @@
 call plug#begin('~/.local/share/nvim/plugged')
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-Plug 'davidhalter/jedi-vim'
-Plug 'mattn/emmet-vim'
+Plug 'scrooloose/nerdtree'
 Plug 'bling/vim-airline'
 Plug 'dracula/vim'
-Plug 'scrooloose/nerdtree'
 Plug 'ryanoasis/vim-devicons'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'dylanaraps/wal.vim'

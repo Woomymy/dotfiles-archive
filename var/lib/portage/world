@@ -15,6 +15,7 @@ app-editors/vscode-bin
 app-emulation/docker
 app-emulation/docker-compose
 app-emulation/docker-credential-helpers
+app-emulation/qemu
 app-emulation/virtualbox
 app-emulation/virtualbox-additions
 app-emulation/virtualbox-extpack-oracle
@@ -22,6 +23,7 @@ app-emulation/virtualbox-modules
 app-emulation/wine-mono
 app-emulation/wine-vanilla
 app-emulation/winetricks
+app-misc/asciinema
 app-misc/authy
 app-misc/beep
 app-misc/cmatrix
@@ -30,6 +32,7 @@ app-misc/jq
 app-misc/neofetch
 app-misc/premid
 app-misc/sl
+app-misc/tab-rs
 app-misc/tmux
 app-misc/xorg-meta
 app-office/libreoffice
@@ -48,6 +51,7 @@ dev-db/postgresql
 dev-db/postgresql:13
 dev-java/icedtea-bin
 dev-lang/sassc
+dev-libs/libisoburn
 dev-libs/light
 dev-python/PyQt5
 dev-python/pip
@@ -59,6 +63,7 @@ dev-vcs/git
 games-action/minecraft-launcher
 games-fps/xonotic
 games-misc/cowsay
+games-misc/lolcat
 games-misc/xcowsay
 gnome-base/gnome-desktop
 gnome-extra/gnome-characters
@@ -79,11 +84,14 @@ media-gfx/krita
 media-gfx/maim
 media-sound/clementine
 media-sound/pavucontrol
+media-sound/pulsemixer
 media-sound/sox
 media-video/ffmpeg
 media-video/simplescreenrecorder
 media-video/vlc
+net-analyzer/nmap
 net-analyzer/speedtest-cli
+net-analyzer/traceroute
 net-fs/nfs-utils
 net-im/discord-bin
 net-im/element-desktop-bin
@@ -103,10 +111,12 @@ sys-apps/bat
 sys-apps/calculate-toolkit
 sys-apps/calculate-utils:3
 sys-apps/ethtool
+sys-apps/exa
 sys-apps/flatpak
 sys-apps/ifplugd
 sys-apps/inxi
 sys-apps/less
+sys-apps/lsd
 sys-apps/openrc
 sys-apps/ripgrep
 sys-apps/usbutils
@@ -128,6 +138,7 @@ sys-fs/squashfs-tools-ng
 sys-fs/xfsprogs
 sys-kernel/calculate-sources
 sys-kernel/dracut
+sys-process/bpytop
 sys-process/htop
 virtual/cron
 virtual/linux-sources

@@ -35,7 +35,8 @@ font:
 
 
 draw_bold_text_with_bright_colors: true
-
+shell:
+        program: tab
 colors:
   bright:
     black: '#505354'

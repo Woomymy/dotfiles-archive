@@ -20,3 +20,8 @@ eval "$(starship init zsh)"
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/home/woomy/.sdkman"
 [[ -s "/home/woomy/.sdkman/bin/sdkman-init.sh" ]] && source "/home/woomy/.sdkman/bin/sdkman-init.sh"
+
+# tab multiplexer configuration: https://github.com/austinjones/tab-rs/
+source "/home/woomy/.local/share/tab/completion/zsh-history.zsh"
+# end tab configuration
+

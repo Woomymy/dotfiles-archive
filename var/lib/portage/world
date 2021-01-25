@@ -1,5 +1,4 @@
 app-admin/bitwarden-desktop-bin
-app-admin/doas
 app-admin/keepassxc
 app-admin/logrotate
 app-admin/sudo
@@ -93,6 +92,7 @@ net-analyzer/nmap
 net-analyzer/speedtest-cli
 net-analyzer/traceroute
 net-fs/nfs-utils
+net-ftp/filezilla
 net-im/discord-bin
 net-im/element-desktop-bin
 net-im/signal-desktop-bin

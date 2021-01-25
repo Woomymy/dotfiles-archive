@@ -1,8 +1,15 @@
-app-admin/doas persist
+# Enable FFMPEG support on vivaldi
 www-client/vivaldi proprietary-codecs
+# Use gnome-keyring to store auth informations securely
+# For docker (Docker Hub Credentials)
 app-emulation/docker-credential-helpers gnome-keyring
-x11-misc/polybar network
+# For GIT (github, gitlab, gitea creadentials)
 dev-vcs/git gnome-keyring
+# Enable polybar network module support
+x11-misc/polybar network
+# Use rofi for networkmanager_menu instead of dmenu
 net-misc/networkmanager-dmenu -dmenu rofi
+# Disable calculate-utils cl-install
 sys-apps/calculate-utils -install qt5
+# Enable curl use flag for ostree
 dev-util/ostree curl

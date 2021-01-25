@@ -24,4 +24,3 @@ export SDKMAN_DIR="/home/woomy/.sdkman"
 # tab multiplexer configuration: https://github.com/austinjones/tab-rs/
 source "/home/woomy/.local/share/tab/completion/zsh-history.zsh"
 # end tab configuration
-

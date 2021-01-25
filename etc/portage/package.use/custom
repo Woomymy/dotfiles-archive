@@ -1,4 +1,5 @@
-
+app-admin/doas persist
+www-client/vivaldi proprietary-codecs
 app-emulation/docker-credential-helpers gnome-keyring
 x11-misc/polybar network
 dev-vcs/git gnome-keyring

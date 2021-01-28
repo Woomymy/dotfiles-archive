@@ -1,5 +1,4 @@
 app-office/libreoffice
-www-client/vivaldi-snapshot
 www-client/vivaldi
 dev-util/github-cli
 x11-themes/vimix-gtk-themes
@@ -16,8 +15,6 @@ app-misc/premid
 sys-fs/squashfs-tools-ng
 app-shells/nushell
 games-fps/xonotic
-dev-libs/d0_blind_id
-dev-util/idea-community
 app-admin/bitwarden-desktop-bin
 app-emulation/docker-credential-helpers
 x11-misc/picom

@@ -97,5 +97,8 @@
     "editor.cursorStyle": "line-thin",
     "editor.fontSize": 15,
     "material-icon-theme.folders.theme": "specific",
-    "diffEditor.ignoreTrimWhitespace": false
+    "diffEditor.ignoreTrimWhitespace": false,
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }

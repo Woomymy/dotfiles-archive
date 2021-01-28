@@ -44,6 +44,7 @@ dev-libs/light
 dev-python/pip
 dev-util/github-cli
 dev-vcs/git
+dev-vcs/subversion
 games-action/minecraft-launcher
 games-fps/xonotic
 gnome-base/gnome-desktop
@@ -74,9 +75,12 @@ net-im/discord-bin
 net-im/element-desktop-bin
 net-im/signal-desktop-bin
 net-im/telegram-desktop-bin
+net-irc/hexchat
+net-irc/weechat
 net-libs/nodejs
 net-misc/dhcp
 net-misc/networkmanager-dmenu
+net-misc/ntp
 net-misc/x11-ssh-askpass
 net-misc/youtube-dl
 net-wireless/iw

@@ -89,8 +89,8 @@
     "window.zoomLevel": 0,
     "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback', 'MesloLGS NF'",
     "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
-    "discord.lowerDetailsEditing": "Workspace: {workspace} on {gitbranch}",
-    "discord.lowerDetailsDebugging": "Debugging: {workspace} on {gitbranch}",
+    "discord.lowerDetailsEditing": "📝 Workspace: {workspace} on {gitbranch}",
+    "discord.lowerDetailsDebugging": "🐛 Debugging: {workspace} on {gitbranch}",
     "material-icon-theme.opacity": 1,
     "material-icon-theme.activeIconPack": "vue",
     "material-icon-theme.folders.color": "#e91e63",
@@ -100,5 +100,8 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "[markdown]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    },
+    "discord.detailsDebugging": "🐛 Debugging {filename} in {workspace} on {gitbranch} ({gitreponame})",
+    "discord.detailsEditing": "📝 Editing {filename} in {workspace} on {gitbranch}",
+    "discord.largeImage": "📝 Editing a {LANG} file"
 }

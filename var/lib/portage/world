@@ -22,6 +22,7 @@ app-emulation/virtualbox-modules
 app-emulation/wine-mono
 app-emulation/wine-vanilla
 app-emulation/winetricks
+app-misc/asciinema
 app-misc/authy
 app-misc/fii-id-bin
 app-misc/premid
@@ -121,6 +122,7 @@ www-client/firefox
 www-client/vivaldi
 x11-misc/alacarte
 x11-misc/bumblebee
+x11-misc/bumblebee::seden
 x11-misc/dunst
 x11-misc/lightdm
 x11-misc/pcmanfm

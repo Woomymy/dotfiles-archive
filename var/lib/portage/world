@@ -67,6 +67,8 @@ media-gfx/maim
 media-sound/clementine
 media-sound/pavucontrol
 media-video/ffmpeg
+media-video/obs-studio
+media-video/obs-v4l2sink
 media-video/vlc
 net-analyzer/nmap
 net-analyzer/speedtest-cli
@@ -82,6 +84,7 @@ net-libs/nodejs
 net-misc/dhcp
 net-misc/networkmanager-dmenu
 net-misc/ntp
+net-misc/tigervnc
 net-misc/x11-ssh-askpass
 net-misc/youtube-dl
 net-wireless/iw
@@ -121,6 +124,7 @@ virtual/logger
 www-client/firefox
 www-client/vivaldi
 x11-misc/alacarte
+x11-misc/arandr
 x11-misc/bumblebee
 x11-misc/bumblebee::seden
 x11-misc/dunst

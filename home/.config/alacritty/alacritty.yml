@@ -23,11 +23,11 @@ scrolling:
 
 font:
   normal:
-    family: Cascadia Code
+    family: Iosevka Nerd Font
     style: Regular
 
   bold:
-    family: Cascadia Code
+    family: Iosevka Nerd Font
     style: Bold
 
   size: 17.0
@@ -35,8 +35,8 @@ font:
 
 
 draw_bold_text_with_bright_colors: true
-shell:
-        program: tab
+#shell:
+#       program: tab
 colors:
   bright:
     black: '#505354'

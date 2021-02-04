@@ -87,7 +87,6 @@
     "git.autofetchPeriod": 300,
     "typescript.updateImportsOnFileMove.enabled": "always",
     "window.zoomLevel": 0,
-    "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback', 'MesloLGS NF'",
     "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
     "discord.lowerDetailsEditing": "📝 Workspace: {workspace} on {gitbranch}",
     "discord.lowerDetailsDebugging": "🐛 Debugging: {workspace} on {gitbranch}",
@@ -95,7 +94,7 @@
     "material-icon-theme.activeIconPack": "vue",
     "material-icon-theme.folders.color": "#e91e63",
     "editor.cursorStyle": "line-thin",
-    "editor.fontSize": 15,
+    "editor.fontSize": 19,
     "material-icon-theme.folders.theme": "specific",
     "diffEditor.ignoreTrimWhitespace": false,
     "[markdown]": {
@@ -103,5 +102,7 @@
     },
     "discord.detailsDebugging": "🐛 Debugging {filename} in {workspace} on {gitbranch} ({gitreponame})",
     "discord.detailsEditing": "📝 Editing {filename} in {workspace} on {gitbranch}",
-    "discord.largeImage": "📝 Editing a {LANG} file"
+    "discord.largeImage": "📝 Editing a {LANG} file",
+    "svg.preview.mode": "svg",
+    "editor.fontFamily": "'Iosevka Nerd Font', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'"
 }

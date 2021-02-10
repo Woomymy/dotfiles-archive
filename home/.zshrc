@@ -1,6 +1,13 @@
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
 export ZSH="$HOME/.oh-my-zsh"
 # Set OMZ Theme to sulfurium
-#ZSH_THEME="sulfurium"
+ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Enable ZSH correction
 ENABLE_CORRECTION="true"
@@ -21,6 +28,5 @@ eval "$(starship init zsh)"
 export SDKMAN_DIR="/home/woomy/.sdkman"
 [[ -s "/home/woomy/.sdkman/bin/sdkman-init.sh" ]] && source "/home/woomy/.sdkman/bin/sdkman-init.sh"
 
-# tab multiplexer configuration: https://github.com/austinjones/tab-rs/
-source "/home/woomy/.local/share/tab/completion/zsh-history.zsh"
-# end tab configuration
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

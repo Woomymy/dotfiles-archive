@@ -5,6 +5,7 @@ app-admin/sudo
 app-arch/lbzip2
 app-arch/p7zip
 app-arch/pigz
+app-arch/upx
 app-arch/xarchiver
 app-crypt/sbsigntools
 app-crypt/shim-signed
@@ -25,6 +26,7 @@ app-emulation/winetricks
 app-misc/asciinema
 app-misc/authy
 app-misc/fii-id-bin
+app-misc/jq
 app-misc/premid
 app-misc/tab-rs
 app-misc/tmux
@@ -36,6 +38,7 @@ app-shells/gentoo-zsh-completions
 app-shells/nushell-bin
 app-shells/pwsh-bin
 app-shells/zsh
+app-text/po4a
 app-text/tree
 app-vim/gentoo-syntax
 dev-java/icedtea-bin
@@ -79,6 +82,7 @@ net-im/element-desktop-bin
 net-im/signal-desktop-bin
 net-im/telegram-desktop-bin
 net-irc/hexchat
+net-irc/irssi
 net-irc/weechat
 net-libs/nodejs
 net-misc/dhcp
@@ -87,6 +91,7 @@ net-misc/ntp
 net-misc/tigervnc
 net-misc/x11-ssh-askpass
 net-misc/youtube-dl
+net-p2p/qbittorrent
 net-wireless/iw
 net-wireless/wireless-tools
 net-wireless/wpa_supplicant
@@ -106,6 +111,7 @@ sys-boot/efibootmgr
 sys-boot/gnu-efi
 sys-boot/grub:2
 sys-boot/os-prober
+sys-devel/crossdev
 sys-firmware/nvidia-firmware
 sys-fs/btrfs-progs
 sys-fs/cryptsetup
@@ -113,6 +119,7 @@ sys-fs/e2fsprogs
 sys-fs/ecryptfs-utils
 sys-fs/eudev
 sys-fs/reiserfsprogs
+sys-fs/simple-mtpfs
 sys-fs/squashfs-tools-ng
 sys-fs/xfsprogs
 sys-kernel/calculate-sources

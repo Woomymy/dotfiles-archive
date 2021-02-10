@@ -28,3 +28,5 @@ net-vpn/protonvpn-cli
 # required by media-video/obs-v4l2sink-0.1.0_p20181012-r2::gentoo
 # required by obs-v4l2sink (argument)
 =media-video/v4l2loopback-0.12.5-r1 ~amd64
+# required by upx (argument)
+=app-arch/upx-3.96 ~amd64

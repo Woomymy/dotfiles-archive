@@ -30,3 +30,5 @@ net-vpn/protonvpn-cli
 =media-video/v4l2loopback-0.12.5-r1 ~amd64
 # required by upx (argument)
 =app-arch/upx-3.96 ~amd64
+# required by barrier (argument)
+=x11-misc/barrier-2.3.3 ~amd64

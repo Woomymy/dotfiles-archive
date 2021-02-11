@@ -25,6 +25,7 @@ app-emulation/wine-vanilla
 app-emulation/winetricks
 app-misc/asciinema
 app-misc/authy
+app-misc/cmatrix
 app-misc/fii-id-bin
 app-misc/jq
 app-misc/premid
@@ -33,7 +34,9 @@ app-misc/tmux
 app-misc/xorg-meta
 app-office/libreoffice
 app-portage/eix
+app-portage/flaggie
 app-portage/gentoolkit
+app-shells/fish
 app-shells/gentoo-zsh-completions
 app-shells/nushell-bin
 app-shells/pwsh-bin
@@ -132,6 +135,7 @@ www-client/firefox
 www-client/vivaldi
 x11-misc/alacarte
 x11-misc/arandr
+x11-misc/barrier
 x11-misc/bumblebee
 x11-misc/bumblebee::seden
 x11-misc/dunst

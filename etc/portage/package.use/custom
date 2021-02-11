@@ -1,3 +1,4 @@
+x11-misc/barrier gui
 # Enable FFMPEG support on vivaldi
 www-client/vivaldi proprietary-codecs
 # Use gnome-keyring to store auth informations securely

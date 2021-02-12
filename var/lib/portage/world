@@ -28,6 +28,7 @@ app-misc/authy
 app-misc/cmatrix
 app-misc/fii-id-bin
 app-misc/jq
+app-misc/neofetch
 app-misc/premid
 app-misc/tab-rs
 app-misc/tmux

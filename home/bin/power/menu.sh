@@ -4,7 +4,7 @@ reboot="⭘ Reboot"
 log_out=" Logout"
 opts="$power_off\n$reboot\n$log_out"
 
-ch="$(echo -e "$opts" | rofi -dmenu -selected-row 2)"
+ch="$(echo -e "$opts" | rofi -dmenu)"
 case $ch in
     $power_off)
 	loginctl poweroff

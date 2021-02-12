@@ -104,5 +104,6 @@
     "discord.detailsEditing": "📝 Editing {filename} in {workspace} on {gitbranch}",
     "discord.largeImage": "📝 Editing a {LANG} file",
     "svg.preview.mode": "svg",
-    "editor.fontFamily": "'Iosevka Nerd Font', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'"
+    "editor.fontFamily": "'Iosevka Nerd Font', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.fontLigatures": true
 }

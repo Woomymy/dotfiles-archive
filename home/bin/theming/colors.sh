@@ -1,7 +1,6 @@
 #!/bin/bash
 blue="Blue"
 darkblue="Darkblue"
-darkblue-alt="Darkblue-alt"
 green="Green"
 gray="Gray"
 lightblue="Lightblue"
@@ -13,7 +12,7 @@ purple="Purple"
 red="Red"
 turquoise="Turquoise"
 yellow="Yellow"
-opts="$blue\n$darkblue\n${darkblue-alt}\n${green}\n${gray}\n$lightblue\n$lightgreen\n$lightturquoise\n$orange\n$pink\n$purple\n$red\n$turquoise\n$yellow"
+opts="$blue\n$darkblue\n${green}\n${gray}\n$lightblue\n$lightgreen\n$lightturquoise\n$orange\n$pink\n$purple\n$red\n$turquoise\n$yellow"
 
 ch="$(echo -e "$opts" | rofi -dmenu)"
 case $ch in
@@ -22,9 +21,6 @@ case $ch in
         ;;
     $darkblue)
         $HOME/bin/theming/setup-themes.sh "darkblue"
-        ;;
-    "${darkblue-alt}")
-        $HOME/bin/theming/setup-themes.sh "darkblue-alt"
         ;;
     $green)
         $HOME/bin/theming/setup-themes.sh "green"

@@ -37,7 +37,7 @@ font:
 draw_bold_text_with_bright_colors: true
 colors:
   normal:
-    black: '#EC4899'
+    black: '#1C1917'
     blue: '#0EA5E9'
     cyan: '#67E8F9'
     green: '#84CC16'
@@ -46,13 +46,13 @@ colors:
     white: '#FFFFFF'
     yellow: '#FCD34D'
   cursor:
-    cursor: '#1E88E5'
+    cursor: '#43A047'
     text: '#000000'
   primary:
     background: '#44403C'
     foreground: '#f8f8f8'
   selection:
-    background: '#1E88E5'
+    background: '#43A047'
     text: '#ffffff'
 indexed_colors: []
 

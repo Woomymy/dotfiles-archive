@@ -54,6 +54,7 @@ dev-util/github-cli
 dev-vcs/git
 dev-vcs/subversion
 games-action/minecraft-launcher
+games-action/multimc
 games-fps/xonotic
 gnome-base/gnome-desktop
 gnome-extra/gnome-characters
@@ -73,6 +74,7 @@ media-gfx/krita
 media-gfx/maim
 media-sound/clementine
 media-sound/pavucontrol
+media-sound/sox
 media-video/ffmpeg
 media-video/obs-studio
 media-video/obs-v4l2sink
@@ -132,6 +134,7 @@ sys-process/htop
 virtual/cron
 virtual/linux-sources
 virtual/logger
+www-client/chromium
 www-client/firefox
 www-client/vivaldi
 x11-misc/alacarte

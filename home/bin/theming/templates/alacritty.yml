@@ -37,7 +37,7 @@ font:
 draw_bold_text_with_bright_colors: true
 colors:
   normal:
-    black: '#EC4899'
+    black: '#1C1917'
     blue: '#0EA5E9'
     cyan: '#67E8F9'
     green: '#84CC16'

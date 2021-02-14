@@ -33,3 +33,5 @@ app-editors/vscodium-bin
 =app-arch/upx-3.96 ~amd64
 # required by barrier (argument)
 =x11-misc/barrier-2.3.3 ~amd64
+# required by multimc (argument)
+=games-action/multimc-0.6.11 ~amd64

@@ -14,8 +14,8 @@ configuration {
 
 
 * {
-	background-color:            #F1F5F9;
-	text-color:                  #D81B60;
+	background-color:            @BG_COLOR@;
+	text-color:                  @COLOR@;
 	selbg:                       #215d9c;
 	actbg:                       #262626;
 	urgbg:                       #e53935;

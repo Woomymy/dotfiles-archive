@@ -7,6 +7,7 @@ app-arch/p7zip
 app-arch/pigz
 app-arch/upx
 app-arch/xarchiver
+app-backup/timeshift
 app-crypt/sbsigntools
 app-crypt/shim-signed
 app-editors/nano
@@ -29,11 +30,13 @@ app-misc/cmatrix
 app-misc/fii-id-bin
 app-misc/jq
 app-misc/neofetch
+app-misc/pfetch
 app-misc/premid
 app-misc/tab-rs
 app-misc/tmux
 app-misc/xorg-meta
 app-office/libreoffice
+app-office/wps-office
 app-portage/eix
 app-portage/flaggie
 app-portage/gentoolkit
@@ -50,6 +53,7 @@ dev-lang/sassc
 dev-libs/libisoburn
 dev-libs/light
 dev-python/pip
+dev-util/android-tools
 dev-util/github-cli
 dev-vcs/git
 dev-vcs/subversion

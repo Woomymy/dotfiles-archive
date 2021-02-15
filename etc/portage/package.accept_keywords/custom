@@ -1,3 +1,4 @@
+app-office/wps-office
 app-office/libreoffice
 www-client/vivaldi
 dev-util/github-cli
@@ -35,3 +36,7 @@ app-editors/vscodium-bin
 =x11-misc/barrier-2.3.3 ~amd64
 # required by multimc (argument)
 =games-action/multimc-0.6.11 ~amd64
+# required by timeshift (argument)
+=app-backup/timeshift-20.11.1 ~amd64
+# required by pfetch (argument)
+=app-misc/pfetch-0.6.0 ~amd64

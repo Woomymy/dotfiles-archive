@@ -6,6 +6,7 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'dylanaraps/wal.vim'
 set softtabstop=2
+au BufNewFile,BufRead /*.rasi setf css
 source ~/.config/nvim/ext/terminal.vim
 source ~/.config/nvim/ext/fileexp.vim
 inoremap <expr> <C-j> pumvisible() ? "\<C-n>" : "\<C-j>"

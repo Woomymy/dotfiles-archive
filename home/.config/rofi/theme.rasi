@@ -1,133 +1,49 @@
-/**
- * User: deadguy
- * Copyright: deadguy
- */
-
 configuration {
-	display-drun:    "Activate";
-	display-run:     "Execute";
-	display-window:  "Window";
-	show-icons:      true;
-	sidebar-mode:    true;
-	font:		 "Ioveska Nerd Font 19"; 
+	show-icons: true;
+	icon-theme: "Papirus";
+	sidebar-mode: true;
 }
-
 
 * {
-	background-color:            #F1F5F9;
-	text-color:                  #D81B60;
-	selbg:                       #215d9c;
-	actbg:                       #262626;
-	urgbg:                       #e53935;
-	winbg:			     #26c6da;
-
-	selected-normal-foreground:  @winbg;
-	normal-foreground:           @text-color;
-	selected-normal-background:  @actbg;
-	normal-background:           @background-color;
-
-	selected-urgent-foreground:  @background-color;
-	urgent-foreground:           @text-color;
-	selected-urgent-background:  @urgbg;
-	urgent-background:           @background-color;
-
-	selected-active-foreground:  @winbg;
-	active-foreground:           @text-color;
-	selected-active-background:  @actbg;
-	active-background:           @selbg;
-
-	line-margin:                 2;
-	line-padding:                2;
-	separator-style:             "none";
-	hide-scrollbar:              "true";
-	margin:                      0;
-	padding:                     0;
-}
-
-window {
-	location:	 west;
-	anchor:		 west;
-	height:		 100%;
-	width:		 22%;
-	orientation: horizontal;
-	children:	 [mainbox];
-}
-
-mainbox {
-	spacing:  0.8em;
-	children: [ entry,listview,mode-switcher ];
-}
-
-button { padding: 5px 2px; }
-
-button selected {
-	background-color: @active-background;
-	text-color:       @background-color;
+  background-color: #282C33;
+  border-color: #2e343f;
+  text-color: #FFFFFF;
+  spacing: 0;
+  width: 512px;
 }
 
 inputbar {
-	padding: 5px;
-	spacing: 5px;
+  border: 0 0 1px 0;
+  children: [prompt,entry];
+}
+
+prompt {
+  padding: 16px;
+  border: 0 1px 0 0;
+}
+
+textbox {
+  background-color: #494846;
+  border: 0 0 1px 0;
+  border-color: #282C33;
+  padding: 8px 16px;
+}
+
+entry {
+  padding: 16px;
 }
 
 listview {
-	spacing: 0.5em;
-	dynamic: false;
-	cycle:   true;
+  cycle: false;
+  margin: 0 0 -1px 0;
 }
 
-element { padding: 10px; }
-
-entry {
-	expand:         false;
-	text-color:     @normal-foreground;
-	vertical-align: 1;
-	padding:        5px;
+element {
+  border: 0 0 1px 0;
+  padding: 16px;
 }
 
-element normal.normal {
-	background-color: @normal-background;
-	text-color:       @normal-foreground;
+element selected {
+  background-color: #676865;
 }
 
-element normal.urgent {
-	background-color: @urgent-background;
-	text-color:       @urgent-foreground;
-}
-
-element normal.active {
-	background-color: @active-background;
-	text-color:       @active-foreground;
-}
-
-element selected.normal {
-	background-color: @selected-normal-background;
-	text-color:       @selected-normal-foreground;
-	border:           0 5px solid 0 0;
-	border-color:	    @active-background;
-}
-
-element selected.urgent {
-	background-color: @selected-urgent-background;
-	text-color:       @selected-urgent-foreground;
-}
-
-element selected.active {
-	background-color: @selected-active-background;
-	text-color:       @selected-active-foreground;
-}
-
-element alternate.normal {
-	background-color: @normal-background;
-	text-color:       @normal-foreground;
-}
-
-element alternate.urgent {
-	background-color: @urgent-background;
-	text-color:       @urgent-foreground;
-}
-
-element alternate.active {
-	background-color: @active-background;
-	text-color:       @active-foreground;
-}

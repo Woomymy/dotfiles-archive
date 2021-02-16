@@ -1,5 +1,4 @@
 {
-    "wal.tokenColorTheme": "Signed Dark Pro",
     "workbench.colorCustomizations": {
         "[Wal]": {
             "focusBorder": "#9f387b",
@@ -87,7 +86,6 @@
     "git.autofetchPeriod": 300,
     "typescript.updateImportsOnFileMove.enabled": "always",
     "window.zoomLevel": 0,
-    "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
     "discord.lowerDetailsEditing": "📝 Workspace: {workspace} on {gitbranch}",
     "discord.lowerDetailsDebugging": "🐛 Debugging: {workspace} on {gitbranch}",
     "material-icon-theme.opacity": 1,
@@ -103,7 +101,8 @@
     "discord.detailsDebugging": "🐛 Debugging {filename} in {workspace} on {gitbranch} ({gitreponame})",
     "discord.detailsEditing": "📝 Editing {filename} in {workspace} on {gitbranch}",
     "discord.largeImage": "📝 Editing a {LANG} file",
-    "svg.preview.mode": "svg",
     "editor.fontFamily": "'Iosevka Nerd Font', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
-    "editor.fontLigatures": true
+    "editor.fontLigatures": true,
+    "rust-analyzer.notifications.cargoTomlNotFound": false,
+    "rust-client.rustupPath": "~/.cargo/bin/rustup",
 }

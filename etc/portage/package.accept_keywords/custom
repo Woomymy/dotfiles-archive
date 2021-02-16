@@ -40,3 +40,5 @@ app-editors/vscodium-bin
 =app-backup/timeshift-20.11.1 ~amd64
 # required by pfetch (argument)
 =app-misc/pfetch-0.6.0 ~amd64
+# required by dev-util/rustup (argument)
+=dev-util/rustup-1.23.0 ~amd64

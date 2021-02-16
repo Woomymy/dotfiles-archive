@@ -1,13 +1,12 @@
 app-admin/bitwarden-desktop-bin
+app-admin/doas
 app-admin/keepassxc
 app-admin/logrotate
-app-admin/sudo
 app-arch/lbzip2
 app-arch/p7zip
 app-arch/pigz
 app-arch/upx
 app-arch/xarchiver
-app-backup/timeshift
 app-crypt/sbsigntools
 app-crypt/shim-signed
 app-editors/nano
@@ -27,6 +26,7 @@ app-emulation/winetricks
 app-misc/asciinema
 app-misc/authy
 app-misc/cmatrix
+app-misc/figlet
 app-misc/fii-id-bin
 app-misc/jq
 app-misc/neofetch

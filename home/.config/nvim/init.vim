@@ -5,6 +5,7 @@ Plug 'dracula/vim'
 Plug 'ryanoasis/vim-devicons'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'dylanaraps/wal.vim'
+Plug 'Wafelack/Ark.vim'
 set softtabstop=2
 au BufNewFile,BufRead /*.rasi setf css
 source ~/.config/nvim/ext/terminal.vim

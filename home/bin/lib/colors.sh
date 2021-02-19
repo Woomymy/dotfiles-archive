@@ -18,7 +18,7 @@ get_color() {
             COLOR="#039BE5"
 	    BG="#F1F5F9"
 	    ;;
-        "lightgreeen")
+        "lightgreen")
             COLOR="#7CB342"
 	    BG="#F1F5F9"
 	    ;;

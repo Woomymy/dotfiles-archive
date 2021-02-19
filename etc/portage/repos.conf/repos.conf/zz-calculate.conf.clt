@@ -1,0 +1,34 @@
+[DEFAULT]
+main-repo = gentoo
+
+[distros]
+priority = 50
+sync-uri = git://github.com/calculatelinux/distros.git
+location = /var/db/repos/distros
+auto-sync = Yes
+sync-type = calculate
+
+[calculate]
+priority = 50
+sync-uri = git://github.com/calculatelinux/calculate.git
+location = /var/db/repos/calculate
+auto-sync = Yes
+sync-type = calculate
+
+[gentoo]
+priority = 50
+sync-uri = git://github.com/gentoo/gentoo.git
+location = /usr/portage
+auto-sync = Yes
+sync-type = calculate
+
+[custom]
+location = /var/calculate/custom-overlay
+
+[adrien-overlay]
+priority = 50
+sync-uri = git://github.com/aaaaadrien/adrien-overlay.git
+location = /var/db/repos/adrien-overlay
+auto-sync = Yes
+sync-type = calculate
+

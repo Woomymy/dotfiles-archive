@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Used to take screenshots
 [[ "$(command -v maim)" ]] || exit 1
-COLORS=(blue darkblue darkblue-alt green grey lightblue lightgreen lightturquoise orange pink purple red turquoise yellow)
+COLORS=(blue darkblue darkblue-alt green lightblue lightgreen lightturquoise orange pink purple red turquoise yellow)
 if [[ ! -d "$PWD/screenshots" ]]
 then
     mkdir "${PWD}/screenshots"

@@ -77,6 +77,10 @@ rootfiles:
     path: /etc/portage/make.conf
     backuponly: true
     onlyon: gentoo
+  - name: World file
+    path: /var/lib/portage/world
+    backuponly: true
+    onlyon: gentoo
 postsave: []
 prerun: []
 postrun: []

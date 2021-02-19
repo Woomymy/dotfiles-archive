@@ -1,76 +1,82 @@
 ---
-name: Dotfiles
-homedir:
+homefiles:
   - name: I3 config
     path: ".config/i3/config"
-    onlyon: ~
     backuponly: ~
+    onlyon: ~
   - name: Rofi config
     path: ".config/rofi"
-    onlyon: ~
     backuponly: ~
+    onlyon: ~
   - name: ZSH Config
     path: ".zshrc"
-    onlyon: ~
     backuponly: ~
+    onlyon: ~
   - name: Bash config
     path: ".bashrc"
-    onlyon: ~
     backuponly: ~
+    onlyon: ~
   - name: Polybar config
     path: ".config/polybar"
-    onlyon: ~
     backuponly: ~
+    onlyon: ~
   - name: Dunst config
     path: ".config/dunst/dunstrc"
-    onlyon: ~
     backuponly: ~
+    onlyon: ~
   - name: Neovim config
     path: ".config/nvim"
-    onlyon: ~
     backuponly: ~
+    onlyon: ~
   - name: Picom config
     path: ".config/picom"
-    onlyon: ~
     backuponly: ~
+    onlyon: ~
   - name: Nushell config
     path: ".config/nu/config.toml"
-    onlyon: ~
     backuponly: ~
+    onlyon: ~
   - name: Alacritty config
     path: ".config/alacritty/alacritty.yml"
-    onlyon: ~
     backuponly: ~
+    onlyon: ~
   - name: Xresources config
     path: ".Xresources"
-    onlyon: ~
     backuponly: ~
+    onlyon: ~
   - name: VS Code config
     path: ".config/Code/User/settings.json"
-    onlyon: ~
     backuponly: ~
+    onlyon: ~
+  - name: Vue.JS CLI config
+    path: ".vuerc"
+    backuponly: ~
+    onlyon: ~
   - name: Custom binaries
     path: "bin"
   - name: Wallpapers
     path: "wallpapers"
-rootfiles: 
-  - name: Portage configs
-    path: /var/lib/portage/world
-    onlyon: gentoo
+rootfiles:
+  - name: Sysctl config
+    path: /etc/sysctl.conf
     backuponly: true
-  - name: Repos.conf
-    path: /etc/portage/repos.conf/
+    onlyon: ~
+  - name: Portages repos
+    path: /etc/portage/repos.conf
+    backuponly: ~
     onlyon: gentoo
+  - name: Package USES
+    path: /etc/portage/package.use
+    backuponly: ~
+    onlyon: gentoo
+  - name: Packages Accept Keywords
+    path: /etc/portage/package.accept_keywords
+    backuponly: ~
+    onlyon: gentoo
+  - name: Make.conf file
+    path: /etc/portage/make.conf
     backuponly: true
-  - name: Packages uses
-    path: /etc/portage/package.use/
     onlyon: gentoo
-    backuponly: ~
-  - name: Packages accept keywords
-    path: /etc/portage/package.accept_keywords/
-    onlyon: gentoo
-    backuponly: ~
-  - name: Make.conf
-    path: /etc/portage/make.conf/
-    onlyon: gentoo
-    backuponly: ~
+postsave: []
+prerun: []
+postrun: []

@@ -1,11 +1,11 @@
 # Dotfiles-Portable
 
-My dotfiles for Calculate Linux on my laptop
+My dotfiles for Calculate GNU/Linux on my laptop
 
 ## Softwares
 
 - [Rofi](./home/.config/rofi/config): Used as "applications" menu
-- [I3](./home/.config/i3/config) Window manager
+- [I3-GAPS](./home/.config/i3/config) Window manager
 - [ZSH](./home/.zshrc) Shell
 - [Visual Studio Code](./home/.config/Code/User/settings.json) Text editor
 - [Neovim](./home/.config/nvim/init.vim) text editor

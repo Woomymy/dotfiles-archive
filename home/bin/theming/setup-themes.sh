@@ -8,7 +8,7 @@ if [[ -f "${HOME}/wallpapers/${1}.jpg" ]]
 then
     COLOR=$1
 else 
-    COLORS=(blue darkblue green gray lightblue lightgreen lightturquoise orange pink purple red turquoise yellow)
+    COLORS=(blue darkblue green lightblue lightgreen lightturquoise orange pink purple red turquoise yellow)
     NUM=${#COLORS[@]}
     COLOR="${COLORS[RANDOM % NUM]}"
 fi

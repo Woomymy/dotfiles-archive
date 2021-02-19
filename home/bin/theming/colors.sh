@@ -2,7 +2,6 @@
 blue="Blue"
 darkblue="Darkblue"
 green="Green"
-gray="Gray"
 lightblue="Lightblue"
 lightgreen="Lightgreen"
 lightturquoise="Lightturquoise"
@@ -12,7 +11,7 @@ purple="Purple"
 red="Red"
 turquoise="Turquoise"
 yellow="Yellow"
-opts="$blue\n$darkblue\n${green}\n${gray}\n$lightblue\n$lightgreen\n$lightturquoise\n$orange\n$pink\n$purple\n$red\n$turquoise\n$yellow"
+opts="$blue\n$darkblue\n${green}\n$lightblue\n$lightgreen\n$lightturquoise\n$orange\n$pink\n$purple\n$red\n$turquoise\n$yellow"
 
 ch="$(echo -e "$opts" | rofi -dmenu)"
 case $ch in
@@ -24,9 +23,6 @@ case $ch in
         ;;
     $green)
         $HOME/bin/theming/setup-themes.sh "green"
-        ;;
-    $gray)
-        $HOME/bin/theming/setup-themes.sh "gray"
         ;;
     $lightblue)
         $HOME/bin/theming/setup-themes.sh "lightblue"

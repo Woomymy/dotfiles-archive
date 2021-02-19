@@ -14,10 +14,6 @@ get_color() {
             COLOR="#43A047"
 	    BG="#F1F5F9"
 	    ;;
-        "gray")
-            COLOR="#37474F"
-	    BG="#F1F5F9"
-	    ;;
         "lightblue")
             COLOR="#039BE5"
 	    BG="#F1F5F9"
@@ -26,7 +22,7 @@ get_color() {
             COLOR="#7CB342"
 	    BG="#F1F5F9"
 	    ;;
-        "lightturquois")
+        "lightturquoise")
             COLOR="#0097A7"
 	    BG="#F1F5F9"
 	    ;;

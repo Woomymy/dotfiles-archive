@@ -84,4 +84,5 @@ rootfiles:
 postsave: 
   - { path: "scripts/vscode.sh" }
 prerun: []
-postrun: []
+postrun: 
+  - { path: "scripts/code-restore.sh" }

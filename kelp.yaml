@@ -81,6 +81,7 @@ rootfiles:
     path: /var/lib/portage/world
     backuponly: true
     onlyon: gentoo
-postsave: []
+postsave: 
+  - { path: "scripts/vscode.sh", elevated: false }
 prerun: []
 postrun: []

@@ -16,6 +16,7 @@ app-emulation/docker
 app-emulation/docker-compose
 app-emulation/docker-credential-helpers
 app-emulation/qemu
+app-emulation/virt-manager
 app-emulation/virtualbox
 app-emulation/virtualbox-additions
 app-emulation/virtualbox-extpack-oracle
@@ -112,6 +113,7 @@ sys-apps/bat
 sys-apps/calculate-toolkit
 sys-apps/calculate-utils:3
 sys-apps/ethtool
+sys-apps/fakeroot
 sys-apps/flatpak
 sys-apps/ifplugd
 sys-apps/inxi

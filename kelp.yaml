@@ -82,6 +82,6 @@ rootfiles:
     backuponly: true
     onlyon: gentoo
 postsave: 
-  - { path: "scripts/vscode.sh", elevated: false }
+  - { path: "scripts/vscode.sh" }
 prerun: []
 postrun: []

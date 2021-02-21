@@ -44,3 +44,5 @@ app-editors/vscodium-bin
 =dev-util/rustup-1.23.0 ~amd64
 # required by visual-studio-code-bin (argument)
 =app-editors/visual-studio-code-bin-1.53.2 ~amd64
+# required by hugo (argument)
+=www-apps/hugo-0.78.1 ~amd64

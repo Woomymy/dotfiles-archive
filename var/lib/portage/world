@@ -17,7 +17,6 @@ app-emulation/qemu
 app-misc/asciinema
 app-misc/authy
 app-misc/neofetch
-app-misc/pfetch
 app-misc/tmux
 app-misc/xorg-meta
 app-office/libreoffice
@@ -45,7 +44,6 @@ media-gfx/feh
 media-gfx/flameshot
 media-gfx/gfxboot-themes-calculate
 media-gfx/gimp
-media-gfx/inkscape
 media-gfx/krita
 media-gfx/maim
 media-sound/clementine
@@ -96,6 +94,7 @@ sys-process/htop
 virtual/cron
 virtual/linux-sources
 virtual/logger
+www-apps/hugo
 www-client/vivaldi
 x11-misc/arandr
 x11-misc/bumblebee::seden

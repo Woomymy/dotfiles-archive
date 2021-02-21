@@ -81,6 +81,9 @@ rootfiles:
     path: /var/lib/portage/world
     backuponly: true
     onlyon: gentoo
+  - name: LightDM Configuration
+    path: /etc/lightdm/lightdm-gtk-greeter.conf
+    backuponly: true
 postsave: 
   - { path: "scripts/vscode.sh" }
 prerun: []

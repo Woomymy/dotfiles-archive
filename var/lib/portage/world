@@ -1,6 +1,7 @@
 app-admin/bitwarden-desktop-bin
 app-admin/doas
 app-admin/logrotate
+app-admin/sudo
 app-arch/lbzip2
 app-arch/p7zip
 app-arch/pigz
@@ -50,6 +51,7 @@ media-sound/clementine
 media-video/ffmpeg
 media-video/vlc
 net-analyzer/traceroute
+net-firewall/ufw
 net-fs/nfs-utils
 net-im/discord-bin
 net-im/element-desktop-bin
@@ -81,6 +83,7 @@ sys-boot/os-prober
 sys-firmware/nvidia-firmware
 sys-fs/btrfs-progs
 sys-fs/cryptsetup
+sys-fs/ddrescue
 sys-fs/e2fsprogs
 sys-fs/ecryptfs-utils
 sys-fs/eudev

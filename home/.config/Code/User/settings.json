@@ -84,7 +84,6 @@
     },
     "git.autofetchPeriod": 300,
     "typescript.updateImportsOnFileMove.enabled": "always",
-    "window.zoomLevel": 1,
     "discord.lowerDetailsEditing": "📝 Workspace: {workspace} on {gitbranch}",
     "discord.lowerDetailsDebugging": "🐛 Debugging: {workspace} on {gitbranch}",
     "material-icon-theme.opacity": 1,
@@ -106,5 +105,6 @@
     "C_Cpp.updateChannel": "Insiders",
     "workbench.colorTheme": "Tinacious Design",
     "extensions.ignoreRecommendations": true,
-    "terminal.integrated.shell.linux": "/bin/zsh"
+    "terminal.integrated.shell.linux": "/bin/zsh",
+    "window.zoomLevel": 1
 }

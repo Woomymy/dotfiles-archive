@@ -25,6 +25,7 @@ app-office/wps-office
 app-portage/eix
 app-portage/gentoolkit
 app-shells/gentoo-zsh-completions
+app-shells/nushell
 app-shells/pwsh-bin
 app-shells/zsh
 app-vim/gentoo-syntax
@@ -35,6 +36,7 @@ dev-python/pip
 dev-util/github-cli
 dev-vcs/git
 games-action/minecraft-launcher
+games-action/multimc
 lxde-base/lxappearance
 lxqt-base/lxqt-openssh-askpass
 mate-extra/mate-polkit
@@ -87,6 +89,7 @@ sys-fs/ddrescue
 sys-fs/e2fsprogs
 sys-fs/ecryptfs-utils
 sys-fs/eudev
+sys-fs/mtools
 sys-fs/reiserfsprogs
 sys-fs/simple-mtpfs
 sys-fs/squashfs-tools-ng

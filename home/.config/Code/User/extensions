@@ -7,6 +7,8 @@ DavidAnson.vscode-markdownlint
 esbenp.prettier-vscode
 icrawl.discord-vscode
 iliazeus.vscode-ansi
+ms-python.python
+ms-toolsai.jupyter
 ms-vscode.cpptools
 ms-vscode.powershell
 octref.vetur

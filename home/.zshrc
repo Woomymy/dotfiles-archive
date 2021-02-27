@@ -19,6 +19,7 @@ export MAKEFLAGS="-j$(nproc)"
 alias woman='man'
 alias please='doas'
 alias goodnight='pkill'
+alias systemctl='echo fuck you'
 alias boat='cargo'
 alias bloat="echo SystemD"
 alias gentoo="echo If it moves, compile it"

@@ -105,6 +105,5 @@
     "C_Cpp.updateChannel": "Insiders",
     "workbench.colorTheme": "Tinacious Design",
     "extensions.ignoreRecommendations": true,
-    "terminal.integrated.shell.linux": "/bin/zsh",
-    "window.zoomLevel": 1
+    "terminal.integrated.shell.linux": "/bin/zsh"
 }

@@ -1,3 +1,5 @@
+app-emacs/emacs-common-gentoo gui
+app-editors/emacs gui
 app-admin/doas persist
 app-editors/vscodium-bin libsecret
 x11-misc/barrier gui

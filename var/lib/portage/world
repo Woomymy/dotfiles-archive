@@ -8,6 +8,7 @@ app-arch/pigz
 app-arch/xarchiver
 app-crypt/sbsigntools
 app-crypt/shim-signed
+app-editors/emacs
 app-editors/nano
 app-editors/neovim
 app-editors/visual-studio-code-bin
@@ -35,6 +36,7 @@ dev-libs/libisoburn
 dev-libs/light
 dev-python/pip
 dev-util/github-cli
+dev-util/wng
 dev-vcs/git
 games-action/minecraft-launcher
 games-action/multimc

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-if [[ ! -d "$HOME/wallpapers" ]]
+if [[ ! -d "${HOME}/wallpapers" ]]
 then
     exit 1
 fi
@@ -12,11 +12,11 @@ else
     NUM=${#COLORS[@]}
     COLOR="${COLORS[RANDOM % NUM]}"
 fi
-if [[ ! -f "$HOME/wallpapers/${COLOR}.jpg" ]]
+if [[ ! -f "${HOME}/wallpapers/${COLOR}.jpg" ]]
 then
     exit 1
 fi
 feh --bg-fill "${HOME}/wallpapers/${COLOR}.jpg"
-$HOME/bin/theming/alacritty.sh $COLOR
-$HOME/.config/polybar/launch.sh $COLOR
-$HOME/bin/theming/i3lock-themes.sh $COLOR
+"${HOME}/bin/theming/alacritty.sh" "${COLOR}"
+"${HOME}/.config/polybar/launch.sh" "${COLOR}"
+"${HOME}/bin/theming/i3lock-themes.sh" "${COLOR}"

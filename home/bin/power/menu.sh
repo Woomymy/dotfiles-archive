@@ -7,16 +7,16 @@ opts="$lock\n$power_off\n$reboot\n$log_out"
 
 ch="$(echo -e "$opts" | rofi -dmenu)"
 case $ch in
-    $lock)
-	    i3lock -c $(cat /tmp/i3lock_color)
+    "${lock}")
+	    i3lock -c "$(cat "/tmp/i3lock_color")"
 	    ;;
-    $power_off)
+    "${power_off}")
 	    loginctl poweroff
 	;;
-    $reboot)
+    "${reboot}")
         loginctl reboot
 	;;
-    $log_out)
+    "${log_out}")
         i3-msg exit
         ;;
 esac

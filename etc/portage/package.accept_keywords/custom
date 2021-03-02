@@ -21,6 +21,7 @@ app-emulation/docker-credential-helpers
 x11-misc/picom
 x11-misc/menulibre
 app-emulation/wine-vanilla
+net-im/discord-canary-bin
 net-vpn/protonvpn-cli
 app-editors/vscodium-bin
 # required by x11-misc/bumblebee::seden (argument)

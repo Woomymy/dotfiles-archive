@@ -15,7 +15,6 @@ then
 	exit 1 
 fi
 PERCENT=""
-OLDPERCENT=""
 CHARGING=""
 NCHARGING=""
 while :

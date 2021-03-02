@@ -19,3 +19,4 @@ fi
 feh --bg-fill "${HOME}/wallpapers/${COLOR}.jpg"
 $HOME/bin/theming/alacritty.sh $COLOR
 $HOME/.config/polybar/launch.sh $COLOR
+$HOME/bin/theming/i3lock-themes.sh $COLOR

@@ -36,6 +36,7 @@ dev-libs/libisoburn
 dev-libs/light
 dev-python/pip
 dev-util/github-cli
+dev-util/shellcheck-bin
 dev-util/wng
 dev-vcs/git
 games-action/minecraft-launcher

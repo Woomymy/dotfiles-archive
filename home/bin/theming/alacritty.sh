@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 source "${HOME}/bin/lib/colors.sh"
-get_color $1
+get_color "${1}"
 TPL="${HOME}/bin/theming/templates/alacritty.yml"
 if [[ ! -f "${TPL}" ]]
 then 

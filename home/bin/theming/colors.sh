@@ -11,45 +11,45 @@ purple="Purple"
 red="Red"
 turquoise="Turquoise"
 yellow="Yellow"
-opts="$blue\n$darkblue\n${green}\n$lightblue\n$lightgreen\n$lightturquoise\n$orange\n$pink\n$purple\n$red\n$turquoise\n$yellow"
+opts="${blue}\n${darkblue}\n${green}\n${lightblue}\n${lightgreen}\n${lightturquoise}\n${orange}\n${pink}\n${purple}\n${red}\n${turquoise}\n${yellow}"
 
 ch="$(echo -e "$opts" | rofi -dmenu)"
-case $ch in
-    $blue)
-        $HOME/bin/theming/setup-themes.sh "blue"
+case "${ch}" in
+    "${blue}")
+        "${HOME}"/bin/theming/setup-themes.sh "blue"
         ;;
-    $darkblue)
-        $HOME/bin/theming/setup-themes.sh "darkblue"
+    "${darkblue}")
+        "${HOME}"/bin/theming/setup-themes.sh "darkblue"
         ;;
-    $green)
-        $HOME/bin/theming/setup-themes.sh "green"
+    "${green}")
+        "${HOME}"/bin/theming/setup-themes.sh "green"
         ;;
-    $lightblue)
-        $HOME/bin/theming/setup-themes.sh "lightblue"
+    "${lightblue}")
+        "${HOME}"/bin/theming/setup-themes.sh "lightblue"
         ;;
-    $lightgreen)
-        $HOME/bin/theming/setup-themes.sh "lightgreen"
+    "${lightgreen}")
+        "${HOME}"/bin/theming/setup-themes.sh "lightgreen"
         ;;
-    $lightturquoise)
-        $HOME/bin/theming/setup-themes.sh "lightturquoise"
+    "${lightturquoise}")
+        "${HOME}"/bin/theming/setup-themes.sh "lightturquoise"
         ;;
-    $orange)
-        $HOME/bin/theming/setup-themes.sh "orange"
+    "${orange}")
+        "${HOME}"/bin/theming/setup-themes.sh "orange"
         ;;
-    $pink)
-        $HOME/bin/theming/setup-themes.sh "pink"
+    "${pink}")
+        "${HOME}"/bin/theming/setup-themes.sh "pink"
         ;;
-    $purple)
-        $HOME/bin/theming/setup-themes.sh "purple"
+    "${purple}")
+        "${HOME}"/bin/theming/setup-themes.sh "purple"
         ;;
-    $red)
-        $HOME/bin/theming/setup-themes.sh "red"
+    "${red}")
+        "${HOME}"/bin/theming/setup-themes.sh "red"
         ;;
-    $turquoise)
-        $HOME/bin/theming/setup-themes.sh "turquoise"
+    "${turquoise}")
+        "${HOME}"/bin/theming/setup-themes.sh "turquoise"
         ;;
-    $yellow)
-        $HOME/bin/theming/setup-themes.sh "yellow"
-        ;;    
+    "${yellow}")
+        "${HOME}"/bin/theming/setup-themes.sh "yellow"
+        ;;
 esac
 

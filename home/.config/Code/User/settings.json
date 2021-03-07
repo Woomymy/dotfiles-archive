@@ -105,5 +105,8 @@
     "C_Cpp.updateChannel": "Insiders",
     "workbench.colorTheme": "Tinacious Design",
     "extensions.ignoreRecommendations": true,
-    "terminal.integrated.shell.linux": "/bin/zsh"
+    "terminal.integrated.shell.linux": "/bin/zsh",
+    "VSCord.appName": "Visual Studio Code",
+    "VSCord.checkIdle": false,
+    "VSCord.workspaceElapsedTime": true
 }

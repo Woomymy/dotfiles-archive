@@ -5,6 +5,7 @@ app-admin/sudo
 app-arch/lbzip2
 app-arch/p7zip
 app-arch/pigz
+app-arch/unrar
 app-arch/xarchiver
 app-crypt/sbsigntools
 app-crypt/shim-signed

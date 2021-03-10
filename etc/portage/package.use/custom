@@ -1,3 +1,4 @@
+sys-apps/calculate-utils minimal
 sys-apps/coreutils multicall
 app-emacs/emacs-common-gentoo gui
 app-editors/emacs gui

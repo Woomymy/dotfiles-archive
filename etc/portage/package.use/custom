@@ -1,10 +1,9 @@
-sys-apps/calculate-utils minimal
+# Use a minimal version of the calculate utilities
+sys-apps/calculate-utils minimal -install
+# Make coreutils multi-call
 sys-apps/coreutils multicall
-app-emacs/emacs-common-gentoo gui
-app-editors/emacs gui
+# Enable persitance for doas (it doesn't work)
 app-admin/doas persist
-app-editors/vscodium-bin libsecret
-x11-misc/barrier gui
 # Enable FFMPEG support on vivaldi
 www-client/vivaldi proprietary-codecs
 # Use gnome-keyring to store auth informations securely
@@ -16,7 +15,6 @@ dev-vcs/git gnome-keyring
 x11-misc/polybar network
 # Use rofi for networkmanager_menu instead of dmenu
 net-misc/networkmanager-dmenu -dmenu rofi
-# Disable calculate-utils cl-install
-sys-apps/calculate-utils -install qt5
+
 # Enable curl use flag for ostree
 dev-util/ostree curl

@@ -81,6 +81,7 @@ sys-apps/bat
 sys-apps/calculate-toolkit
 sys-apps/calculate-utils:3
 sys-apps/ethtool
+sys-apps/fakeroot
 sys-apps/ifplugd
 sys-apps/less
 sys-apps/openrc
@@ -109,7 +110,8 @@ virtual/cron
 virtual/linux-sources
 virtual/logger
 www-apps/hugo
-www-client/vivaldi
+www-client/firefox
+www-client/ungoogled-chromium-bin
 x11-misc/arandr
 x11-misc/bumblebee::seden
 x11-misc/dunst

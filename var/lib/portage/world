@@ -46,6 +46,7 @@ games-action/minecraft-launcher
 games-action/multimc
 lxde-base/lxappearance
 lxqt-base/lxqt-openssh-askpass
+mail-client/thunderbird
 mate-extra/mate-polkit
 media-fonts/noto-emoji
 media-fonts/terminus-font

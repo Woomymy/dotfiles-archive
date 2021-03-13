@@ -1,4 +1,5 @@
 export ZSH="$HOME/.oh-my-zsh"
+
 # Set OMZ Theme to sulfurium
 ZSH_THEME="sulfurium"
 
@@ -12,10 +13,11 @@ plugins=(sudo)
 source $ZSH/oh-my-zsh.sh
 
 # Set $EDITOR 
-export EDITOR="vim"
+export EDITOR="nvim"
 export MAKEFLAGS="-j$(nproc)"
 # Aliases
-
+alias nvim='nvim -p'
+alias vim='nvim -p'
 alias woman='man'
 alias please='doas'
 alias goodnight='pkill'
@@ -25,3 +27,4 @@ alias bloat="echo SystemD"
 alias gentoo="echo If it moves, compile it"
 
 [[ -s "$HOME/.xmake/profile" ]] && source "$HOME/.xmake/profile" # load xmake profile
+

@@ -17,7 +17,8 @@ let g:ale_fix_on_save = 1
 let g:ale_linters = { 
 	\ 'rust': ['analyzer'], 
 	\ 'C': ['clangd'],
-	\ 'Bash': ['shellcheck']	
+	\ 'Bash': ['shellcheck'],
+	\ 'Markdown': ['mdl']
 \}
 source ~/.config/nvim/ext/fileexp.vim
 colorscheme horizon

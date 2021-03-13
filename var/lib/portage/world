@@ -18,6 +18,7 @@ app-emulation/docker-credential-helpers
 app-emulation/qemu
 app-misc/asciinema
 app-misc/authy
+app-misc/cmatrix
 app-misc/jq
 app-misc/kelpdot
 app-misc/neofetch
@@ -44,6 +45,8 @@ dev-util/wng
 dev-vcs/git
 games-action/minecraft-launcher
 games-action/multimc
+games-misc/cowsay
+games-misc/lolcat
 lxde-base/lxappearance
 lxqt-base/lxqt-openssh-askpass
 mail-client/thunderbird
@@ -70,6 +73,7 @@ net-im/signal-desktop-bin
 net-im/telegram-desktop-bin
 net-irc/irssi
 net-libs/nodejs
+net-libs/webkit-gtk
 net-misc/dhcp
 net-misc/networkmanager-dmenu
 net-misc/ntp

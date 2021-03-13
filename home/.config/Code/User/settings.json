@@ -108,5 +108,6 @@
     "terminal.integrated.shell.linux": "/bin/zsh",
     "VSCord.appName": "Visual Studio Code",
     "VSCord.checkIdle": false,
-    "VSCord.workspaceElapsedTime": true
+    "VSCord.workspaceElapsedTime": true,
+    "window.zoomLevel": 1
 }

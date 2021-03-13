@@ -6,6 +6,7 @@ ZSH_THEME="sulfurium"
 # Enable ZSH correction
 ENABLE_CORRECTION="true"
 
+export PATH="${PATH}:${HOME}/.gem/ruby/2.6.0/bin" # Any way to get "latest" version directly ?
 # Add "sudo" ZSH plugin
 plugins=(sudo)
 

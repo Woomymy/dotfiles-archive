@@ -34,7 +34,6 @@ app-shells/gentoo-zsh-completions
 app-shells/nushell
 app-shells/pwsh-bin
 app-shells/zsh
-app-vim/gentoo-syntax
 dev-java/icedtea-bin
 dev-libs/libisoburn
 dev-libs/light

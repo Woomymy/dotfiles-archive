@@ -58,6 +58,8 @@ homefiles:
     path: "wallpapers"
   - name: "Irssi config"
     path: ".irssi/config"
+  - name: "Tmux config"
+    path: ".tmux.conf"
 rootfiles:
   - name: Sysctl config
     path: /etc/sysctl.conf

@@ -109,5 +109,5 @@
     "VSCord.appName": "Visual Studio Code",
     "VSCord.checkIdle": false,
     "VSCord.workspaceElapsedTime": true,
-    "window.zoomLevel": 1
+    "window.zoomLevel": -3
 }

@@ -5,6 +5,7 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'kien/rainbow_parentheses.vim'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'scrooloose/nerdtree'
+Plug 'Wafelack/Ark.vim'
 Plug 'cespare/vim-toml'
 Plug 'dense-analysis/ale'
 call plug#end()

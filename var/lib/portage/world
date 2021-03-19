@@ -38,6 +38,7 @@ dev-java/icedtea-bin
 dev-libs/libisoburn
 dev-libs/light
 dev-python/pip
+dev-util/android-tools
 dev-util/github-cli
 dev-util/shellcheck-bin
 dev-util/wng
@@ -62,6 +63,7 @@ media-gfx/maim
 media-sound/clementine
 media-video/ffmpeg
 media-video/vlc
+net-analyzer/speedtest-cli
 net-analyzer/traceroute
 net-firewall/ufw
 net-fs/nfs-utils
@@ -103,6 +105,7 @@ sys-fs/e2fsprogs
 sys-fs/ecryptfs-utils
 sys-fs/eudev
 sys-fs/mtools
+sys-fs/ntfs3g
 sys-fs/reiserfsprogs
 sys-fs/simple-mtpfs
 sys-fs/squashfs-tools-ng

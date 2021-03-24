@@ -44,14 +44,6 @@ homefiles:
     path: ".Xresources"
     backuponly: ~
     onlyon: ~
-  - name: VS Code config
-    path: ".config/Code/User/settings.json"
-    backuponly: ~
-    onlyon: ~
-  - name: Vue.JS CLI config
-    path: ".vuerc"
-    backuponly: ~
-    onlyon: ~
   - name: Custom binaries
     path: "bin"
   - name: Wallpapers
@@ -61,10 +53,6 @@ homefiles:
   - name: "Tmux config"
     path: ".tmux.conf"
 rootfiles:
-  - name: Sysctl config
-    path: /etc/sysctl.conf
-    backuponly: true
-    onlyon: ~
   - name: Portages repos
     path: /etc/portage/repos.conf
     backuponly: ~

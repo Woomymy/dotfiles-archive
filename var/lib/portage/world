@@ -15,7 +15,6 @@ app-emulation/docker-compose
 app-emulation/docker-credential-helpers
 app-emulation/qemu
 app-misc/authy
-app-misc/jq
 app-misc/kelpdot
 app-misc/tmux
 app-misc/xorg-meta
@@ -54,7 +53,6 @@ net-fs/nfs-utils
 net-im/discord-bin
 net-im/element-desktop-bin
 net-irc/irssi
-net-libs/nodejs
 net-misc/dhcp
 net-misc/networkmanager-dmenu
 net-misc/ntp

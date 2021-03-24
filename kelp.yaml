@@ -88,8 +88,6 @@ rootfiles:
   - name: LightDM Configuration
     path: /etc/lightdm/lightdm-gtk-greeter.conf
     backuponly: true
-postsave: 
-  - { path: "scripts/vscode.sh" }
+postsave: ~
 prerun: []
-postrun: 
-  - { path: "scripts/code-restore.sh" }
+postrun: ~

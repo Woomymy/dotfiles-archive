@@ -11,7 +11,6 @@ app-crypt/sbsigntools
 app-crypt/shim-signed
 app-editors/nano
 app-editors/neovim
-app-editors/visual-studio-code-bin
 app-emulation/docker
 app-emulation/docker-compose
 app-emulation/docker-credential-helpers
@@ -47,6 +46,7 @@ games-action/minecraft-launcher
 games-action/multimc
 games-misc/cowsay
 games-misc/lolcat
+games-misc/xcowsay
 lxde-base/lxappearance
 lxqt-base/lxqt-openssh-askpass
 mail-client/thunderbird
@@ -63,12 +63,12 @@ media-gfx/maim
 media-sound/clementine
 media-video/ffmpeg
 media-video/vlc
+net-analyzer/nmap
 net-analyzer/speedtest-cli
 net-analyzer/traceroute
 net-firewall/ufw
 net-fs/nfs-utils
 net-im/discord-bin
-net-im/discord-canary-bin
 net-im/element-desktop-bin
 net-im/signal-desktop-bin
 net-im/telegram-desktop-bin
@@ -124,10 +124,10 @@ x11-misc/bumblebee::seden
 x11-misc/dunst
 x11-misc/i3lock
 x11-misc/lightdm
-x11-misc/pcmanfm
 x11-misc/picom
 x11-misc/polybar
 x11-misc/qt5ct
+x11-misc/spacefm
 x11-misc/virtualgl
 x11-misc/xclip
 x11-misc/xdg-user-dirs-gtk

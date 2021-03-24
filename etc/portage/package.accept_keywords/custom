@@ -1,6 +1,5 @@
 app-office/wps-office
 app-misc/authy
-www-client/vivaldi
 dev-util/github-cli
 x11-themes/vimix-gtk-themes
 x11-themes/vimix-icon-theme
@@ -12,7 +11,4 @@ app-shells/pwsh-bin
 sys-fs/squashfs-tools-ng
 app-admin/bitwarden-desktop-bin
 app-emulation/docker-credential-helpers
-x11-misc/picom
-app-emulation/wine-vanilla
-net-im/discord-canary-bin
 games-action/multimc

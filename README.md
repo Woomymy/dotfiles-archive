@@ -6,8 +6,7 @@ My dotfiles for Calculate GNU/Linux on my laptop
 
 - [Rofi](./home/.config/rofi/config): Used as "applications" menu
 - [I3-GAPS](./home/.config/i3/config) Window manager
-- [ZSH](./home/.zshrc) Shell
-- [Visual Studio Code](./home/.config/Code/User/settings.json) Text editor
+- [Fish](./home/.config/fish/fish_variables) Shell
 - [Neovim](./home/.config/nvim/init.vim) text editor
 - [Picom](./home/.config/picom/picom.conf) Compositor
 - [Alacritty](home/.config/alacritty/alacritty.yml) Terminal emulator

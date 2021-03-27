@@ -53,8 +53,10 @@ net-fs/nfs-utils
 net-im/discord-bin
 net-im/element-desktop-bin
 net-irc/irssi
+net-libs/nodejs
 net-misc/dhcp
 net-misc/networkmanager-dmenu
+net-misc/nextcloud-client
 net-misc/ntp
 net-wireless/iw
 net-wireless/wireless-tools
@@ -75,6 +77,7 @@ sys-boot/os-prober
 sys-firmware/nvidia-firmware
 sys-fs/btrfs-progs
 sys-fs/cryptsetup
+sys-fs/dosfstools
 sys-fs/e2fsprogs
 sys-fs/ecryptfs-utils
 sys-fs/eudev
@@ -90,11 +93,14 @@ virtual/cron
 virtual/linux-sources
 virtual/logger
 www-apps/hugo
+www-client/firefox
 www-client/ungoogled-chromium-bin
+x11-misc/arandr
 x11-misc/bumblebee::seden
 x11-misc/dunst
 x11-misc/i3lock
 x11-misc/lightdm
+x11-misc/pcmanfm
 x11-misc/picom
 x11-misc/polybar
 x11-misc/spacefm

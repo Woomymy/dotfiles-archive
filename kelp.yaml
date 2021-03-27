@@ -52,6 +52,8 @@ homefiles:
     path: ".irssi/config"
   - name: "Tmux config"
     path: ".tmux.conf"
+  - name: "Fish config"
+    path: ".config/fish/fish_variables"
 rootfiles:
   - name: Portages repos
     path: /etc/portage/repos.conf

@@ -23,6 +23,7 @@ app-office/wps-office
 app-portage/eix
 app-portage/gentoolkit
 app-portage/repoman
+app-shells/fish
 app-shells/gentoo-zsh-completions
 app-shells/pwsh-bin
 app-shells/zsh
@@ -30,8 +31,11 @@ dev-java/icedtea-bin
 dev-libs/libisoburn
 dev-libs/light
 dev-python/pip
+dev-python/yamllint
 dev-util/android-tools
 dev-util/github-cli
+dev-util/meson
+dev-util/ninja
 dev-util/shellcheck-bin
 dev-util/wng
 dev-vcs/git

@@ -13,3 +13,5 @@ sys-fs/squashfs-tools-ng
 app-admin/bitwarden-desktop-bin
 app-emulation/docker-credential-helpers
 games-action/multimc
+# required by mdl (argument)
+=dev-util/mdl-0.11.0 ~amd64

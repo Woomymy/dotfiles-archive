@@ -11,3 +11,5 @@ TMP_TPL="/tmp/dunstrc"
 cp "${TPL}" "${TMP_TPL}"
 sed -i "s/\@FRAME_COLOR\@/${COLOR}/g" "${TMP_TPL}"
 cp "${TMP_TPL}" "${HOME}/.config/dunst/dunstrc"
+[[ "$(pidof "dunst")" ]] && pkill dunst
+# We need to stop dunst to apply changes

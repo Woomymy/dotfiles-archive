@@ -29,7 +29,7 @@
     show_indicators = yes
     icon_position = right
     max_icon_size = 36
-    icon_path = /usr/share/icons/Papirus-Dark/16x16/status:/usr/share/icons/Papirus-Dark/16x16/devices
+    icon_path = /usr/share/icons/Papirus/symbolic/status/:/usr/share/icons/Papirus-Dark/16x16/status:/usr/share/icons/Papirus-Dark/16x16/devices
 
     browser = /usr/bin/chromium
     always_run_script = true
@@ -66,3 +66,5 @@
     background = "#cc6666"
     foreground = "#ffffff"
     timeout = 0
+
+# vim: ft=cfg

@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+
 # XFCE-like battery status notifier
 # Check requirements
 if [[ ! "$(command -v notify-send)" ]] 

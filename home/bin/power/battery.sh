@@ -41,7 +41,7 @@ do
 	then
 		if [[ "${ALWARNED}" != "true" ]] 
 		then
-		notify-send -i battery -u critical "Batterie" "20% de batterie restants!"
+			notify-send -i battery-level-20-symbolic -u critical "Batterie" "20% de batterie restants!"
 		fi
 		ALWARNED="true"
 	fi

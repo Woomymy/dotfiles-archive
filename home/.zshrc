@@ -1,31 +1,31 @@
-export ZSH="$HOME/.oh-my-zsh"
+autoload -Uz promptinit
+promptinit
+# Set history
+HISTSIZE=1000
+SAVEHIST=1000
+HISTFILE=~/.zsh_history
 
-# Set OMZ Theme to sulfurium
-ZSH_THEME="sulfurium"
+# Use modern completion system
+autoload -Uz compinit
+compinit
 
-# Enable ZSH correction
-ENABLE_CORRECTION="true"
+zstyle ':completion:*' auto-description 'specify: %d'
+zstyle ':completion:*' completer _expand _complete _correct _approximate
+zstyle ':completion:*' format 'Completing %d'
+zstyle ':completion:*' group-name ''
+zstyle ':completion:*' menu select=2
+eval "$(dircolors -b)"
+zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
+zstyle ':completion:*' list-colors ''
+zstyle ':completion:*' list-prompt %SAt %p: Hit TAB for more, or the character to insert%s
+zstyle ':completion:*' matcher-list '' 'm:{a-z}={A-Z}' 'm:{a-zA-Z}={A-Za-z}' 'r:|[._-]=* r:|=*
+l:|=*'
+zstyle ':completion:*' menu select=long
+zstyle ':completion:*' select-prompt %SScrolling active: current selection at %p%s
+zstyle ':completion:*' use-compctl false
+zstyle ':completion:*' verbose true
 
-export PATH="${PATH}:${HOME}/.gem/ruby/2.6.0/bin:${HOME}/.cargo/bin" # Any way to get "latest" version directly ?
-# Add "sudo" ZSH plugin
-plugins=(sudo)
+zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#)*=0=01;31'
+zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
 
-# Loads OMZ
-source $ZSH/oh-my-zsh.sh
-
-# Set $EDITOR 
-export EDITOR="nvim"
-export MAKEFLAGS="-j$(nproc)"
-# Aliases
-alias nvim='nvim -p'
-alias vim='nvim -p'
-alias woman='man'
-alias please='doas'
-alias goodnight='pkill'
-alias systemctl='echo fuck you'
-alias boat='cargo'
-alias bloat="echo SystemD"
-alias gentoo="echo If it moves, compile it"
-
-[[ -s "$HOME/.xmake/profile" ]] && source "$HOME/.xmake/profile" # load xmake profile
-
+source "${HOME}/.sulfurium-zsh/sulfurium.zsh-theme"

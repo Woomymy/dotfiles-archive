@@ -104,6 +104,7 @@ virtual/logger
 www-apps/hugo
 www-client/firefox
 www-client/ungoogled-chromium-bin
+x11-libs/libnotify
 x11-misc/arandr
 x11-misc/bumblebee::seden
 x11-misc/dunst

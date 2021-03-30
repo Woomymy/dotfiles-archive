@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-if [[ "$(ps -ef | grep -i polybar | grep -v grep)" ]]
+if [[ "$(pidof polybar)" ]]
 then
 	killall polybar 
 	sleep 1

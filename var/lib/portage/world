@@ -105,7 +105,7 @@ www-client/firefox
 www-client/ungoogled-chromium-bin
 x11-libs/libnotify
 x11-misc/arandr
-x11-misc/bumblebee::seden
+x11-misc/bumblebee
 x11-misc/dunst
 x11-misc/i3lock
 x11-misc/lightdm

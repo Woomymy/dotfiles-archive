@@ -19,6 +19,13 @@ sync-type = calculate
 [custom]
 location = /var/calculate/custom-overlay
 
+[adrien-overlay]
+priority = 50
+sync-uri = git://github.com/aaaaadrien/adrien-overlay.git
+location = /var/db/repos/adrien-overlay
+auto-sync = Yes
+sync-type = calculate
+
 [distros]
 priority = 50
 sync-uri = git://github.com/calculatelinux/distros.git

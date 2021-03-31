@@ -29,7 +29,6 @@ app-portage/gentoolkit
 app-portage/repoman
 app-shells/fish
 app-shells/gentoo-zsh-completions
-app-shells/pwsh-bin
 app-shells/zsh
 dev-java/icedtea-bin
 dev-libs/libisoburn

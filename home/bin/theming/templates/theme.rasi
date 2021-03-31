@@ -5,9 +5,9 @@ configuration {
 }
 
 * {
-  background-color: #F1F5F9;
+  background-color: @BG@;
   border-color: #2e343f;
-  text-color: #D81B60;
+  text-color: @FG@;
   spacing: 0;
   width: 512px;
 }
@@ -23,7 +23,7 @@ prompt {
 }
 
 textbox {
-  background-color: #F1F5F9;
+  background-color: @BG@;
   border: 0 0 1px 0;
   border-color: #282C33;
   padding: 8px 16px;

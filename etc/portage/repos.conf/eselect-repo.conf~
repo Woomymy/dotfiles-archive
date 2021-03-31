@@ -10,11 +10,6 @@ location = /var/db/repos/woomy-overlay
 sync-type = git
 sync-uri = https://github.com/woomy4680-exe/woomy-overlay.git
 # Used for PREMID
-[fii-overlay]
-location = /var/db/repos/fii-overlay
-sync-type = git
-sync-uri = https://github.com/Federation-interservices-d-informatique/fii-overlay.git
-
 [guru]
 location = /var/db/repos/guru
 sync-type = git

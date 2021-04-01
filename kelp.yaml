@@ -78,6 +78,9 @@ rootfiles:
   - name: LightDM Configuration
     path: /etc/lightdm/lightdm-gtk-greeter.conf
     backuponly: true
+  - name: Kernel config
+    path: "/usr/src/linux/.config"
+    backuponly: true
 postsave: ~
 prerun: ~
 postrun: ~

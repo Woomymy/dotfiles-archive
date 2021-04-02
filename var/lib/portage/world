@@ -55,6 +55,7 @@ media-gfx/gimp
 media-gfx/krita
 media-gfx/maim
 media-video/ffmpeg
+media-video/simplescreenrecorder
 net-analyzer/nmap
 net-fs/nfs-utils
 net-im/discord-bin

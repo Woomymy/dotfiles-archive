@@ -1,5 +1,6 @@
 app-admin/bitwarden-desktop-bin
 app-admin/doas
+app-admin/eclean-kernel
 app-admin/logrotate
 app-admin/sudo
 app-arch/lbzip2
@@ -14,6 +15,7 @@ app-emulation/docker
 app-emulation/docker-compose
 app-emulation/docker-credential-helpers
 app-emulation/qemu
+app-emulation/virt-manager
 app-emulation/virtualbox
 app-emulation/virtualbox-additions
 app-emulation/virtualbox-extpack-oracle
@@ -43,7 +45,6 @@ dev-util/shellcheck-bin
 dev-util/wng
 dev-vcs/git
 games-action/multimc
-lxqt-base/lxqt-openssh-askpass
 mate-extra/mate-polkit
 media-fonts/noto-emoji
 media-fonts/terminus-font
@@ -99,6 +100,7 @@ sys-fs/xfsprogs
 sys-kernel/calculate-sources
 sys-kernel/dracut
 sys-kernel/xanmod-sources
+sys-power/iasl
 sys-process/htop
 virtual/cron
 virtual/linux-sources

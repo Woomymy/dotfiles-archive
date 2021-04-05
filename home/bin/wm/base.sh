@@ -36,6 +36,9 @@ for ERR in ${ERRORS[*]}
 do
 	echo "${ERR}" >> "${STARTUP_TEMPDIR}/errors.log"
 done
-
+cat << EOF >> "/tmp/${USER}_startup.sh"
+#!/usr/bin/env bash
+export STARTUP_TEMPDIR=${STARTUP_TEMPDIR}
+EOF
 # Essential setup is done, no we need to execute the "theming"
 exec "${HOME}/bin/wm/theming.sh"

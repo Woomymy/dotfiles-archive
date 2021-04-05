@@ -32,7 +32,7 @@ do
 	fi
 done
 
-for ERR in ${ERRORS[*]}
+for ERR in "${ERRORS[@]}"
 do
 	echo "${ERR}" >> "${STARTUP_TEMPDIR}/errors.log"
 done

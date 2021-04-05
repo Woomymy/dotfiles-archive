@@ -27,11 +27,17 @@ then
 else
 	ERRORS+=("feh not found!")
 fi
-for ERR in ${ERRORS[*]}
+for SOFT in "${HOME}/bin/theming/softwares/"*
 do
-    echo "${ERR}" >> "${STARTUP_TEMPDIR}/errors.log"
+	unset setup_theme # Unset old functions
+	if [[ "$(command -v "setup_theme")" ]]
+	then
+		setup_theme "${COLOR}"
+	else
+		ERRORS+=("${SOFT} has not setup_theme function")
+	fi
 done
-"${HOME}/bin/theming/alacritty.sh" "${COLOR}"
-"${HOME}/bin/theming/dunst.sh" "${COLOR}"
-"${HOME}/.config/polybar/launch.sh" "${COLOR}"
-"${HOME}/bin/theming/i3lock-themes.sh" "${COLOR}"
+for ERR in "${ERRORS[@]}"
+do
+	echo -e "${ERR}" >> "${STARTUP_TEMPDIR}/errors.log"
+done

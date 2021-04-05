@@ -14,7 +14,7 @@ ERRORS=() # Errors will be written in log file and be notified by dunst
 
 # Polkit agent name isn't the same on other distros
 
-UNTHEMED=("picom" "/usr/libexec/polkit-mate-authentication-agent-1")
+UNTHEMED=("${HOME}/bin/power/battery.sh" "picom" "/usr/libexec/polkit-mate-authentication-agent-1")
 
 for PROC in ${UNTHEMED[*]}
 do
@@ -31,3 +31,6 @@ for ERR in ${ERRORS[*]}
 do
 	echo "${ERR}" >> "${STARTUP_TEMPDIR}/errors.log"
 done
+
+# Essential setup is done, no we need to execute the "theming"
+

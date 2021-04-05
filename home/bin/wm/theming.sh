@@ -30,6 +30,7 @@ fi
 for SOFT in "${HOME}/bin/theming/softwares/"*
 do
 	unset setup_theme # Unset old functions
+	source "${SOFT}"
 	if [[ "$(command -v "setup_theme")" ]]
 	then
 		setup_theme "${COLOR}"

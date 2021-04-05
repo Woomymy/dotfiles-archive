@@ -43,3 +43,5 @@ for ERR in "${ERRORS[@]}"
 do
 	echo -e "${ERR}" >> "${STARTUP_TEMPDIR}/errors.log"
 done
+
+notify-send "Theming" "Theming OK!"

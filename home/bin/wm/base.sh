@@ -3,6 +3,15 @@
 
 STARTUP_TEMPDIR="/tmp/${USER}-i3-startup"
 
+UNTHEMED=("${HOME}/bin/power/battery.sh" "picom" "/usr/libexec/polkit-mate-authentication-agent-1")
+# We need to kill remaining process to remove directory
+for PROC in ${UNTHEMED[*]}
+do
+	if [[ "$(pidof "${PROC}")" ]]
+	then
+		killall "${PROC}"
+	fi
+done
 if [[ -d "${STARTUP_TEMPDIR}" ]]
 then
 	rm -rf "${STARTUP_TEMPDIR}"
@@ -11,10 +20,6 @@ mkdir -p "${STARTUP_TEMPDIR}" || exit 1
 ERRORS=() # Errors will be written in log file and be notified by dunst
 
 ### Start essential processes that doesn't need theming
-
-# Polkit agent name isn't the same on other distros
-
-UNTHEMED=("${HOME}/bin/power/battery.sh" "picom" "/usr/libexec/polkit-mate-authentication-agent-1")
 
 for PROC in ${UNTHEMED[*]}
 do
@@ -33,4 +38,4 @@ do
 done
 
 # Essential setup is done, no we need to execute the "theming"
-
+exec "${HOME}/bin/wm/theming.sh"

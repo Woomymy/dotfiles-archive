@@ -3,7 +3,7 @@
 
 STARTUP_TEMPDIR="/tmp/${USER}-i3-startup"
 
-UNTHEMED=("${HOME}/bin/power/battery.sh" "picom" "/usr/libexec/polkit-mate-authentication-agent-1")
+UNTHEMED=("${HOME}/bin/hardware/screens.sh" "${HOME}/bin/power/battery.sh" "picom" "/usr/libexec/polkit-mate-authentication-agent-1")
 # We need to kill remaining process to remove directory
 for PROC in ${UNTHEMED[*]}
 do

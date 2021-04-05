@@ -27,13 +27,14 @@ then
 else
 	ERRORS+=("feh not found!")
 fi
+NEW_THEME_COLOR="${COLOR}" # We need to copy $COLOR because some scripts may change its value
 for SOFT in "${HOME}/bin/theming/softwares/"*
 do
 	unset setup_theme # Unset old functions
 	source "${SOFT}"
 	if [[ "$(command -v "setup_theme")" ]]
 	then
-		setup_theme "${COLOR}"
+		setup_theme "${NEW_THEME_COLOR}"
 	else
 		ERRORS+=("${SOFT} has not setup_theme function")
 	fi

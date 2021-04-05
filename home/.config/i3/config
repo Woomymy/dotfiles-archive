@@ -104,12 +104,6 @@ client.urgent           $bg     $bg     $fg  $bg       $bg
 client.placeholder      $bg     $bg     $fg  $bg       $bg
 
 client.background       $bg
-
-# Startup
-exec --no-startup-id /usr/libexec/polkit-mate-authentication-agent-1 & 
-exec --no-startup-id ~/bin/theming/setup-themes.sh
-exec --no-startup-id ~/bin/hardware/screens.sh &
-exec --no-startup-id bash "$HOME/bin/power/battery.sh" & 
-exec --no-startup-id picom -b &
-exec --no-startup-id dunst & 
-
+# Execute startup script
+exec --no-startup-id bash "$HOME/bin/hardware/screens.sh"
+exec --no-startup-id bash "$HOME/bin/wm/base.sh" &

@@ -19,6 +19,7 @@ app-emulation/virt-manager
 app-emulation/virt-viewer
 app-misc/authy
 app-misc/kelpdot
+app-misc/neofetch
 app-misc/tmux
 app-misc/xorg-meta
 app-office/libreoffice

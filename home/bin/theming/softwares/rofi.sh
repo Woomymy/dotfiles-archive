@@ -11,6 +11,6 @@ setup_theme() {
 	TMP_TPL="/tmp/theme.rasi"
 	cp "${TPL}" "${TMP_TPL}"
 	sed -i "s/\@FG\@/${COLOR}/g" "${TMP_TPL}"
-	sed -i "s/\@BG\@/${BG}/g" "${TMP_TPL}"
+	sed -i "s/\@BG\@/${DBG}/g" "${TMP_TPL}"
 	cp "${TMP_TPL}" "${HOME}/.config/rofi/theme.rasi"
 }

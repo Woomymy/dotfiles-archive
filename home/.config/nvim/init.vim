@@ -1,4 +1,5 @@
 call plug#begin(stdpath('data') . '/plugged')
+Plug 'gisphm/vim-gitignore'
 Plug 'ntk148v/vim-horizon'
 Plug 'vim-airline/vim-airline'
 Plug 'ryanoasis/vim-devicons'

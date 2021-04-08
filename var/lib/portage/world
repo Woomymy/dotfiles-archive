@@ -8,6 +8,7 @@ app-arch/p7zip
 app-arch/pigz
 app-arch/unrar
 app-arch/xarchiver
+app-benchmarks/stress-ng
 app-crypt/sbsigntools
 app-crypt/shim-signed
 app-editors/neovim
@@ -76,6 +77,8 @@ sys-apps/fakeroot
 sys-apps/ifplugd
 sys-apps/inxi
 sys-apps/less
+sys-apps/memtest86+
+sys-apps/nvme-cli
 sys-apps/openrc
 sys-apps/smartmontools
 sys-apps/usbutils

@@ -19,6 +19,7 @@ app-emulation/qemu
 app-emulation/virt-manager
 app-emulation/virt-viewer
 app-emulation/wine-mono
+app-emulation/wine-staging
 app-misc/authy
 app-misc/kelpdot
 app-misc/neofetch
@@ -45,6 +46,7 @@ dev-util/shellcheck-bin
 dev-util/wng
 dev-vcs/git
 games-action/multimc
+lxde-base/lxappearance
 mate-extra/mate-polkit
 media-fonts/noto-emoji
 media-fonts/terminus-font

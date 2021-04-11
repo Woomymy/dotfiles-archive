@@ -1,4 +1,4 @@
-<=sys-kernel/xanmod-sources-5.11.10
+<=sys-kernel/xanmod-sources-5.11.13
 app-office/wps-office
 app-misc/authy
 x11-terms/alacritty
@@ -14,3 +14,5 @@ app-admin/bitwarden-desktop-bin
 app-emulation/docker-credential-helpers
 games-action/multimc
 dev-util/mdl
+# required by xonotic (argument)
+=games-fps/xonotic-0.8.2 ~amd64

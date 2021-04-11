@@ -46,6 +46,7 @@ dev-util/shellcheck-bin
 dev-util/wng
 dev-vcs/git
 games-action/multimc
+games-fps/xonotic
 lxde-base/lxappearance
 mate-extra/mate-polkit
 media-fonts/noto-emoji
@@ -57,6 +58,7 @@ media-gfx/gfxboot-themes-calculate
 media-gfx/gimp
 media-gfx/krita
 media-gfx/maim
+media-sound/sox
 media-video/ffmpeg
 media-video/simplescreenrecorder
 net-analyzer/nmap

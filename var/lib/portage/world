@@ -82,7 +82,6 @@ sys-apps/fakeroot
 sys-apps/ifplugd
 sys-apps/inxi
 sys-apps/less
-sys-apps/memtest86+
 sys-apps/nvme-cli
 sys-apps/openrc
 sys-apps/smartmontools
@@ -104,8 +103,9 @@ sys-fs/ntfs3g
 sys-fs/reiserfsprogs
 sys-fs/squashfs-tools-ng
 sys-fs/xfsprogs
-sys-kernel/calculate-sources
 sys-kernel/dracut
+sys-kernel/fake-sources
+sys-kernel/linux-firmware
 sys-kernel/xanmod-sources
 sys-power/iasl
 sys-process/htop

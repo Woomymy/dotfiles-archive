@@ -58,6 +58,7 @@ media-gfx/gfxboot-themes-calculate
 media-gfx/gimp
 media-gfx/krita
 media-gfx/maim
+media-libs/glfw
 media-sound/sox
 media-video/ffmpeg
 media-video/simplescreenrecorder

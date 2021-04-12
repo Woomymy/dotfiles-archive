@@ -20,7 +20,10 @@ let g:ale_linters = {
 	\ 'rust': ['analyzer'], 
 	\ 'C': ['clangd'],
 	\ 'Bash': ['shellcheck'],
-	\ 'Markdown': ['mdl']
+	\ 'Markdown': ['mdl'],
+	\ 'vue': ['vls', 'prettier'],
+	\ 'css': ['prettier'],
+	\ 'html': ['prettier']
 \}
 source ~/.config/nvim/ext/fileexp.vim
 colorscheme horizon

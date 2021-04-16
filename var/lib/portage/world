@@ -63,6 +63,7 @@ media-sound/pavucontrol
 media-sound/pulsemixer
 media-sound/sox
 media-video/ffmpeg
+media-video/pipewire
 media-video/simplescreenrecorder
 net-analyzer/nmap
 net-fs/nfs-utils

@@ -13,6 +13,9 @@ app-emulation/docker-credential-helpers gnome-keyring
 dev-vcs/git gnome-keyring
 # Enable polybar network module support
 x11-misc/polybar network
+# Configure pipewire
+media-video/pipewire -aac -doc -ldac pipewire-alsa v4l
+
 # Use rofi for networkmanager_menu instead of dmenu
 net-misc/networkmanager-dmenu -dmenu rofi
 # Remove unused features of SpaceFM

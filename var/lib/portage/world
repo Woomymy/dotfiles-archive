@@ -21,6 +21,7 @@ app-emulation/virt-viewer
 app-emulation/wine-mono
 app-emulation/wine-staging
 app-misc/authy
+app-misc/figlet
 app-misc/kelpdot
 app-misc/neofetch
 app-misc/tmux

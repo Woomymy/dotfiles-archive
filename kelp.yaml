@@ -55,7 +55,7 @@ homefiles:
   - name: "Xinit configuration"
     path: ".xinitrc"
   - name: "Fish config"
-    path: ".config/fish/fish_variables"
+    path: ".config/fish/"
 rootfiles:
   - name: Portages repos
     path: /etc/portage/repos.conf

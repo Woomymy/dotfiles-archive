@@ -1,5 +1,7 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
+SETUVAR --export EDITOR:nvim
+SETUVAR --export GPG_TTY:pas\x20un\x20tty
 SETUVAR __fish_initialized:3100
 SETUVAR fish_color_autosuggestion:b2b2b2
 SETUVAR fish_color_cancel:normal
@@ -24,7 +26,7 @@ SETUVAR fish_color_selection:c0c0c0
 SETUVAR fish_color_status:yellow
 SETUVAR fish_color_user:ff66cc
 SETUVAR fish_color_valid_path:normal
-SETUVAR fish_greeting:Bienvenue\x20dans\x20fish\x2c\x20le\x20shell\x20amical\x20et\x20interactif
+SETUVAR fish_greeting:
 SETUVAR fish_key_bindings:fish_default_key_bindings
 SETUVAR fish_pager_color_completion:normal
 SETUVAR fish_pager_color_description:B3A06D\x1eyellow

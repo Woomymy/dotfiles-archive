@@ -28,4 +28,5 @@ FEATURES="userfetch candy clean-logs"
 #CCACHE_SIZE="5G"
 
 # Compression parameters for binary packages
+SIGNED_OFF_BY="Emilie Zarola <github@woomy.ovh>"
 BINPKG_COMPRESS_FLAGS="-19 -T8"

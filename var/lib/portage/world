@@ -59,6 +59,8 @@ media-gfx/gimp
 media-gfx/krita
 media-gfx/maim
 media-libs/glfw
+media-sound/pavucontrol
+media-sound/pulsemixer
 media-sound/sox
 media-video/ffmpeg
 media-video/simplescreenrecorder
@@ -80,6 +82,7 @@ sys-apps/calculate-toolkit
 sys-apps/calculate-utils:3
 sys-apps/ethtool
 sys-apps/fakeroot
+sys-apps/flashrom
 sys-apps/ifplugd
 sys-apps/inxi
 sys-apps/less

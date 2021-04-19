@@ -7,6 +7,7 @@ app-arch/pigz
 app-arch/unrar
 app-crypt/sbsigntools
 app-crypt/shim-signed
+app-editors/emacs
 app-editors/neovim
 app-emulation/docker
 app-emulation/docker-compose
@@ -91,6 +92,8 @@ sys-kernel/dracut
 sys-kernel/fake-sources
 sys-kernel/linux-firmware
 sys-kernel/xanmod-sources
+sys-power/acpitool
+sys-power/pmtools
 sys-process/htop
 virtual/cron
 virtual/linux-sources

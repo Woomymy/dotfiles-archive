@@ -88,4 +88,6 @@ rootfiles:
     backuponly: true
 postsave: ~
 prerun: ~
-postrun: ~
+postrun: [
+  {elevated: false, path: "scripts/git.sh"}
+]

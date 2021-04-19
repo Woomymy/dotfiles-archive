@@ -1,0 +1,6 @@
+configuration {
+	show-icons: true;
+	icon-theme: "Papirus";
+	sidebar-mode: true;
+	theme: "/home/woomy/.config/rofi/theme.rasi";
+}

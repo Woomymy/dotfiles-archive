@@ -15,7 +15,9 @@ dev-vcs/git gnome-keyring
 x11-misc/polybar network
 # Configure pipewire
 media-video/pipewire -aac -doc -ldac pipewire-alsa v4l
-
+# Enable emacs GUI
+app-editors/emacs gui
+app-emacs/emacs-common gui
 # Use rofi for networkmanager_menu instead of dmenu
 net-misc/networkmanager-dmenu -dmenu rofi
 # Remove unused features of SpaceFM

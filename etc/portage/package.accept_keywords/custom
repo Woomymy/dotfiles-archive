@@ -14,4 +14,6 @@ app-admin/bitwarden-desktop-bin
 app-emulation/docker-credential-helpers
 games-action/multimc
 dev-util/mdl
+virtual/perl-libnet
+dev-vcs/git
 games-fps/xonotic

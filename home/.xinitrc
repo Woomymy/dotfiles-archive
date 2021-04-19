@@ -1,3 +1,3 @@
 source /etc/profile
 xrdb -merge ~/.Xresources
-exec i3
+exec dbus-launch --exit-with-session i3

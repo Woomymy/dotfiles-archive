@@ -12,10 +12,10 @@ then
 fi
 for COLOR in ${COLORS[*]}
 do
-    "${HOME}/bin/theming/setup-themes.sh" $COLOR
+    "${HOME}/bin/wm/theming.sh" "${COLOR}"
     sleep 3
     maim "${PWD}/screenshots/${COLOR}.png"
-    echo "## $COLOR" >> "${PWD}/screenshots.md"
+    echo "## ${COLOR}" >> "${PWD}/screenshots.md"
     echo "" >> "${PWD}/screenshots.md"
     echo "![${COLOR}](./screenshots/${COLOR}.png)" >> "${PWD}/screenshots.md"
     echo "" >> "${PWD}/screenshots.md"

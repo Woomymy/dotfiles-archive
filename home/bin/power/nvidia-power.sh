@@ -11,9 +11,10 @@
 GPU_ICON="閭"
 
 DEVID="$(lspci | grep -i nvidia | awk '{print $1}')"
-if [[ $(cat "/sys/bus/pci/devices/0000:${DEVID}/power_state") == "D0" ]]
+if [[ "$(cat "/sys/bus/pci/devices/0000:${DEVID}/power_state")" == "D0" ]]
 then
-	echo "${GPU_ICON} GPU: ON"
+	echo "${GPU_ICON} GPU: ON "
 else
-	echo "${GPU_ICON} GPU: OFF"
+	echo "${GPU_ICON} GPU: OFF "
 fi
+

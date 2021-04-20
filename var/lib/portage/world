@@ -69,9 +69,11 @@ sys-apps/bat
 sys-apps/calculate-toolkit
 sys-apps/calculate-utils:3
 sys-apps/ethtool
+sys-apps/exa
 sys-apps/ifplugd
 sys-apps/inxi
 sys-apps/less
+sys-apps/lsd
 sys-apps/openrc
 sys-apps/usbutils
 sys-auth/pam_update

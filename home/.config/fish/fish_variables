@@ -1,7 +1,7 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR --export EDITOR:nvim
-SETUVAR --export GPG_TTY:/dev/pts/1
+SETUVAR --export GPG_TTY:pas\x20un\x20tty
 SETUVAR --export --path PATH:/home/woomy/\x2elocal/bin/\x1e/usr/local/sbin\x1e/usr/local/bin\x1e/usr/sbin\x1e/usr/bin\x1e/sbin\x1e/bin\x1e/opt/bin\x1e/usr/lib/llvm/11/bin\x1e/home/woomy/\x2ecargo/bin/
 SETUVAR __fish_initialized:3100
 SETUVAR fish_color_autosuggestion:b2b2b2

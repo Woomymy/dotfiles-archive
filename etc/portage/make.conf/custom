@@ -13,6 +13,8 @@
 
 EMERGE_DEFAULT_OPTS="${EMERGE_DEFAULT_OPTS} ${USEPKG_EXCLUDE} ${EMERGE_JOBS}"
 
+VIDEO_CARDS="vesa fbdev i915 intel i965 nouveau nvidia"
+
 #--------------------------------------
 # Paramètres du compilateur
 #--------------------------------------

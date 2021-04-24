@@ -19,6 +19,7 @@ app-portage/eix
 app-portage/gentoolkit
 app-portage/repoman
 app-shells/fish
+app-shells/nushell
 dev-java/icedtea-bin
 dev-lang/nasm
 dev-libs/libisoburn
@@ -55,6 +56,7 @@ net-libs/nodejs
 net-misc/dhcp
 net-misc/networkmanager-dmenu
 net-misc/ntp
+net-misc/tigervnc
 net-wireless/wpa_supplicant
 sys-apps/bat
 sys-apps/calculate-toolkit

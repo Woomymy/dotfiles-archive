@@ -18,3 +18,7 @@ dev-util/mdl
 virtual/perl-libnet
 dev-vcs/git
 games-fps/xonotic
+# required by barrier (argument)
+=x11-misc/barrier-2.3.3 ~amd64
+# required by rustup (argument)
+=dev-util/rustup-1.23.1 ~amd64

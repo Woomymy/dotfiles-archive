@@ -5,7 +5,6 @@ Plug 'vim-airline/vim-airline'
 Plug 'ryanoasis/vim-devicons'
 Plug 'kien/rainbow_parentheses.vim'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'rust-lang/rust.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'cespare/vim-toml'
 Plug 'dense-analysis/ale'
@@ -34,4 +33,4 @@ inoremap <expr> <C-k> pumvisible() ? "\<C-p>" : "\<C-k>"
 let g:airline_theme="onedark"
 syntax enable
 filetype plugin indent on
-let g:rustfmt_autosave = 1
+let g:ale_rust_analyzer_executable = "~/.local/bin/rust-analyser"

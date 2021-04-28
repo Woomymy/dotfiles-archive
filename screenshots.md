@@ -1,4 +1,3 @@
-<!--markdownlint-disable-file-->
 ## blue
 
 ![blue](./screenshots/blue.png)

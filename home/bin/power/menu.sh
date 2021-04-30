@@ -10,10 +10,10 @@ case $ch in
 	    i3lock -c "$(cat "/tmp/i3lock_color")"
 	    ;;
     "${power_off}")
-	    loginctl poweroff
+	    pkexec poweroff
 	;;
     "${reboot}")
-        loginctl reboot
+        pkexec reboot
 	;;
     "${log_out}")
         i3-msg exit

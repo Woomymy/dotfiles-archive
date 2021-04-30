@@ -9,9 +9,12 @@ app-emulation/docker
 app-emulation/docker-compose
 app-emulation/docker-credential-helpers
 app-emulation/qemu
+app-emulation/virt-manager
 app-emulation/virt-viewer
 app-emulation/wine-vanilla
+app-laptop/laptop-mode-tools
 app-misc/authy
+app-misc/hello
 app-misc/neofetch
 app-misc/xorg-meta
 app-office/libreoffice
@@ -35,6 +38,7 @@ dev-util/shellcheck-bin
 dev-vcs/git
 games-action/multimc
 games-fps/xonotic
+kde-apps/kdenlive
 lxde-base/lxappearance
 mate-extra/mate-polkit
 media-fonts/noto-emoji
@@ -52,6 +56,7 @@ net-dns/bind-tools
 net-fs/nfs-utils
 net-im/discord-bin
 net-im/element-desktop-bin
+net-im/signal-desktop-bin
 net-im/telegram-desktop-bin
 net-irc/irssi
 net-libs/nodejs
@@ -59,6 +64,8 @@ net-misc/dhcp
 net-misc/networkmanager-dmenu
 net-misc/ntp
 net-misc/tigervnc
+net-misc/youtube-dl
+net-p2p/qbittorrent
 net-wireless/wpa_supplicant
 sys-apps/bat
 sys-apps/calculate-toolkit
@@ -89,6 +96,7 @@ sys-kernel/dracut
 sys-kernel/fake-sources
 sys-kernel/linux-firmware
 sys-kernel/xanmod-sources
+sys-power/powertop
 sys-process/htop
 virtual/cron
 virtual/linux-sources
@@ -109,6 +117,7 @@ x11-misc/polybar
 x11-misc/virtualgl
 x11-misc/xdg-user-dirs-gtk
 x11-misc/xdg-utils
+x11-plugins/wmpower
 x11-terms/alacritty
 x11-themes/papirus-icon-theme
 x11-themes/vimix-gtk-themes

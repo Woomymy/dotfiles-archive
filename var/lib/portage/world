@@ -29,10 +29,10 @@ dev-libs/libisoburn
 dev-libs/light
 dev-python/pip
 dev-python/yamllint
+dev-util/android-tools
 dev-util/github-cli
 dev-util/meson
 dev-util/ninja
-dev-util/rustup
 dev-util/shc
 dev-util/shellcheck-bin
 dev-vcs/git
@@ -71,6 +71,7 @@ sys-apps/bat
 sys-apps/calculate-toolkit
 sys-apps/calculate-utils
 sys-apps/ethtool
+sys-apps/flatpak
 sys-apps/ifplugd
 sys-apps/inxi
 sys-apps/less
@@ -78,6 +79,7 @@ sys-apps/lsd
 sys-apps/openrc
 sys-apps/usbutils
 sys-auth/pam_update
+sys-block/gparted
 sys-boot/efibootmgr
 sys-boot/gnu-efi
 sys-boot/grub:2
@@ -89,6 +91,7 @@ sys-fs/dosfstools
 sys-fs/e2fsprogs
 sys-fs/ecryptfs-utils
 sys-fs/eudev
+sys-fs/exfatprogs
 sys-fs/mtools
 sys-fs/ntfs3g
 sys-fs/xfsprogs

@@ -86,6 +86,9 @@ rootfiles:
   - name: Kernel config
     path: "/usr/src/linux/.config"
     backuponly: true
+  - name: Portage profile
+    path: /etc/portage/profile/
+    backuponly: true
 postsave: ~
 prerun: ~
 postrun: [

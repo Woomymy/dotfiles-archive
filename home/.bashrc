@@ -5,3 +5,4 @@ then
 else
 	echo "Not starting X server"
 fi
+. "$HOME/.cargo/env"

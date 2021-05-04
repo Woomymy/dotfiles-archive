@@ -89,6 +89,9 @@ rootfiles:
   - name: Portage profile
     path: /etc/portage/profile/
     backuponly: true
+  - name: Console setup (fonts)
+    path: /etc/conf.d/consolefont
+    backuponly: true # You may need to reinstall fonts
 postsave: ~
 prerun: ~
 postrun: [

@@ -22,3 +22,5 @@ games-fps/xonotic
 =x11-misc/barrier-2.3.3 ~amd64
 # required by rustup (argument)
 =dev-util/rustup-1.23.1 ~amd64
+# required by qemu-riscv64-bin (argument)
+=app-emulation/qemu-riscv64-bin-5.0.0 ~amd64

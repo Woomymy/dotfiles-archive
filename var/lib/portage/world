@@ -8,6 +8,7 @@ app-emulation/docker
 app-emulation/docker-compose
 app-emulation/docker-credential-helpers
 app-emulation/qemu
+app-emulation/qemu-riscv64-bin
 app-emulation/virt-manager
 app-emulation/virt-viewer
 app-laptop/laptop-mode-tools
@@ -21,6 +22,7 @@ app-portage/gentoolkit
 app-portage/repoman
 app-shells/fish
 app-shells/nushell
+dev-db/redis
 dev-java/icedtea-bin
 dev-lang/nasm
 dev-libs/libisoburn
@@ -34,6 +36,7 @@ dev-util/meson
 dev-util/ninja
 dev-util/shc
 dev-util/shellcheck-bin
+dev-util/valgrind
 dev-vcs/git
 games-fps/xonotic
 lxde-base/lxappearance
@@ -41,11 +44,14 @@ mate-extra/mate-polkit
 media-fonts/noto-emoji
 media-fonts/terminus-font
 media-gfx/calculate-wallpapers
+media-gfx/fbcat
+media-gfx/fbgrab
 media-gfx/feh
 media-gfx/flameshot
 media-gfx/gimp
 media-gfx/maim
 media-sound/pavucontrol
+media-sound/sox
 media-video/ffmpeg
 net-analyzer/nmap
 net-analyzer/speedtest-cli
@@ -59,12 +65,14 @@ net-libs/nodejs
 net-misc/dhcp
 net-misc/networkmanager-dmenu
 net-misc/ntp
+net-misc/socat
 net-misc/youtube-dl
 net-wireless/wpa_supplicant
 sys-apps/bat
 sys-apps/calculate-toolkit
 sys-apps/calculate-utils
 sys-apps/ethtool
+sys-apps/fwupd
 sys-apps/ifplugd
 sys-apps/inxi
 sys-apps/less

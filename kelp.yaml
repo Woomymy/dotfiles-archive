@@ -92,6 +92,9 @@ rootfiles:
   - name: Console setup (fonts)
     path: /etc/conf.d/consolefont
     backuponly: true # You may need to reinstall fonts
+  - name: Nord TTY color scheme
+    path: /etc/init.d/nord-theme-tty
+
 postsave: ~
 prerun: ~
 postrun: [

@@ -104,5 +104,5 @@ client.placeholder      $bg     $bg     $fg  $bg       $bg
 
 client.background       $bg
 # Execute startup script
-exec --no-startup-id bash "$HOME/bin/hardware/screens.sh"
+exec --no-startup-id bash "$HOME/bin/hardware/dualscreen.sh"
 exec --no-startup-id bash "$HOME/bin/wm/base.sh" &

@@ -56,6 +56,8 @@ homefiles:
     path: ".xinitrc"
   - name: "Fish config"
     path: ".config/fish/"
+  - name: "Xbindkeys config"
+    path: ".xbindkeysrc"
 rootfiles:
   - name: Portages repos
     path: /etc/portage/repos.conf
@@ -89,11 +91,13 @@ rootfiles:
   - name: Portage profile
     path: /etc/portage/profile/
     backuponly: true
+    # You may need to reinstall fonts
   - name: Console setup (fonts)
     path: /etc/conf.d/consolefont
-    backuponly: true # You may need to reinstall fonts
+    backuponly: true
   - name: Nord TTY color scheme
     path: /etc/init.d/nord-theme-tty
+    onlyon: "gentoo"
 
 postsave: ~
 prerun: ~

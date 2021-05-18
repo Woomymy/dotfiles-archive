@@ -1,5 +1,5 @@
 www-apps/hugo
-<=sys-kernel/xanmod-sources-5.12.3
+<=sys-kernel/xanmod-sources-5.12.4
 app-office/wps-office
 app-misc/authy
 x11-terms/alacritty

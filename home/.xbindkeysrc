@@ -1,4 +1,4 @@
-"alacritty"
+"xvkbd -text '\C\SM'"
 b:8
 "i3 kill"
 b:9

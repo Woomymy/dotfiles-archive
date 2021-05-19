@@ -1,3 +1,5 @@
+# Reduce picom features
+x11-misc/picom -doc -pcre -drm -dbus
 # Use a minimal version of the calculate utilities
 sys-apps/calculate-utils minimal -install
 # Make coreutils multi-call

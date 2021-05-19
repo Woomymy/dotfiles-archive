@@ -8,6 +8,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'scrooloose/nerdtree'
 Plug 'cespare/vim-toml'
 Plug 'dense-analysis/ale'
+Plug 'lervag/vimtex'
 call plug#end()
 set termguicolors
 set omnifunc=ale#completion#OmniFunc

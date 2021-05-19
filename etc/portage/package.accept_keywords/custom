@@ -33,3 +33,4 @@ games-fps/xonotic
 # required by app-misc/piper-0.5.1::gentoo
 # required by app-misc/piper (argument)
 =dev-libs/libratbag-0.15 ~amd64
+<=sys-apps/openrc-0.43.3

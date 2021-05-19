@@ -22,7 +22,8 @@ let g:ale_linters = {
 	\ 'Markdown': ['mdl'],
 	\ 'vue': ['vls', 'prettier'],
 	\ 'css': ['prettier'],
-	\ 'html': ['prettier']
+	\ 'html': ['prettier'],
+	\ 'python': ['pyls'],
 \}
 source ~/.config/nvim/ext/fileexp.vim
 colorscheme horizon

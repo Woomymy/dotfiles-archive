@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env sh
 
 # XFCE-like battery status notifier
 # Check requirements

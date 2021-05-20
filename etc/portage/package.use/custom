@@ -1,3 +1,12 @@
+app-editors/neovim -nvimpager
+sci-libs/fftw -fortran
+x11-misc/rofi -windowmode
+media-sound/pulseaudio -bluetooth -ssl -native-headset -ofono-headset
+gnome-base/gvfs -samba -nfs -ios -cdda
+net-wireless/wpa_supplicant -ap -mesh
+app-shells/bash -net
+net-wireless/bluez -cups -mesh -obex
+net-misc/networkmanager -bluetooth -ncurses -wext -connection-sharing -ppp -modemmanager
 # Reduce picom features
 x11-misc/picom -doc -pcre -drm -dbus
 # Use a minimal version of the calculate utilities
@@ -12,9 +21,9 @@ www-client/vivaldi proprietary-codecs
 # For docker (Docker Hub Credentials)
 app-emulation/docker-credential-helpers gnome-keyring
 # For GIT (github, gitlab, gitea creadentials)
-dev-vcs/git gnome-keyring
+dev-vcs/git gnome-keyring -webav -cgi
 # Enable polybar network module support
-x11-misc/polybar network
+x11-misc/polybar network -alsa
 # Configure pipewire
 media-video/pipewire -aac -doc -ldac pipewire-alsa v4l
 # Enable emacs GUI

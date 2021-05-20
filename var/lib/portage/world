@@ -23,9 +23,9 @@ app-office/libreoffice
 app-portage/eix
 app-portage/gentoolkit
 app-portage/repoman
-app-shells/dash
 app-shells/fish
 app-shells/nushell
+app-text/texlive
 dev-db/redis
 dev-java/icedtea-bin
 dev-lang/nasm

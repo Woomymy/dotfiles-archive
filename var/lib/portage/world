@@ -57,9 +57,13 @@ media-gfx/feh
 media-gfx/flameshot
 media-gfx/gimp
 media-gfx/maim
+media-libs/libsfml
 media-sound/pavucontrol
 media-sound/sox
+media-video/cheese
 media-video/ffmpeg
+media-video/mpv
+media-video/obs-studio
 net-analyzer/nmap
 net-analyzer/speedtest-cli
 net-dns/bind-tools
@@ -74,6 +78,7 @@ net-misc/networkmanager-dmenu
 net-misc/ntp
 net-misc/socat
 net-misc/youtube-dl
+net-proxy/torsocks
 net-wireless/wpa_supplicant
 sys-apps/bat
 sys-apps/calculate-toolkit

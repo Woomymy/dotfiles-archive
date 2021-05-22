@@ -46,13 +46,13 @@ colors:
     white: '#FFFFFF'
     yellow: '#FCD34D'
   cursor:
-    cursor: '#FBC02D'
+    cursor: '#8E24AA'
     text: '#000000'
   primary:
     background: '#44403C'
     foreground: '#f8f8f8'
   selection:
-    background: '#FBC02D'
+    background: '#8E24AA'
     text: '#ffffff'
 indexed_colors: []
 
@@ -67,10 +67,6 @@ mouse:
   triple_click: {threshold: 300}
   hide_when_typing: false
 
-  url:
-    program: xdg-open
-    args: []
-    modifiers: None
 
 selection:
   semantic_escape_chars: ",│`|:\"' ()[]{}<>"

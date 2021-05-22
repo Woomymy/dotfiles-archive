@@ -46,13 +46,13 @@ colors:
     white: '#FFFFFF'
     yellow: '#FCD34D'
   cursor:
-    cursor: '#8E24AA'
+    cursor: '#5E35B1'
     text: '#000000'
   primary:
     background: '#44403C'
     foreground: '#f8f8f8'
   selection:
-    background: '#8E24AA'
+    background: '#5E35B1'
     text: '#ffffff'
 indexed_colors: []
 
@@ -66,7 +66,6 @@ mouse:
   double_click: {threshold: 300}
   triple_click: {threshold: 300}
   hide_when_typing: false
-
 
 selection:
   semantic_escape_chars: ",│`|:\"' ()[]{}<>"

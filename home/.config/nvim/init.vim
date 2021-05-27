@@ -8,7 +8,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'scrooloose/nerdtree'
 Plug 'cespare/vim-toml'
 Plug 'dense-analysis/ale'
-Plug 'lervag/vimtex'
+Plug 'liuchengxu/space-vim-theme'
 call plug#end()
 set termguicolors
 set omnifunc=ale#completion#OmniFunc
@@ -24,11 +24,13 @@ let g:ale_linters = {
 	\ 'vue': ['vls', 'prettier'],
 	\ 'css': ['prettier'],
 	\ 'html': ['prettier'],
+	\ 'LaTeX': ['texlab'],
 	\ 'python': ['pyls', 'pylint'],
 \}
 source ~/.config/nvim/ext/fileexp.vim
-colorscheme horizon
-let g:lightline = {'colorscheme' : 'horizon'}
+set background=dark
+colorscheme space_vim_theme
+let g:lightline = {'colorscheme' : 'space_vim_theme'}
 set number
 inoremap <expr> <C-j> pumvisible() ? "\<C-n>" : "\<C-j>"
 inoremap <expr> <C-k> pumvisible() ? "\<C-p>" : "\<C-k>"

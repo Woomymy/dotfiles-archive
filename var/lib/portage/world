@@ -16,6 +16,8 @@ app-eselect/eselect-sh
 app-misc/asciinema
 app-misc/authy
 app-misc/hello
+app-misc/jq
+app-misc/kelpdot
 app-misc/neofetch
 app-misc/tmux
 app-misc/xorg-meta
@@ -26,6 +28,8 @@ app-portage/gentoolkit
 app-portage/repoman
 app-shells/fish
 app-shells/nushell
+app-text/poppler
+app-text/texlab-bin
 app-text/texlive
 dev-db/redis
 dev-java/icedtea-bin
@@ -42,6 +46,7 @@ dev-util/github-cli
 dev-util/meson
 dev-util/ninja
 dev-util/pkgcheck
+dev-util/pkgconfig
 dev-util/shc
 dev-util/shellcheck-bin
 dev-util/valgrind
@@ -59,6 +64,7 @@ media-gfx/flameshot
 media-gfx/gifsicle
 media-gfx/gimp
 media-gfx/maim
+media-libs/libpng
 media-libs/libsfml
 media-sound/pavucontrol
 media-sound/sox
@@ -66,13 +72,11 @@ media-video/cheese
 media-video/ffmpeg
 media-video/mpv
 media-video/obs-studio
+media-video/vlc
 net-analyzer/nmap
 net-analyzer/speedtest-cli
 net-dns/bind-tools
 net-fs/nfs-utils
-net-im/discord-bin
-net-im/element-desktop-bin
-net-im/telegram-desktop-bin
 net-irc/irssi
 net-libs/nodejs
 net-misc/dhcp
@@ -87,8 +91,10 @@ sys-apps/calculate-toolkit
 sys-apps/calculate-utils
 sys-apps/ethtool
 sys-apps/fwupd
+sys-apps/gptfdisk
 sys-apps/ifplugd
 sys-apps/inxi
+sys-apps/kexec-tools
 sys-apps/less
 sys-apps/lsd
 sys-apps/openrc
@@ -98,6 +104,10 @@ sys-boot/efibootmgr
 sys-boot/gnu-efi
 sys-boot/grub:2
 sys-boot/os-prober
+sys-boot/syslinux
+sys-devel/autoconf
+sys-devel/automake
+sys-devel/gcc
 sys-firmware/intel-microcode
 sys-firmware/nvidia-firmware
 sys-fs/btrfs-progs
@@ -114,6 +124,7 @@ sys-kernel/dracut
 sys-kernel/fake-sources
 sys-kernel/linux-firmware
 sys-kernel/xanmod-sources
+sys-libs/zlib
 sys-power/powertop
 sys-process/htop
 virtual/cron
@@ -125,6 +136,7 @@ www-client/firefox
 www-servers/nginx
 x11-drivers/nvidia-drivers
 x11-libs/libnotify
+x11-misc/arandr
 x11-misc/barrier
 x11-misc/bumblebee
 x11-misc/dunst

@@ -58,6 +58,8 @@ homefiles:
     path: ".config/fish/"
   - name: "Xbindkeys config"
     path: ".xbindkeysrc"
+  - name: "Flameshot configuration"
+    path: ".config/flameshot/flameshot.ini"
 rootfiles:
   - name: Portages repos
     path: /etc/portage/repos.conf

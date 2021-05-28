@@ -34,6 +34,7 @@ app-text/texlive
 dev-db/redis
 dev-java/icedtea-bin
 dev-lang/nasm
+dev-lang/sassc
 dev-lang/tcc
 dev-libs/libisoburn
 dev-libs/libxdg-basedir
@@ -43,6 +44,7 @@ dev-python/yamllint
 dev-scheme/guile
 dev-util/android-tools
 dev-util/github-cli
+dev-util/glade
 dev-util/meson
 dev-util/ninja
 dev-util/pkgcheck
@@ -63,6 +65,7 @@ media-gfx/feh
 media-gfx/flameshot
 media-gfx/gifsicle
 media-gfx/gimp
+media-gfx/inkscape
 media-gfx/maim
 media-libs/libpng
 media-libs/libsfml

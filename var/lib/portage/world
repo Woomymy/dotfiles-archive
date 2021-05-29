@@ -3,6 +3,7 @@ app-admin/sudo
 app-arch/p7zip
 app-arch/unrar
 app-benchmarks/stress-ng
+app-crypt/seahorse
 app-crypt/shim-signed
 app-editors/neovim
 app-emulation/docker
@@ -19,6 +20,7 @@ app-misc/hello
 app-misc/jq
 app-misc/kelpdot
 app-misc/neofetch
+app-misc/nnn
 app-misc/tmux
 app-misc/xorg-meta
 app-mobilephone/heimdall
@@ -94,12 +96,14 @@ sys-apps/calculate-toolkit
 sys-apps/calculate-utils
 sys-apps/ethtool
 sys-apps/fwupd
+sys-apps/gnome-disk-utility
 sys-apps/gptfdisk
 sys-apps/ifplugd
 sys-apps/inxi
 sys-apps/kexec-tools
 sys-apps/less
 sys-apps/lsd
+sys-apps/nvme-cli
 sys-apps/openrc
 sys-apps/usbutils
 sys-auth/pam_update
@@ -130,6 +134,7 @@ sys-kernel/xanmod-sources
 sys-libs/zlib
 sys-power/powertop
 sys-process/htop
+sys-process/iotop
 virtual/cron
 virtual/linux-sources
 virtual/logger

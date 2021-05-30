@@ -1,6 +1,6 @@
 www-apps/hugo
 dev-lang/perl **
-<=sys-kernel/xanmod-sources-5.12.5
+<=sys-kernel/xanmod-sources-5.12.7
 app-office/wps-office
 app-misc/authy
 x11-terms/alacritty

@@ -6,6 +6,7 @@ app-benchmarks/stress-ng
 app-crypt/seahorse
 app-crypt/shim-signed
 app-editors/neovim
+app-editors/vim-core
 app-emulation/docker
 app-emulation/docker-compose
 app-emulation/docker-credential-helpers
@@ -27,6 +28,7 @@ app-mobilephone/heimdall
 app-office/libreoffice
 app-portage/eix
 app-portage/gentoolkit
+app-portage/portage-utils
 app-portage/repoman
 app-shells/fish
 app-shells/nushell
@@ -95,6 +97,7 @@ sys-apps/bat
 sys-apps/calculate-toolkit
 sys-apps/calculate-utils
 sys-apps/ethtool
+sys-apps/flashrom
 sys-apps/fwupd
 sys-apps/gnome-disk-utility
 sys-apps/gptfdisk
@@ -111,6 +114,7 @@ sys-boot/efibootmgr
 sys-boot/gnu-efi
 sys-boot/grub:2
 sys-boot/os-prober
+sys-boot/refind
 sys-boot/syslinux
 sys-devel/autoconf
 sys-devel/automake

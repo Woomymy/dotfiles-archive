@@ -9,18 +9,9 @@ sync-uri = https://github.com/gentoo-mirror/jorgicio.git
 location = /var/db/repos/woomy-overlay
 sync-type = git
 sync-uri = https://github.com/woomy4680-exe/woomy-overlay.git
-# Used for PREMID
-[guru]
-location = /var/db/repos/guru
-sync-type = git
-sync-uri = https://github.com/gentoo-mirror/guru.git
 
-[seden]
-location = /var/db/repos/seden
-sync-type = git
-sync-uri = https://github.com/gentoo-mirror/seden.git
 
-[pf4public]
-location = /var/db/repos/pf4public
+[src_prepare-overlay]
+location = /var/db/repos/src_prepare-overlay
 sync-type = git
-sync-uri = https://github.com/gentoo-mirror/pf4public.git
+sync-uri = https://github.com/gentoo-mirror/src_prepare-overlay.git

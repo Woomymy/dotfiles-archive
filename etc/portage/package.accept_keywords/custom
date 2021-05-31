@@ -35,3 +35,5 @@ games-fps/xonotic
 # required by app-misc/piper (argument)
 =dev-libs/libratbag-0.15 ~amd64
 <=sys-apps/openrc-0.43.3
+# required by euscan-ng (argument)
+=app-portage/euscan-ng-1.0.0 ~amd64

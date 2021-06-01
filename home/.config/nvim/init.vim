@@ -9,6 +9,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'cespare/vim-toml'
 Plug 'dense-analysis/ale'
 Plug 'liuchengxu/space-vim-theme'
+Plug 'JamshedVesuna/vim-markdown-preview'
 call plug#end()
 set termguicolors
 set omnifunc=ale#completion#OmniFunc
@@ -37,4 +38,6 @@ inoremap <expr> <C-k> pumvisible() ? "\<C-p>" : "\<C-k>"
 let g:airline_theme="onedark"
 syntax enable
 filetype plugin indent on
+let vim_markdown_preview_github=1
+let g:vim_markdown_preview_use_xdg_open = 1
 let g:ale_rust_analyzer_executable = "~/.local/bin/rust-analyser"

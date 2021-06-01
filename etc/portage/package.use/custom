@@ -1,35 +1,37 @@
+# app-editors
 app-editors/neovim -nvimpager
+
+# sci-libs
 sci-libs/fftw -fortran
-x11-misc/rofi -windowmode
-media-sound/pulseaudio -bluetooth -ssl -native-headset -ofono-headset
-gnome-base/gvfs -samba -nfs -ios -cdda
-net-wireless/wpa_supplicant -ap -mesh
-app-shells/bash -net
-net-wireless/bluez -cups -mesh -obex
-net-misc/networkmanager -bluetooth -ncurses -wext -connection-sharing -ppp -modemmanager
-# Reduce picom features
+
+# x11-misc
 x11-misc/picom -doc -pcre -drm -dbus
-# Use a minimal version of the calculate utilities
-sys-apps/calculate-utils minimal -install
-# Make coreutils multi-call
-sys-apps/coreutils multicall
-# Enable persitance for doas (it doesn't work)
-app-admin/doas persist
-# Enable FFMPEG support on vivaldi
-www-client/vivaldi proprietary-codecs
-# Use gnome-keyring to store auth informations securely
-# For docker (Docker Hub Credentials)
-app-emulation/docker-credential-helpers gnome-keyring
-# For GIT (github, gitlab, gitea creadentials)
-dev-vcs/git gnome-keyring -webav -cgi
-# Enable polybar network module support
 x11-misc/polybar network -alsa
-# Configure pipewire
-media-video/pipewire -aac -doc -ldac pipewire-alsa v4l
-# Enable emacs GUI
-app-editors/emacs gui
-app-emacs/emacs-common gui
-# Use rofi for networkmanager_menu instead of dmenu
+x11-misc/rofi -windowmode
+
+# media-sound
+media-sound/pulseaudio -bluetooth -ssl -native-headset -ofono-headset
+
+# gnome-base
+gnome-base/gvfs -samba -nfs -ios -cdda
+
+# net-wireless
+net-wireless/bluez -cups -mesh -obex
+net-wireless/wpa_supplicant -ap -mesh
+
+# app-shells
+app-shells/bash -net
+
+# net-misc
+net-misc/networkmanager -bluetooth -ncurses -wext -connection-sharing -ppp -modemmanager
 net-misc/networkmanager-dmenu -dmenu rofi
-# Remove unused features of SpaceFM
-x11-misc/spacefm -startup-notification -video-thumbnails
+
+# sys-apps
+sys-apps/calculate-utils minimal -install
+sys-apps/coreutils multicall
+
+# app-emulation
+app-emulation/docker-credential-helpers gnome-keyring
+
+# dev-vcs
+dev-vcs/git gnome-keyring -webav -cgi

@@ -6,4 +6,5 @@ do
 	OPTS="${OPTS}${COL}\n"
 done
 CH="$(echo -e "$OPTS" | rofi -dmenu)"
+[[ -z "${CH}" ]] && exit # Make sure we won't use a random color
 ~/bin/wm/theming.sh $CH

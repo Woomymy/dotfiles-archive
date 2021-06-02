@@ -1,6 +1,7 @@
 app-admin/eclean-kernel
 app-admin/sudo
 app-arch/p7zip
+app-arch/rpm2targz
 app-arch/unrar
 app-benchmarks/stress-ng
 app-crypt/seahorse
@@ -28,6 +29,7 @@ app-misc/xorg-meta
 app-mobilephone/heimdall
 app-office/libreoffice
 app-portage/eix
+app-portage/euscan-ng
 app-portage/gentoolkit
 app-portage/portage-utils
 app-portage/repoman
@@ -75,7 +77,9 @@ media-gfx/inkscape
 media-gfx/maim
 media-libs/libpng
 media-libs/libsfml
+media-sound/clementine
 media-sound/pavucontrol
+media-sound/pulsemixer
 media-sound/sox
 media-video/cheese
 media-video/ffmpeg
@@ -160,6 +164,7 @@ x11-misc/numlockx
 x11-misc/pcmanfm
 x11-misc/picom
 x11-misc/polybar
+x11-misc/qt5ct
 x11-misc/virtualgl
 x11-misc/xdg-user-dirs-gtk
 x11-misc/xdg-utils

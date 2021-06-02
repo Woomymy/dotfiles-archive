@@ -5,4 +5,4 @@
 # For modify this file, create /etc/portage/make.conf/binhost.clt template.
 #------------------------------------------------------------------------------
 
-PORTAGE_BINHOST="https://mirror.koddos.net/calculate-linux/grp/x86_64"
+PORTAGE_BINHOST="http://miroir.linuxtricks.fr/testing/grp/x86_64"

@@ -151,7 +151,7 @@ virtual/linux-sources
 virtual/logger
 virtual/mysql
 www-apps/hugo
-www-client/firefox
+www-client/firefox-bin
 www-servers/nginx
 x11-drivers/nvidia-drivers
 x11-libs/libnotify

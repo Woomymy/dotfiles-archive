@@ -4,7 +4,7 @@ My dotfiles for Calculate GNU/Linux on my laptop
 
 ## Softwares
 
-- [Rofi](./home/.config/rofi/config): Used as "applications" menu
+- [Rofi](./home/.config/rofi/config) Used as "applications" menu
 - [I3-GAPS](./home/.config/i3/config) Window manager
 - [Fish](./home/.config/fish/fish_variables) Shell
 - [Neovim](./home/.config/nvim/init.vim) text editor
@@ -16,3 +16,4 @@ My dotfiles for Calculate GNU/Linux on my laptop
 ## Screeshots
 
 Screenshots can be found [here](./screenshots.md)
+

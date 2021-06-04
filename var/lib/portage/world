@@ -65,6 +65,7 @@ games-action/multimc
 games-fps/xonotic
 lxde-base/lxappearance
 mate-extra/mate-polkit
+media-fonts/iosevka-nerd-font
 media-fonts/noto-emoji
 media-fonts/terminus-font
 media-gfx/calculate-wallpapers
@@ -87,6 +88,7 @@ media-video/cheese
 media-video/ffmpeg
 media-video/mpv
 media-video/obs-studio
+media-video/simplescreenrecorder
 media-video/vlc
 net-analyzer/nmap
 net-analyzer/speedtest-cli

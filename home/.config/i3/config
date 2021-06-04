@@ -84,6 +84,7 @@ bindsym $mod+r mode resize
 # Screenshot
 bindsym $mod+Print exec flameshot gui &
 bindsym $mod+Shift+b exec ~/bin/theming/colors.sh &
+bindsym $mod+Shift+l exec ~/bin/power/menu.sh &
 gaps inner 10 
 gaps outer 4
 for_window [class=".*"] border none

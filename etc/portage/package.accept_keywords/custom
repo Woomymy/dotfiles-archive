@@ -21,14 +21,8 @@ dev-vcs/git
 games-fps/xonotic
 # required by barrier (argument)
 =x11-misc/barrier-2.3.3 ~amd64
-# required by rustup (argument)
-=dev-util/rustup-1.23.1 ~amd64
-# required by qemu-riscv64-bin (argument)
-=app-emulation/qemu-riscv64-bin-5.0.0 ~amd64
-# required by dev-lang/tcc (argument)
-=dev-lang/tcc-0.9.27 ~amd64
-# required by czkawka (argument)
-=media-gfx/czkawka-2.1.0 ~amd64
+x11-misc/polybar
+media-gfx/czkawka
 # required by app-misc/piper (argument)
 =app-misc/piper-0.5.1 ~amd64
 # required by app-misc/piper-0.5.1::gentoo

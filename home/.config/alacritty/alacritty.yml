@@ -46,13 +46,13 @@ colors:
     white: '#FFFFFF'
     yellow: '#FCD34D'
   cursor:
-    cursor: '#0097A7'
+    cursor: '#FBC02D'
     text: '#000000'
   primary:
     background: '#44403C'
     foreground: '#f8f8f8'
   selection:
-    background: '#0097A7'
+    background: '#FBC02D'
     text: '#ffffff'
 indexed_colors: []
 

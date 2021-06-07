@@ -35,3 +35,6 @@ app-emulation/docker-credential-helpers gnome-keyring
 
 # dev-vcs
 dev-vcs/git gnome-keyring -webav -cgi
+
+# media-video
+media-video/obs-studio nvenc

@@ -51,6 +51,7 @@ dev-python/pip
 dev-python/yamllint
 dev-scheme/guile
 dev-util/android-tools
+dev-util/conan
 dev-util/github-cli
 dev-util/glade
 dev-util/meson
@@ -62,7 +63,7 @@ dev-util/shellcheck-bin
 dev-util/valgrind
 dev-vcs/git
 games-action/multimc
-games-fps/xonotic
+games-emulation/dolphin
 lxde-base/lxappearance
 mate-extra/mate-polkit
 media-fonts/iosevka-nerd-font
@@ -87,6 +88,8 @@ media-sound/sox
 media-video/cheese
 media-video/ffmpeg
 media-video/mpv
+media-video/nvidia-video-codec
+media-video/nvidia_video_sdk
 media-video/obs-studio
 media-video/simplescreenrecorder
 media-video/vlc
@@ -156,6 +159,7 @@ virtual/logger
 virtual/mysql
 www-apps/hugo
 www-client/firefox-bin
+www-client/midori
 www-servers/nginx
 x11-drivers/nvidia-drivers
 x11-libs/libnotify

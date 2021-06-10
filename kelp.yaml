@@ -12,6 +12,8 @@ homefiles:
     path: ".zshrc"
     backuponly: ~
     onlyon: ~
+  - name: SSH public configuration
+    path: .ssh/config
   - name: Bash config
     path: ".bashrc"
     backuponly: ~

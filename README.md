@@ -26,7 +26,7 @@ Screenshots can be found [here](./screenshots.md)
 ### SSH configuration and ssh agent
 
 The `~/.ssh/config` file is provided by theses dotfiles **but** it only contains options required to make ssh-agent work. If a `~/.ssh/private.config` is found, it will be included. You can change the name / path of this file by editing this line:
-```sshconfig
+```ssh-config
 Include private.config
 ```
 

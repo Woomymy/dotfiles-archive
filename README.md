@@ -4,6 +4,7 @@ My dotfiles for Calculate GNU/Linux on my laptop
 
 - [Softwares](#softwares)
 - [Screenshots](#screenshots)
+- [Notes about setup](#notes)
 
 ## Softwares
 
@@ -19,4 +20,13 @@ My dotfiles for Calculate GNU/Linux on my laptop
 ## Screenshots
 
 Screenshots can be found [here](./screenshots.md)
+
+## Notes
+
+### SSH configuration and ssh agent
+
+The `~/.ssh/config` file is provided by theses dotfiles **but** it only contains options required to make ssh-agent work. If a `~/.ssh/private.config` is found, it will be included. You can change the name / path of this file by editing this line:
+```sshconfig
+Include private.config
+```
 

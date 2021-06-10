@@ -2,6 +2,9 @@
 
 My dotfiles for Calculate GNU/Linux on my laptop
 
+- [Softwares](#softwares)
+- [Screenshots](#screenshots)
+
 ## Softwares
 
 - [Rofi](./home/.config/rofi/config) Used as "applications" menu
@@ -13,7 +16,7 @@ My dotfiles for Calculate GNU/Linux on my laptop
 - [Dunst](home/.config/dunst/dunstrc) Notification daemon
 - [Polybar](home/.config/polybar/launch.sh) status bar
 
-## Screeshots
+## Screenshots
 
 Screenshots can be found [here](./screenshots.md)
 

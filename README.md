@@ -30,3 +30,5 @@ The `~/.ssh/config` file is provided by theses dotfiles **but** it only contains
 Include private.config
 ```
 
+SSH agent env can be found in `/tmp/SSH_ENV`. The /tmp/ directory must be cleared on every reboot
+

@@ -1,6 +1,8 @@
 www-apps/hugo
 dev-lang/perl **
-<=sys-kernel/xanmod-sources-5.12.9
+sys-kernel/dracut
+sys-apps/fwupd
+<=sys-kernel/xanmod-sources-5.12.10
 app-office/wps-office
 app-misc/authy
 x11-terms/alacritty
@@ -44,3 +46,5 @@ media-gfx/czkawka
 =dev-python/pluginbase-1.0.1 ~amd64
 # required by protonmail-bridge (argument)
 =mail-mta/protonmail-bridge-1.8.3 ~amd64
+# required by eid-mw (argument)
+=app-crypt/eid-mw-5.0.14-r1 ~amd64

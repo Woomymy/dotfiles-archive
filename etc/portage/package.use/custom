@@ -1,6 +1,7 @@
 # app-editors
 app-editors/neovim -nvimpager
 
+sys-apps/fwupd uefi synaptics nvme gnutls
 # sci-libs
 sci-libs/fftw -fortran
 

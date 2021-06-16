@@ -1,4 +1,6 @@
+app-admin/bitwarden-desktop-bin
 app-admin/eclean-kernel
+app-admin/keepassxc
 app-admin/sudo
 app-arch/p7zip
 app-arch/rpm2targz
@@ -17,6 +19,7 @@ app-emulation/virt-manager
 app-emulation/virt-viewer
 app-emulation/wine-vanilla
 app-eselect/eselect-sh
+app-i18n/uim
 app-misc/asciinema
 app-misc/authy
 app-misc/hello
@@ -61,10 +64,12 @@ dev-util/pkgconfig
 dev-util/shc
 dev-util/shellcheck-bin
 dev-util/valgrind
+dev-util/wrangler
 dev-vcs/git
 games-action/multimc
 games-emulation/dolphin
 lxde-base/lxappearance
+mail-client/thunderbird
 mate-extra/mate-polkit
 media-fonts/iosevka-nerd-font
 media-fonts/noto-emoji
@@ -160,6 +165,7 @@ virtual/mysql
 www-apps/hugo
 www-client/firefox-bin
 www-client/midori
+www-client/vivaldi
 www-servers/nginx
 x11-drivers/nvidia-drivers
 x11-libs/libnotify
@@ -173,7 +179,9 @@ x11-misc/pcmanfm
 x11-misc/picom
 x11-misc/polybar
 x11-misc/qt5ct
+x11-misc/redshift
 x11-misc/virtualgl
+x11-misc/xclip
 x11-misc/xdg-user-dirs-gtk
 x11-misc/xdg-utils
 x11-misc/xvkbd

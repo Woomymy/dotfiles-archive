@@ -5,6 +5,3 @@ b:9
 "bash ~/bin/hardware/singlescreen.sh"
 b:6
 "bash ~/bin/hardware/dualscreen.sh"
-b:7
-"bash ~/bin/theming/colors.sh"
-b:2

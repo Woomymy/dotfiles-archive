@@ -5,6 +5,7 @@ app-admin/sudo
 app-arch/p7zip
 app-arch/rpm2targz
 app-arch/unrar
+app-arch/xarchiver
 app-benchmarks/stress-ng
 app-crypt/seahorse
 app-crypt/shim-signed
@@ -22,6 +23,7 @@ app-eselect/eselect-sh
 app-i18n/uim
 app-misc/asciinema
 app-misc/authy
+app-misc/fdupes
 app-misc/hello
 app-misc/jq
 app-misc/kelpdot
@@ -54,7 +56,6 @@ dev-python/pip
 dev-python/yamllint
 dev-scheme/guile
 dev-util/android-tools
-dev-util/conan
 dev-util/github-cli
 dev-util/glade
 dev-util/meson
@@ -68,6 +69,7 @@ dev-util/wrangler
 dev-vcs/git
 games-action/multimc
 games-emulation/dolphin
+games-util/steam-launcher
 lxde-base/lxappearance
 mail-client/thunderbird
 mate-extra/mate-polkit

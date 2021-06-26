@@ -47,3 +47,5 @@ media-gfx/czkawka
 =mail-mta/protonmail-bridge-1.8.3 ~amd64
 # required by eid-mw (argument)
 =app-crypt/eid-mw-5.0.14-r1 ~amd64
+# required by vscode (argument)
+=app-editors/vscode-1.57.0 ~amd64

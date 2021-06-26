@@ -1,7 +1,3 @@
 "xvkbd -text '\C\SM'"
 b:8
 "i3 kill"
-b:9
-"bash ~/bin/hardware/singlescreen.sh"
-b:6
-"bash ~/bin/hardware/dualscreen.sh"

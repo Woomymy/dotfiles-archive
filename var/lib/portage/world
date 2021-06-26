@@ -2,6 +2,7 @@ app-admin/bitwarden-desktop-bin
 app-admin/eclean-kernel
 app-admin/keepassxc
 app-admin/sudo
+app-arch/dpkg
 app-arch/p7zip
 app-arch/rpm2targz
 app-arch/unrar
@@ -11,14 +12,17 @@ app-crypt/seahorse
 app-crypt/shim-signed
 app-editors/neovim
 app-editors/vim-core
+app-editors/vscode
 app-emulation/docker
 app-emulation/docker-compose
 app-emulation/docker-credential-helpers
+app-emulation/protontricks
 app-emulation/qemu
 app-emulation/qemu-riscv64-bin
 app-emulation/virt-manager
 app-emulation/virt-viewer
 app-emulation/wine-vanilla
+app-emulation/winetricks
 app-eselect/eselect-sh
 app-i18n/uim
 app-misc/asciinema
@@ -46,6 +50,7 @@ app-text/texlab-bin
 app-text/texlive
 dev-db/redis
 dev-java/icedtea-bin
+dev-java/openjdk-bin
 dev-lang/nasm
 dev-lang/sassc
 dev-lang/tcc
@@ -104,6 +109,7 @@ net-analyzer/nmap
 net-analyzer/speedtest-cli
 net-dns/bind-tools
 net-fs/nfs-utils
+net-im/discord-bin
 net-irc/irssi
 net-libs/nodejs
 net-misc/dhcp

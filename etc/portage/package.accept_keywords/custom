@@ -48,4 +48,8 @@ media-gfx/czkawka
 # required by eid-mw (argument)
 =app-crypt/eid-mw-5.0.14-r1 ~amd64
 # required by vscode (argument)
-=app-editors/vscode-1.57.0 ~amd64
+app-editors/vscode
+# required by olive (argument)
+=media-video/olive-9999 **
+# required by minecraft-launcher (argument)
+=games-action/minecraft-launcher-928 ~amd64

@@ -72,9 +72,11 @@ dev-util/shellcheck-bin
 dev-util/valgrind
 dev-util/wrangler
 dev-vcs/git
+games-action/minecraft-launcher
 games-action/multimc
 games-emulation/dolphin
 games-util/steam-launcher
+kde-apps/kdenlive
 lxde-base/lxappearance
 mail-client/thunderbird
 mate-extra/mate-polkit
@@ -103,6 +105,8 @@ media-video/mpv
 media-video/nvidia-video-codec
 media-video/nvidia_video_sdk
 media-video/obs-studio
+media-video/olive
+media-video/pitivi
 media-video/simplescreenrecorder
 media-video/vlc
 net-analyzer/nmap
@@ -117,6 +121,7 @@ net-misc/networkmanager-dmenu
 net-misc/ntp
 net-misc/socat
 net-misc/youtube-dl
+net-p2p/qbittorrent
 net-proxy/torsocks
 net-wireless/wpa_supplicant
 sys-apps/bat
@@ -136,6 +141,8 @@ sys-apps/nvme-cli
 sys-apps/openrc
 sys-apps/usbutils
 sys-auth/pam_update
+sys-auth/polkit-pkla-compat
+sys-block/gparted
 sys-boot/efibootmgr
 sys-boot/gnu-efi
 sys-boot/grub:2

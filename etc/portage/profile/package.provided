@@ -1,7 +1,0 @@
-# Packages that you do not want to update (see: man portage)
-# Example:
-# net-misc/wicd-1.7.0
-dev-lang/rust-1.47.0
-virtual/rust-1.47.0
-virtual/rust-1.51.0
-dev-lang/rust-1.51.0

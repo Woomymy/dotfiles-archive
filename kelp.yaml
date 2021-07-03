@@ -4,6 +4,8 @@ homefiles:
     path: ".bashrc"
     backuponly: ~
     onlyon: ~
+  - name: Fish config
+    path: ".config/fish"
 rootfiles:
   - name: Pacman Mirrors
     path: /etc/pacman.d/mirrorlist

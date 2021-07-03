@@ -6,6 +6,8 @@ homefiles:
     onlyon: ~
   - name: Fish config
     path: ".config/fish"
+  - name: Alacritty config
+    path: ".config/alacritty/alacritty.yml"
 rootfiles:
   - name: Pacman Mirrors
     path: /etc/pacman.d/mirrorlist

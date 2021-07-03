@@ -10,7 +10,8 @@ homefiles:
     path: ".config/alacritty/alacritty.yml"
   - name: I3 config
     path: ".config/i3/config"
-
+  - name: SSH configuration
+    path: ".ssh/config"
 rootfiles:
   - name: Pacman Mirrors
     path: /etc/pacman.d/mirrorlist

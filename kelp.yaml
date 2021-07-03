@@ -8,6 +8,9 @@ homefiles:
     path: ".config/fish"
   - name: Alacritty config
     path: ".config/alacritty/alacritty.yml"
+  - name: I3 config
+    path: ".config/i3/config"
+
 rootfiles:
   - name: Pacman Mirrors
     path: /etc/pacman.d/mirrorlist

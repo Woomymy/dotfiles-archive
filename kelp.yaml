@@ -1,0 +1,33 @@
+---
+homefiles:
+  - name: Bash config
+    path: ".bashrc"
+    backuponly: ~
+    onlyon: ~
+rootfiles:
+  - name: Pacman Mirrors
+    path: /etc/pacman.d/mirrorlist
+    backuponly: ~
+    onlyon: arch
+postsave: []
+prerun: []
+postrun: []
+packages:
+  gentoo:
+    with_file: ~
+    packages: []
+  arch:
+    with_file: ~
+    packages: []
+  debian:
+    with_file: ~
+    packages: []
+  fedora:
+    with_file: ~
+    packages: []
+  npm:
+    with_file: ~
+    packages: []
+  gems:
+    with_file: ~
+    packages: []

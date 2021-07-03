@@ -12,6 +12,8 @@ homefiles:
     path: ".config/i3/config"
   - name: SSH configuration
     path: ".ssh/config"
+  - name: "Xresources"
+    path: ".Xresources"
 rootfiles:
   - name: Pacman Mirrors
     path: /etc/pacman.d/mirrorlist

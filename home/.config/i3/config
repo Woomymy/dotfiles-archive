@@ -104,4 +104,4 @@ client.placeholder      $bg     $bg     $fg  $bg       $bg
 
 client.background       $bg
 
-exec --no-startup-id ~/.bin/startup.sh
+exec --no-startup-id bash ~/.bin/startup.sh

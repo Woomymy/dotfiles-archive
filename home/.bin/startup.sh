@@ -7,4 +7,4 @@ HOMEBIN="~/.bin"
 
 # Setup wallpapers
 
-"${HOMEBIN}/theming/wallpaper.py"
+"${HOMEBIN}/theming/wallpapers.py"

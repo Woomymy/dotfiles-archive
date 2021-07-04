@@ -14,6 +14,8 @@ homefiles:
     path: ".ssh/config"
   - name: "Xresources"
     path: ".Xresources"
+  - name: "Utilities"
+    path: ".bin"
 rootfiles:
   - name: Pacman Mirrors
     path: /etc/pacman.d/mirrorlist

@@ -9,7 +9,7 @@ from os.path import exists
 from os import environ, listdir, system
 from random import randint
 
-if check_inet():
+if not check_inet():
     wallspath = f"{environ['HOME']}/wallpapers"
     if not exists(wallspath):
         error("Can't find wallpapers path", "WALLPAPERS")

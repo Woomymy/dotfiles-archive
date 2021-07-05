@@ -10,5 +10,5 @@ function fish_prompt --description "Write the prompt"
 		set prompt_status ""
 	end
 	
-	echo -nse "$magenta" "$USER" "$reset" @ (prompt_hostname) "$magenta" " " (prompt_pwd) "$reset" " (" (date +%H:%M) ")" "$cyan" (fish_vcs_prompt) "$magenta" " \$ "
+	echo -nse "$magenta" "$USER" "$reset" @ (prompt_hostname) "$magenta" " " (prompt_pwd) "$reset" " (" (date +%H:%M) ")" "$cyan" (fish_vcs_prompt) "$red" "$prompt_status" "$magenta" " \$ "
 end

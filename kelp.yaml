@@ -16,6 +16,8 @@ homefiles:
     path: ".Xresources"
   - name: "Utilities"
     path: ".bin"
+  - name: "Rofi config"
+    path: ".config/rofi"
 rootfiles:
   - name: Pacman Mirrors
     path: /etc/pacman.d/mirrorlist

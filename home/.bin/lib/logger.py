@@ -3,7 +3,7 @@ def appendlog(msg=""):
     logpath = f"/tmp/{environ.get('USER')}-i3-session.log"
     try:
         with open(logpath, 'a') as logfile:
-            logfile.write(msg)
+            logfile.write(f"{msg}\n")
         
     except:
         print(91, f"[ERROR] (LOGGER) -> Can't open /tmp/{logpath}")

@@ -1,6 +1,6 @@
 from os import environ
 def appendlog(msg=""):
-    logpath = f"/tmp/{environ.get('USER')}-i3-session.log"
+    logpath = f"/tmp/{environ.get('USER')}-session.log"
     try:
         with open(logpath, 'a') as logfile:
             logfile.write(f"{msg}\n")

@@ -82,7 +82,6 @@ mode "resize" {
 
 bindsym $mod+r mode resize
 # Screenshot
-bindsym $mod+Print exec flameshot gui &
 gaps inner 10 
 gaps outer 4
 for_window [class=".*"] border none
@@ -103,5 +102,7 @@ client.urgent           $bg     $bg     $fg  $bg       $bg
 client.placeholder      $bg     $bg     $fg  $bg       $bg
 
 client.background       $bg
+
+bindsym $mod+Print exec maim -s | xclip -t image/png -selection clipboard
 
 exec --no-startup-id bash ~/.bin/startup.sh

@@ -3,6 +3,7 @@
 """
 Download a random wallpaper from unsplash or choose one in ~/wallpapers
 """
+
 from lib.logger import error, info
 from lib.checks import check_inet
 from os.path import exists

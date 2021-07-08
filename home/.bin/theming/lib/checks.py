@@ -8,3 +8,4 @@ def check_inet():
         return True
     except:
         return False
+

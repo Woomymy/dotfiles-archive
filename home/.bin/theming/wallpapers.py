@@ -11,6 +11,9 @@ from os import environ, listdir, system
 from random import randint
 import urllib
 
+def set_wall(wallpath="/tmp/wallpaper.png"):
+    system(f"feh --bg-fill {wallpath}")
+
 if not check_inet():
     wallspath = f"{environ['HOME']}/wallpapers"
     if not exists(wallspath):
@@ -26,7 +29,7 @@ if not check_inet():
     
     info(f"Setting wallpaper to {wall}", "WALLPAPERS")
     # Use FEH to set the wallpaper
-    system(f"feh --bg-fill {wall}")
+    set_wall(wall)
 else:
     try:
         with urllib.request.urlopen('http://source.unsplash.com/1920x1080/?wallpaper') as res:
@@ -37,4 +40,4 @@ else:
     
     info(f"Settings wallpaper from unsplash: /tmp/wallpaper.png", "WALLPAPERS")
 
-    system("feh --bg-fill /tmp/wallpaper.png")
+    set_wall("/tmp/wallpaper.png")

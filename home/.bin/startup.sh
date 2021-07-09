@@ -12,5 +12,17 @@ fi
 # Setup applications
 
 # Setup wallpapers
-
 python "${HOME}/.bin/theming/wallpapers.py"
+
+REQUIRED_PROCS=(
+    /usr/lib/mate-polkit/polkit-mate-authentication-agent-1 # You can use another polkit agent
+)
+
+for PROC in ${REQUIRED_PROCS[*]}
+do
+    if [[ "$(pidof "${PROC}")" ]]
+    then
+        killall "${PROC}"
+    fi
+    nohup "${PROC}" &> /dev/null &
+done

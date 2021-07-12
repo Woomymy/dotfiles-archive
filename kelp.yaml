@@ -18,6 +18,8 @@ homefiles:
     path: ".bin"
   - name: "Rofi config"
     path: ".config/rofi"
+  - name: "Picom config"
+    path: ".config/picom/picom.conf"
 rootfiles:
   - name: Pacman Mirrors
     path: /etc/pacman.d/mirrorlist

@@ -20,6 +20,8 @@ homefiles:
     path: ".config/rofi"
   - name: "Picom config"
     path: ".config/picom/picom.conf"
+  - name: "Dunst config"
+    path: ".config/dunst/dunstrc"
 rootfiles:
   - name: Pacman Mirrors
     path: /etc/pacman.d/mirrorlist

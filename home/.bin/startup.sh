@@ -16,6 +16,7 @@ python "${HOME}/.bin/theming/wallpapers.py"
 
 REQUIRED_PROCS=(
     /usr/lib/mate-polkit/polkit-mate-authentication-agent-1 # You can use another polkit agent
+    picom
 )
 
 for PROC in ${REQUIRED_PROCS[*]}

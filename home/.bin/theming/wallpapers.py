@@ -33,7 +33,6 @@ if not check_inet():
         finalwall = walls[randint(0, len(walls))]
     except:
         exit(1)
-    print(walls)
     if not exists(finalwall):
         error("Wallpaper not found, WTF", "WALLPAPERS")
         exit(1)

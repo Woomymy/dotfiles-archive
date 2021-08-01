@@ -7,7 +7,7 @@ opts="$lock\n$power_off\n$reboot\n$log_out"
 ch="$(echo -e "$opts" | rofi -dmenu)"
 case $ch in
     "${lock}")
-	    i3lock -c "$(cat "/tmp/i3lock_color")"
+	    betterlockscreen -t "$(cat /etc/hostname): $(uname -r)" -l
 	    ;;
     "${power_off}")
 	    loginctl poweroff

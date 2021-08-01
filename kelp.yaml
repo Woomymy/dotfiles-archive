@@ -22,6 +22,8 @@ homefiles:
     path: ".config/picom/picom.conf"
   - name: "Dunst config"
     path: ".config/dunst/dunstrc"
+  - name: "Polybar config"
+    path: ".config/polybar"
 rootfiles:
   - name: Pacman Mirrors
     path: /etc/pacman.d/mirrorlist

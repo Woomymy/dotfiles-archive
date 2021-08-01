@@ -104,5 +104,5 @@ client.placeholder      $bg     $bg     $fg  $bg       $bg
 client.background       $bg
 
 bindsym $mod+Print exec maim -s | xclip -t image/png -selection clipboard
-
-exec --no-startup-id bash ~/.bin/startup.sh
+exec --no-startup-id polybar top &
+exec --no-startup-id bash ~/.bin/startup.sh &

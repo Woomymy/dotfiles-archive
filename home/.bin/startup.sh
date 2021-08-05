@@ -10,10 +10,9 @@ fi
 # Startup script:
 # Setup wallpapers
 # Setup applications
-
+bash "${HOME}/.screenlayout/dualscreen.sh"
 # Setup wallpapers
 python "${HOME}/.bin/theming/wallpapers.py"
-bash "${HOME}/.screenlayout/dualscreen.sh"
 REQUIRED_PROCS=(
     /usr/lib/mate-polkit/polkit-mate-authentication-agent-1 # You can use another polkit agent
     picom

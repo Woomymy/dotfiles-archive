@@ -36,6 +36,12 @@ homefiles:
     path: ".config/Code/User/settings.json"
     backuponly: ~
     onlyon: ~
+  - name: SSH configuration
+    path: ".ssh/config"
+  - name: "Utilities"
+    path: ".bin"
+  - path: ".xinitrc"
+    name: "Xinit config"
 rootfiles:
   - name: Sysctl config
     path: /etc/sysctl.conf

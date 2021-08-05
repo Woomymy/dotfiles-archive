@@ -1,34 +1,62 @@
 ---
 homefiles:
+  - name: I3 config
+    path: ".config/i3/config"
+    backuponly: ~
+    onlyon: ~
+  - name: Rofi config
+    path: ".config/rofi"
+    backuponly: ~
+    onlyon: ~
   - name: Bash config
     path: ".bashrc"
     backuponly: ~
     onlyon: ~
-  - name: Fish config
-    path: ".config/fish"
+  - name: Polybar config
+    path: ".config/polybar"
+    backuponly: ~
+    onlyon: ~
+  - name: Dunst config
+    path: ".config/dunst/dunstrc"
+    backuponly: ~
+    onlyon: ~
+  - name: Picom config
+    path: ".config/picom"
+    backuponly: ~
+    onlyon: ~
   - name: Alacritty config
     path: ".config/alacritty/alacritty.yml"
-  - name: I3 config
-    path: ".config/i3/config"
-  - name: SSH configuration
-    path: ".ssh/config"
-  - name: "Xresources"
-    path: ".Xresources"
-  - name: "Utilities"
-    path: ".bin"
-  - name: "Rofi config"
-    path: ".config/rofi"
-  - name: "Picom config"
-    path: ".config/picom/picom.conf"
-  - name: "Dunst config"
-    path: ".config/dunst/dunstrc"
-  - name: "Polybar config"
-    path: ".config/polybar"
-rootfiles:
-  - name: Pacman Mirrors
-    path: /etc/pacman.d/mirrorlist
     backuponly: ~
-    onlyon: arch
+    onlyon: ~
+  - name: Xresources config
+    path: ".Xresources"
+    backuponly: ~
+    onlyon: ~
+  - name: VS Code config
+    path: ".config/Code/User/settings.json"
+    backuponly: ~
+    onlyon: ~
+rootfiles:
+  - name: Sysctl config
+    path: /etc/sysctl.conf
+    backuponly: true
+    onlyon: ~
+  - name: Portages repos
+    path: /etc/portage/repos.conf
+    backuponly: ~
+    onlyon: gentoo
+  - name: Package USES
+    path: /etc/portage/package.use
+    backuponly: ~
+    onlyon: gentoo
+  - name: Packages Accept Keywords
+    path: /etc/portage/package.accept_keywords
+    backuponly: ~
+    onlyon: gentoo
+  - name: Make.conf file
+    path: /etc/portage/make.conf
+    backuponly: true
+    onlyon: gentoo
 postsave: []
 prerun: []
 postrun: []

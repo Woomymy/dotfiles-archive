@@ -63,6 +63,8 @@ rootfiles:
     path: /etc/portage/make.conf
     backuponly: true
     onlyon: gentoo
+  - name: Kernel config
+    path: /usr/src/linux/.config
 postsave: []
 prerun: []
 postrun: []

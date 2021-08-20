@@ -4,5 +4,11 @@ app-admin/bitwarden-desktop-bin
 sys-kernel/xanmod-sources
 app-misc/authy
 dev-util/github-cli
+dev-java/openjdk-jre-bin
+net-libs/nodejs
 sys-fs/squashfs-tools-ng
 app-editors/vscode
+# required by abootimg (argument)
+=dev-util/abootimg-20150323 ~amd64
+# required by premid (argument)
+=app-misc/premid-2.2.15 ~amd64

@@ -26,6 +26,6 @@ MAKEOPTS="-j9"
 
 # Maximum size of the ccache.
 #CCACHE_SIZE="5G"
-
+VIDEO_CARDS="fbdev intel i915 i965 nvidia nouveau"
 # Compression parameters for binary packages
 BINPKG_COMPRESS_FLAGS="-19 -T8"

@@ -7,7 +7,7 @@ opts="$lock\n$power_off\n$reboot\n$log_out"
 ch="$(echo -e "$opts" | rofi -dmenu)"
 case $ch in
     "${lock}")
-	    betterlockscreen -t "$(cat /etc/hostname): $(uname -r)" -l
+	    exec ~/.bin/menu/lockscreen.sh
 	    ;;
     "${power_off}")
 	    loginctl poweroff

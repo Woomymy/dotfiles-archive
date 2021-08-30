@@ -1,0 +1,9 @@
+#------------------------------------------------------------------------------
+# Modified Calculate Utilities 3.6.9.25
+# Processed template files:
+# /var/db/repos/calculate/profiles/templates/3.6/3_ac_install_live/1-merge/dev-util/ccache/zz-ccache
+# For modify this file, create /etc/portage/make.conf/zz-ccache.clt template.
+#------------------------------------------------------------------------------
+
+FEATURES="${FEATURES} ccache"
+CCACHE_DIR="/var/calculate/ccache"

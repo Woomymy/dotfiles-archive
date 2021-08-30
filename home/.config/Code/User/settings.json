@@ -1,12 +1,11 @@
 {
-    "workbench.colorTheme": "Pink Cat Boo",
-    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Monokai Pro (Filter Octagon)",
+    "workbench.iconTheme": "Monokai Pro (Filter Octagon) Icons",
     "editor.fontSize": 16,
     "editor.fontFamily": "Iosevka",
     "editor.formatOnSave": true,
     "[typescript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "redhat.telemetry.enabled": false,
-    "window.zoomLevel": -1
+    "redhat.telemetry.enabled": false
 }

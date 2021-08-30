@@ -12,3 +12,9 @@ app-editors/vscode
 =dev-util/abootimg-20150323 ~amd64
 # required by premid (argument)
 =app-misc/premid-2.2.15 ~amd64
+# required by xonotic (argument)
+=games-fps/xonotic-0.8.2 ~amd64
+# required by hugo (argument)
+=www-apps/hugo-0.87.0 ~amd64
+# required by multimc (argument)
+=games-action/multimc-0.6.12 ~amd64

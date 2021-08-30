@@ -3,6 +3,7 @@
 set -euo pipefail
 
 FILE="$(mktemp -u)"
+TEXT="$(lsb_release -d | awk -F ":	" '{print $2}')"
 
 # Usage: screenshot SCREENSHOT_PATH
 screenshot()
@@ -23,10 +24,19 @@ apply_blur()
 	mv "${TMP_FILE}" "${SCREENSHOT}"
 }
 
+add_text()
+{
+	TMP_FILE="$(mktemp -u)"
+	SCREENSHOT="${1}"
+	convert -pointsize 72 -fill black -draw "text 50,1000 '${TEXT}'" "${SCREENSHOT}" "${TMP_FILE}"
+	mv "${TMP_FILE}" "${SCREENSHOT}"
+}
+
 main()
 {
 	screenshot "${FILE}"
 	apply_blur "${FILE}"
+	add_text "${FILE}"
 	i3lock -i "${FILE}"
 }
 

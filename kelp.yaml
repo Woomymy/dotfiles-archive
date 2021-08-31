@@ -66,6 +66,10 @@ rootfiles:
   - name: "Dracut config"
     path: /etc/dracut.conf.d/
     backuponly: true
+  - name: Portage profile
+    path: /etc/portage/profile
+    onlyon: gentoo
+    backuponly: true
   - name: Kernel config
     path: /usr/src/linux/.config
 postsave: []

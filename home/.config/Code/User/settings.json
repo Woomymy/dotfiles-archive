@@ -11,5 +11,10 @@
     "latex-workshop.view.pdf.viewer": "tab",
     "[json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    },
+    /*"[python]": {
+        "editor.formatOnSave": false
+    },*/
+    "rust-analyzer.checkOnSave.overrideCommand": null,
+    "window.zoomLevel": -1
 }

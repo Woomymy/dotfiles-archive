@@ -4,6 +4,7 @@ app-admin/bitwarden-desktop-bin
 sys-kernel/xanmod-sources
 app-misc/authy
 dev-util/github-cli
+app-editors/neovim
 www-servers/caddy
 dev-java/openjdk-jre-bin
 net-libs/nodejs

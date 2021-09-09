@@ -17,7 +17,6 @@
         "editor.formatOnSave": false
     },*/
     "rust-analyzer.checkOnSave.overrideCommand": null,
-    "window.zoomLevel": 1,
     "git.enableSmartCommit": true,
     "git.enableCommitSigning": true,
     "editor.cursorStyle": "line-thin"

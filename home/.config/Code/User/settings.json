@@ -13,9 +13,9 @@
     "[json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    /*"[python]": {
+    "[c]": {
         "editor.formatOnSave": false
-    },*/
+    },
     "rust-analyzer.checkOnSave.overrideCommand": null,
     "git.enableSmartCommit": true,
     "git.enableCommitSigning": true,

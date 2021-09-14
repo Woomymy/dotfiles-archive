@@ -28,7 +28,7 @@ add_text()
 {
 	TMP_FILE="$(mktemp -u)"
 	SCREENSHOT="${1}"
-	convert -pointsize 72 -fill black -draw "text 50,1000 '${TEXT}'" "${SCREENSHOT}" "${TMP_FILE}"
+	convert -pointsize 72 -fill white -draw "text 50,1000 '${TEXT}'" "${SCREENSHOT}" "${TMP_FILE}"
 	mv "${TMP_FILE}" "${SCREENSHOT}"
 }
 
@@ -40,4 +40,6 @@ main()
 	i3lock -i "${FILE}"
 }
 
-main || notify-send -u "critical" "Failed to lock"
+main || {
+	notify-send -u "critical" "Failed to lock"
+}

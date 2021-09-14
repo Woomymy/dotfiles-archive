@@ -12,8 +12,10 @@ from shutil import copyfile
 from random import randint
 import urllib
 
+
 def set_wall(wallpath="/tmp/wallpaper.png"):
     system(f"feh --bg-fill {wallpath}")
+
 
 if not check_inet():
     wallspath = f"{environ['HOME']}/wallpapers"
@@ -28,7 +30,7 @@ if not check_inet():
     if exists(unsplashpath):
         for wall in listdir(unsplashpath):
             walls.append(f"{unsplashpath}/{wall}")
-            
+
     try:
         finalwall = walls[randint(0, len(walls))]
     except:
@@ -36,7 +38,7 @@ if not check_inet():
     if not exists(finalwall):
         error("Wallpaper not found, WTF", "WALLPAPERS")
         exit(1)
-    
+
     info(f"Setting wallpaper to {finalwall}", "WALLPAPERS")
     # Use FEH to set the wallpaper
     set_wall(finalwall)
@@ -51,12 +53,15 @@ else:
     except:
         error("Can't download wallpaper from unsplash!", "WALLPAPERS")
         exit(1)
-    
+
     info(f"Settings wallpaper from unsplash: {dest}", "WALLPAPERS")
 
     set_wall(dest)
     walldestpath = f"{environ['HOME']}/unsplash-wallpapers"
     if not exists(walldestpath):
-        mkdir(walldestpath)        
+        mkdir(walldestpath)
 
+    if len(listdir(walldestpath)) >= 150:
+        error(
+            f"Found more than 150 wallpapers in {walldestpath}", "WALLPAPERS")
     copyfile(dest, f"{walldestpath}/{wallhash}.png")

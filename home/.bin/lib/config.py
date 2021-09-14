@@ -3,9 +3,12 @@ from os import environ
 from os.path import exists
 import json
 
+
 def get_config():
     default_config = {
-        "battery": "BAT1" # From /sys/class/power_supply/BAT*
+        "battery": "BAT1",  # From /sys/class/power_supply/BAT*
+        "ping_domain": "kernel.org",  # Whatever you want
+        "ping_proto": "https"  # WARNING: TLS Errors
     }
     confpath = f"{environ['HOME']}/.bin/config.json"
     if exists(confpath):
@@ -13,10 +16,12 @@ def get_config():
             with open(confpath, 'r') as configtext:
                 config = json.loads(configtext.read())
         except:
-            error(f"Can't load {confpath}! Using default config instead", "CONFIG")
+            error(
+                f"Can't load {confpath}! Using default config instead", "CONFIG")
             config = default_config
     else:
-        error(f"Config file {confpath} not found. Using default config", "CONFIG")
+        error(
+            f"Config file {confpath} not found. Using default config", "CONFIG")
         config = default_config
 
     return config

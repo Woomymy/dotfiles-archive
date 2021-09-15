@@ -4,6 +4,11 @@
 Download a random wallpaper from unsplash or choose one in ~/wallpapers
 """
 import hashlib
+import sys
+from os.path import dirname, realpath
+dotbinpath = realpath(f"{dirname(__file__)}/..")
+sys.path.append(dotbinpath)  # Because VSCode is stupid
+sys.path.append(f"{dotbinpath}/lib")
 from lib.logger import error, info
 from lib.checks import check_inet
 from os.path import exists

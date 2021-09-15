@@ -1,9 +1,10 @@
 {
-    "workbench.colorTheme": "Monokai Vibrant",
+    "workbench.colorTheme": "Spacemacs - dark",
     "workbench.iconTheme": "material-icon-theme",
     "editor.fontSize": 16,
     "editor.fontFamily": "Iosevka",
     "editor.formatOnSave": true,
+    "editor.bracketPairColorization.enabled": true,
     "editor.fontLigatures": true,
     "[typescript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"

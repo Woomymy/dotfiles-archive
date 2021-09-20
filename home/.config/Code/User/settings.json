@@ -20,5 +20,6 @@
     "rust-analyzer.checkOnSave.overrideCommand": null,
     "git.enableSmartCommit": true,
     "git.enableCommitSigning": true,
-    "editor.cursorStyle": "line-thin"
+    "editor.cursorStyle": "line-thin",
+    "glassit.alpha": 248
 }

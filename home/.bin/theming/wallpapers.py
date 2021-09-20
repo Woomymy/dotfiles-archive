@@ -58,7 +58,6 @@ else:
     except:
         error("Can't download wallpaper from unsplash!", "WALLPAPERS")
         exit(1)
-
     info(f"Settings wallpaper from unsplash: {dest}", "WALLPAPERS")
 
     set_wall(dest)

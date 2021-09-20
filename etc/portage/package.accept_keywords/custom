@@ -26,3 +26,7 @@ app-editors/vscode
 =app-shells/pwsh-bin-7.1.3 ~amd64
 # required by dev-lang/tcc (argument)
 =dev-lang/tcc-0.9.27 ~amd64
+# required by net-dns/dog (argument)
+=net-dns/dog-0.1.0 ~amd64
+# required by euscan-ng (argument)
+=app-portage/euscan-ng-1.0.0 ~amd64

@@ -10,23 +10,13 @@ dev-java/openjdk-jre-bin
 net-libs/nodejs
 sys-fs/squashfs-tools-ng
 app-editors/vscode
-# required by abootimg (argument)
-=dev-util/abootimg-20150323 ~amd64
-# required by premid (argument)
-=app-misc/premid-2.2.15 ~amd64
-# required by xonotic (argument)
-=games-fps/xonotic-0.8.2 ~amd64
-# required by hugo (argument)
-=www-apps/hugo-0.87.0 ~amd64
-# required by multimc (argument)
-=games-action/multimc-0.6.12 ~amd64
-# required by gti (argument)
-=dev-vcs/gti-9999 **
-# required by pwsh-bin (argument)
-=app-shells/pwsh-bin-7.1.3 ~amd64
-# required by dev-lang/tcc (argument)
-=dev-lang/tcc-0.9.27 ~amd64
-# required by net-dns/dog (argument)
-=net-dns/dog-0.1.0 ~amd64
-# required by euscan-ng (argument)
-=app-portage/euscan-ng-1.0.0 ~amd64
+dev-util/abootimg
+app-misc/premid
+games-fps/xonotic
+www-apps/hugo
+games-action/multimc
+dev-vcs/gti **
+app-shells/pwsh-bin
+dev-lang/tcc
+net-dns/dog
+app-portage/euscan-ng

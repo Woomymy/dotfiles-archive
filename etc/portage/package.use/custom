@@ -1,2 +1,3 @@
+media-libs/libheif gdk-pixbuf
 net-misc/networkmanager -modemmanager -bluetooth -ppp -wext
 # This file will be migrate to new installation

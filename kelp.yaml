@@ -1,5 +1,7 @@
 ---
 homefiles:
+  - name: Fish config
+    path: ".config/fish"
   - name: I3 config
     path: ".config/i3/config"
     backuponly: ~

@@ -23,5 +23,8 @@
     "editor.cursorStyle": "line-thin",
     "glassit.alpha": 248,
     "typescript.updateImportsOnFileMove.enabled": "always",
-    "workbench.editor.untitled.hint": "hidden"
+    "workbench.editor.untitled.hint": "hidden",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }

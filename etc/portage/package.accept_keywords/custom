@@ -13,6 +13,7 @@ app-editors/vscode
 dev-util/abootimg
 app-misc/premid
 games-fps/xonotic
+dev-libs/libtpms
 www-apps/hugo
 games-action/multimc
 dev-vcs/gti **
@@ -20,3 +21,5 @@ app-shells/pwsh-bin
 dev-lang/tcc
 net-dns/dog
 app-portage/euscan-ng
+# required by swtpm (argument)
+=app-crypt/swtpm-0.6.1 ~amd64

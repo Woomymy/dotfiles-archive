@@ -23,3 +23,7 @@ net-dns/dog
 app-portage/euscan-ng
 # required by swtpm (argument)
 =app-crypt/swtpm-0.6.1 ~amd64
+# required by teamviewer (argument)
+=net-misc/teamviewer-15.21.4 ~amd64
+# required by anydesk (argument)
+=net-misc/anydesk-6.1.1 ~amd64

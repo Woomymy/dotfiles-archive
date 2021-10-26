@@ -57,6 +57,7 @@ else:
             open(dest, 'wb').write(resbytes)
     except:
         error("Can't download wallpaper from unsplash!", "WALLPAPERS")
+        system("notify-send -u critical Wallpaper.py \"Can\\'t reach unsplash\"")
         exit(1)
     info(f"Settings wallpaper from unsplash: {dest}", "WALLPAPERS")
 

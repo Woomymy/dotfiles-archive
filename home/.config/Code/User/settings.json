@@ -26,5 +26,6 @@
     "workbench.editor.untitled.hint": "hidden",
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    },
+    "window.zoomLevel": 1
 }

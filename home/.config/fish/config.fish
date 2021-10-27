@@ -4,6 +4,9 @@ if test (tty) = "/dev/tty1"
 end
 set -gx GPG_TTY (tty) # Fixes "inapropriate Ioctl for device" errors
 set -gx PATH $PATH ~/.cargo/bin # Add cargo binaries to path
+
+## Android
+set -gx PATH $PATH ~/Android/Sdk/tools/bin
 set -gx EDITOR nvim
 set fish_greeting ""
 

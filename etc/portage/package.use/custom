@@ -1,3 +1,4 @@
+dev-java/openjdk-bin  gentoo-vm
 net-libs/gnutls tools
 media-libs/libheif gdk-pixbuf
 net-misc/networkmanager -modemmanager -bluetooth -ppp -wext

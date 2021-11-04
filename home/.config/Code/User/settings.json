@@ -1,5 +1,5 @@
 {
-    "workbench.colorTheme": "Spacemacs - dark",
+    "workbench.colorTheme": "Abyss",
     "workbench.iconTheme": "material-icon-theme",
     "editor.fontSize": 16,
     "editor.fontFamily": "Iosevka",
@@ -26,6 +26,5 @@
     "workbench.editor.untitled.hint": "hidden",
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "window.zoomLevel": 1
+    }
 }

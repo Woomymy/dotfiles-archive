@@ -1,8 +1,8 @@
 #------------------------------------------------------------------------------
-# Modified Calculate Utilities 3.7.1.35
+# Modified Calculate Utilities 3.7.2.1
 # Processed template files:
 # /var/db/repos/calculate/profiles/templates/3.6/6_ac_update_sync/binhost/binhost
 # To modify this file, create a /etc/portage/make.conf/binhost.clt template.
 #------------------------------------------------------------------------------
 
-PORTAGE_BINHOST="https://mirror.koddos.net/calculate-linux/grp/x86_64"
+PORTAGE_BINHOST="https://mirror.ihost.md/calculate-linux/grp/x86_64"

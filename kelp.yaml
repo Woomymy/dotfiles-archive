@@ -44,6 +44,8 @@ homefiles:
     path: ".bin"
   - path: ".xinitrc"
     name: "Xinit config"
+  - path: ".inputrc"
+    name: "InputRC"
 rootfiles:
   - name: Sysctl config
     path: /etc/sysctl.conf

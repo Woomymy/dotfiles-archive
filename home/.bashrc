@@ -9,5 +9,11 @@ RESET="\e[m"
 export PROMPT_DIRTRIM=4 # Add max 4 folders to $PS1
 export PS1="${CYAN}\u${RESET}@\H \w ($(date +%H:%M)) ${CYAN}\$${RESET} "
 
+# Aliases
+
+alias ls="lsd"
+alias cat="bat --decorations=never --paging=never"
+alias dig="dog"
+
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"

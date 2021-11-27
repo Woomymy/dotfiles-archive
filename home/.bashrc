@@ -1,14 +1,13 @@
-#
-# ~/.bashrc
-#
-
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-alias ls='ls --color=auto'
-PS1='[\u@\h \W]\$ '
 . "$HOME/.cargo/env"
 
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+# Init prompt
+CYAN="\e[96m"
+RESET="\e[m"
+export PROMPT_DIRTRIM=4 # Add max 4 folders to $PS1
+export PS1="${CYAN}\u${RESET}@\H \w ($(date +%H:%M)) ${CYAN}\$${RESET} "
+
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"

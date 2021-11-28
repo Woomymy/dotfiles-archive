@@ -7,7 +7,7 @@
 CYAN="\e[96m"
 RESET="\e[m"
 export PROMPT_DIRTRIM=4 # Add max 4 folders to $PS1
-export PS1="${CYAN}\u${RESET}@\H \w ($(date +%H:%M)) ${CYAN}\$${RESET} "
+export PS1='$(echo -e $CYAN)\u$(echo -e $RESET)@\H \w ($(date +%H:%M)) $(echo -e $CYAN)\$$(echo -e $RESET) '
 
 # Aliases
 

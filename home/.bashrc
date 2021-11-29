@@ -27,5 +27,7 @@ then
 	source /tmp/SSH_ENV	
 fi
 
+export GPG_TTY="$(tty)" # Fixes "inapropriate Ioctl for device" errors
+
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"

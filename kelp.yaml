@@ -46,6 +46,8 @@ homefiles:
     name: "Xinit config"
   - path: ".inputrc"
     name: "InputRC"
+  - path: ".tmux.conf"
+    name: "TMUX configuration"
 rootfiles:
   - name: Sysctl config
     path: /etc/sysctl.conf

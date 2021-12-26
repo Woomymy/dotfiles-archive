@@ -3,7 +3,9 @@ function tmux_init --description "Attach to TMUX if possible"
         # TMUX is already launched
         return
     end
-    # We need to fix that
+    if not status --is-interactive
+        return
+    end
     if not string match -r -i '^/dev/pts/[0-9]' (tty)
         # Refuse to launch on cassic TTYs
         return

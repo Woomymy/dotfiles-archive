@@ -48,6 +48,8 @@ homefiles:
     name: "InputRC"
   - path: ".tmux.conf"
     name: "TMUX configuration"
+  - name: "NVIM config"
+    path: ".config/nvim"
 rootfiles:
   - name: Sysctl config
     path: /etc/sysctl.conf

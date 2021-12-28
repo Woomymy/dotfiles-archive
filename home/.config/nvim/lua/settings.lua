@@ -1,5 +1,8 @@
 vim.g.mapleader = ","
 
+-- Mouse
+vim.o.mouse = "a"
+
 vim.o.number = true
 vim.o.linebreak = true
 vim.o.ignorecase = true

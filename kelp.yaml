@@ -80,6 +80,9 @@ rootfiles:
     backuponly: true
   - name: Kernel config
     path: /usr/src/linux/.config
+  - name: WORLD file
+    path: /var/lib/portage/world
+    onlyon: gentoo
 postsave: []
 prerun: []
 postrun: []

@@ -1,5 +1,5 @@
 configuration {
 	icon-theme: "Papirus";
 	theme: "~/.config/rofi/theme.rasi";
-    modi: "drun,window,filebrowser";
+    modi: "drun,window,calc";
 }

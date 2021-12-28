@@ -148,6 +148,7 @@ x11-misc/picom
 x11-misc/polybar
 x11-misc/qt5ct
 x11-misc/rofi
+x11-misc/rofi-calc
 x11-misc/spacefm
 x11-misc/virtualgl
 x11-misc/xclip

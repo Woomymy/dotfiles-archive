@@ -1,65 +1,128 @@
 configuration {
-  display-run: " ";
-  display-drun: "  ";
-  display-window: "  ";
-  font: "Iosevka 15";
-  modi: "window,run,drun";
+  show-icons: true;
+  sidebar-mode: true;
 }
 
 * {
-  bg: #282a36;
-  bg-alt: #44475a;
-  
-  fg: #f8f8f2;
+  font: "Iosevka Nerd Font 18";
+  background-color: #1A1F29;
+  text-color: #FFFFFF;
+  selbg: #8A9199CC;
+  actbg: #8A9199;
+  urgbg: #FA8D3E;
+  winbg: #26c6da;
 
-  blue: #6272a4;
-  purple: #bd93f9;
+  selected-normal-foreground: @winbg;
+  normal-foreground: @text-color;
+  selected-normal-background: @winbgbg;
+  normal-background: @background-color;
 
-  background-color: @bg;
-  
-  border: 0;
-  margin: 0;
-  padding: 0;
-  spacing: 0;
-}
+  selected-urgent-foreground: @background-color;
+  urgent-foreground: @text-color;
+  selected-urgent-background: @urgbg;
+  urgent-background: @background-color;
 
-element {
-  padding: 12;
-  orientation: vertical;
-  text-color: @blue;
-}
+  selected-active-foreground: @text-color;
+  active-foreground: @text-color;
+  selected-active-background: @text-color;
+  active-background: @urgbg;
 
-element selected {
-  text-color: @purple;
-}
-
-entry {
-  background-color: @blue;
-  padding: 12 0 12 3;
-  text-color: @fg;
-}
-
-inputbar {
-  children: [prompt, entry];
-}
-
-listview {
-  columns: 1;
-  lines: 8;
-}
-
-mainbox {
-  children: [inputbar, listview];
-}
-
-prompt {
-  background-color: @blue;
-  enabled: true;
-  font: "Iosevka 12";
-  padding: 12 0 0 12;
-  text-color: @fg;
+  line-margin: 2;
+  line-padding: 2;
+  separator-style: "none";
+  hide-scrollbar: "true";
 }
 
 window {
-  transparency: "real";
+  location: west;
+  anchor: west;
+  height: 100%;
+  width: 22%;
+  orientation: horizontal;
+  children: [mainbox];
 }
+
+mainbox {
+  spacing: 0.8em;
+  children: [ entry, listview, mode-switcher ];
+}
+
+button {
+  padding: 5px 2px;
+}
+
+button selected {
+  background-color: @active-background;
+  text-color: @background-color;
+}
+
+inputbar {
+  padding: 5px;
+  spacing: 5px;
+}
+
+listview {
+  spacing: 0.5em;
+  dynamic: false;
+  cycle: true;
+}
+
+element {
+  padding: 10px;
+}
+
+entry {
+  expand: false;
+  text-color: @normal-foreground;
+  vertical-align: 1;
+  padding: 5px;
+}
+
+element normal.normal {
+  background-color: @normal-background;
+  text-color: @normal-foreground;
+}
+
+element normal.urgent {
+  background-color: @urgent-background;
+  text-color: @urgent-foreground;
+}
+
+element normal.active {
+  background-color: @active-background;
+  text-color: @active-foreground;
+}
+
+element selected.normal {
+  background-color: @selected-normal-background;
+  text-color: @selected-normal-foreground;
+  border: 0 5px solid 0 0;
+  border-color: @active-background;
+}
+
+element selected.urgent {
+  background-color: @selected-urgent-background;
+  text-color: @selected-urgent-foreground;
+}
+
+element selected.active {
+  background-color: @selected-active-background;
+  text-color: @selected-active-foreground;
+}
+
+element alternate.normal {
+  background-color: @normal-background;
+  text-color: @normal-foreground;
+}
+
+element alternate.urgent {
+  background-color: @urgent-background;
+  text-color: @urgent-foreground;
+}
+
+element alternate.active {
+  background-color: @active-background;
+  text-color: @active-foreground;
+}
+
+// vim: ft=css

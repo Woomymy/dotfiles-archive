@@ -35,40 +35,34 @@ font:
 
 
 draw_bold_text_with_bright_colors: true
-# Generated from https://raw.githubusercontent.com/Delta-Icons/iTerm-Colors/master/Delta.itermcolors using colortty
+# Colors (Ayu Dark)
 colors:
   # Default colors
   primary:
-    background: '0x0d0d11'
-    foreground: '0xe4e4e4'
-
-  # Cursor colors
-  cursor:
-    text:   '0xfeffff'
-    cursor: '0xf9c28b'
+    background: '0x0f1419'
+    foreground: '0xe6e1cf'
 
   # Normal colors
   normal:
-    black:   '0x989898'
-    red:     '0xff827b'
-    green:   '0x97de9c'
-    yellow:  '0xfadf80'
-    blue:    '0x9ac0ff'
-    magenta: '0xbf9bff'
-    cyan:    '0x71afa6'
-    white:   '0xd9d9d9'
+    black:   '0x000000'
+    red:     '0xf34a4a'
+    green:   '0xbae67e'
+    yellow:  '0xffee99'
+    blue:    '0x73d0ff'
+    magenta: '0xd4bfff'
+    cyan:    '0x83CEC6'
+    white:   '0xf2f2f2'
 
   # Bright colors
   bright:
-    black:   '0xd3d3d3'
-    red:     '0xffd7d4'
-    green:   '0xe0f5e1'
-    yellow:  '0xfdf5da'
-    blue:    '0xc1d8ff'
-    magenta: '0xdac0ff'
-    cyan:    '0x95e1d5'
+    black:   '0x737d87'
+    red:     '0xff3333'
+    green:   '0xc2d94c'
+    yellow:  '0xe7c547'
+    blue:    '0x59c2ff'
+    magenta: '0xb77ee0'
+    cyan:    '0x5ccfe6'
     white:   '0xffffff'
-  indexed_colors: []
 
 background_opacity: 0.95
 

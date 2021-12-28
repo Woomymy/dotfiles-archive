@@ -14,3 +14,4 @@ vim.o.smartindent = true -- autoindent new lines
 vim.cmd [[
     autocmd FileType yaml,css,json setlocal shiftwidth=2 tabstop=2
 ]]
+

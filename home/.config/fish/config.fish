@@ -4,7 +4,11 @@ thefuck --alias | source
 
 if test (tty) = "/dev/tty1"
     clear
-    exec startx &>/dev/null
+    if test -f /tmp/force-wayland
+        exec ~/.bin/wayland-start.sh 2>"/tmp/errors-$USER.log" > "/tmp/session-$USER.log"
+    else
+        exec startx &>/dev/null
+    end
 end
 set -gx GPG_TTY (tty) # Fixes "inapropriate Ioctl for device" errors
 set -gx PATH $PATH ~/.local/bin ~/.cargo/bin # Add cargo binaries to path

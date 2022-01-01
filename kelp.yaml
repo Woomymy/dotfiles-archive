@@ -50,6 +50,8 @@ homefiles:
     name: "TMUX configuration"
   - name: "NVIM config"
     path: ".config/nvim"
+  - name: "Sway configuration"
+    path: ".config/sway"
 rootfiles:
   - name: Sysctl config
     path: /etc/sysctl.conf

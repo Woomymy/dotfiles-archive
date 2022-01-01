@@ -11,15 +11,27 @@ sys.path.append(dotbinpath)  # Because VSCode is stupid
 sys.path.append(f"{dotbinpath}/lib")
 from lib.logger import error, info
 from lib.checks import check_inet
+from lib.util import is_wayland
 from os.path import exists
-from os import environ, listdir, system, mkdir
+from os import environ, listdir, system, mkdir, fork
+from subprocess import DEVNULL, Popen
 from shutil import copyfile
 from random import randint
 import urllib
-
+from psutil import process_iter
 
 def set_wall(wallpath="/tmp/wallpaper.png"):
-    system(f"feh --bg-fill {wallpath}")
+    if is_wayland():
+        if fork() == 0:
+            for process in process_iter():
+                if process.name() == "swaybg":
+                    try:
+                        process.kill()
+                    except:
+                        error("Can't kill swaybg!")
+            Popen(["swaybg", "-i", wallpath, "-m", "fill"], stdout=DEVNULL, stderr=DEVNULL)
+    else:
+        system(f"feh --bg-fill {wallpath}")
 
 
 if not check_inet():

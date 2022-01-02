@@ -1,4 +1,4 @@
 # Dotfiles-laptop
 
-Dotfiles for my laptop, running on Caculate GNU/Linux
+Dotfiles for my laptop, running on Calculate GNU/Linux
 

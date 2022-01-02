@@ -97,7 +97,8 @@ bindsym Print exec maim -s | xclip -t image/png -selection clipboard
 exec ~/.bin/startup.sh
 
 input "type:keyboard" {
-        xkb_layout be
+    xkb_numlock enabled
+    xkb_layout be
 }
 
 output eDP-1 pos 0 0 res 1920x1080
@@ -111,3 +112,5 @@ output * scale 2
 exec gentoo-pipewire-launcher
 
 default_border none
+
+for_window [class=".*"] border none

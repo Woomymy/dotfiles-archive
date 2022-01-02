@@ -1,8 +1,7 @@
 source /etc/profile
 source ~/.profile
 xrdb -merge ~/.Xresources
-pipewire &
-sleep 0.2
-wireplumber &
-exec i3
+gentoo-pipewire-launcher &
+export XDG_SESSION_TYPE=x11
+exec dbus-launch --exit-with-session i3
 

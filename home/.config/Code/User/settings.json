@@ -1,6 +1,6 @@
 {
-    "workbench.colorTheme": "Abyss",
-    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Ayu Dark",
+    "workbench.iconTheme": "ayu",
     "editor.fontSize": 16,
     "editor.fontFamily": "Iosevka",
     "editor.formatOnSave": true,
@@ -26,5 +26,8 @@
     "workbench.editor.untitled.hint": "hidden",
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    },
+    "[dockerfile]": {
+        "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+    },
 }

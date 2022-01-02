@@ -38,6 +38,7 @@ common_start() {
         fi
         nohup "${PROC}" &> /dev/null &
     done
+    ~/.bin/desktop-apps-fix.sh || notify-send -u critical "Desktop-apps-fix" "Failed to apply/remove wayland-specific CLI to electron apps!" # Fix .desktop files to support Wayland/X.Org
 }
 
 if [[ "${XDG_SESSION_TYPE}" == "wayland" ]]

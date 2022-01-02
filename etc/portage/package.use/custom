@@ -1,3 +1,4 @@
+sys-apps/calculate-utils -install
 dev-java/openjdk-bin  gentoo-vm
 net-libs/gnutls tools
 media-libs/libheif gdk-pixbuf

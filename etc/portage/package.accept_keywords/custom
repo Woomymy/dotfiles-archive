@@ -31,3 +31,13 @@ dev-vcs/repo
 =dev-util/idea-community-2021.2.3.212.5457.46 ~amd64
 # required by openjdk-bin:17 (argument)
 =dev-java/openjdk-bin-17_p35 ~amd64
+# required by multimc-bin (argument)
+=games-action/multimc-bin-1.6.1-r1 ~amd64
+# required by thefuck (argument)
+=app-shells/thefuck-3.30 ~amd64
+# required by rofi-calc (argument)
+=x11-misc/rofi-calc-2.0.0 ~amd64
+# required by duf (argument)
+=sys-apps/duf-0.6.2 ~amd64
+# required by duf-bin (argument)
+=sys-apps/duf-bin-0.6.2 ~amd64

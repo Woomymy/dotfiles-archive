@@ -7,7 +7,10 @@ do
     source "${ENVFILE}"
 done
 
+# Wayland fixes
 export XDG_SESSION_TYPE="wayland"
+export SDL_VIDEODRIVER="wayland"
+
 export XDG_RUNTIME_DIR="/run/user/$(id -u)"
 
 if ! test -d "${XDG_RUNTIME_DIR}"

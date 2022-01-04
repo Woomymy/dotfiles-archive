@@ -16,7 +16,9 @@ case $ch in
 	    loginctl reboot
 	;;
     "${log_out}")
-        i3-msg exit
+        MSG_PROG="i3-msg"
+        [[ "${XDG_SESSION_TYPE}" == "wayland" ]] && MSG_PROG="swaymsg"
+        "${MSG_PROG}" exit
         ;;
 esac
 

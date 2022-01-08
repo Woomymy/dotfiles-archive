@@ -101,12 +101,10 @@ input "type:keyboard" {
     xkb_layout be
 }
 
-output eDP-1 pos 0 0 res 1920x1080
-output HDMI-A-1 pos 960 0 res 1920x1080
+output eDP-1 pos 0 0 res 1920x1080 scale 2
+output HDMI-A-1 pos 960 0 res 1920x1080 scale 2
 
 focus output eDP-1
-
-output * scale 2
 
 # Start pipewire
 exec gentoo-pipewire-launcher
@@ -114,3 +112,10 @@ exec gentoo-pipewire-launcher
 default_border none
 
 for_window [class=".*"] border none
+
+set $gnome-schema org.gnome.desktop.interface
+exec_always {
+    gsettings set $gnome-schema gtk-theme 'Arc-Dark'
+    gsettings set $gnome-schema icon-theme 'Papirus-Dark'
+    gsettings set $gnome-schema font-name 'Iosevka 14'
+}

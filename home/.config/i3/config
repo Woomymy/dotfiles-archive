@@ -85,8 +85,8 @@ bindsym $mod+r mode resize
 gaps inner 10 
 gaps outer 4
 for_window [class=".*"] border none
-bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 10%
-bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -inc 10%
+bindsym XF86MonBrightnessDown exec --no-startup-id brillo -U 10
+bindsym XF86MonBrightnessUp exec --no-startup-id brillo -A 10
 
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5% 
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -5%

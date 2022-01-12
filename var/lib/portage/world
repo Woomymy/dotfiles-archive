@@ -40,7 +40,9 @@ app-shells/thefuck
 app-shells/zsh
 app-vim/gentoo-syntax
 dev-java/openjdk-bin:17
+dev-lang/go
 dev-lang/luajit
+dev-lang/nasm
 dev-lang/python:2.7
 dev-lang/python:3.7
 dev-libs/brillo
@@ -55,6 +57,7 @@ dev-util/ccache
 dev-util/cloc
 dev-util/git-delta
 dev-util/github-cli
+dev-util/glade
 dev-util/gn
 dev-util/gperf
 dev-util/pkgcheck
@@ -82,7 +85,7 @@ media-gfx/gimp
 media-gfx/imagemagick
 media-gfx/inkscape
 media-gfx/maim
-media-sound/noisetorch-bin
+media-sound/noisetorch
 media-sound/pavucontrol
 media-sound/sox
 media-video/cheese
@@ -112,7 +115,7 @@ sys-apps/busybox
 sys-apps/calculate-toolkit
 sys-apps/calculate-utils
 sys-apps/calculate-utils:3
-sys-apps/duf-bin
+sys-apps/duf
 sys-apps/ethtool
 sys-apps/fd
 sys-apps/ifplugd
@@ -133,14 +136,18 @@ sys-devel/bison
 sys-devel/flex
 sys-devel/gdb
 sys-devel/lld
+sys-devel/mold
 sys-firmware/nvidia-firmware
 sys-fs/btrfs-progs
 sys-fs/cryptsetup
+sys-fs/dosfstools
 sys-fs/e2fsprogs
 sys-fs/ecryptfs-utils
 sys-fs/exfat-utils
+sys-fs/mtools
 sys-fs/ntfs3g
 sys-fs/squashfs-tools
+sys-fs/udisks
 sys-fs/xfsprogs
 sys-kernel/dracut
 sys-kernel/fake-sources

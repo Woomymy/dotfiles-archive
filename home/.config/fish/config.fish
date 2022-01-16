@@ -11,7 +11,7 @@ if test (tty) = "/dev/tty1"
     end
 end
 set -gx GPG_TTY (tty) # Fixes "inapropriate Ioctl for device" errors
-set -gx PATH $PATH ~/.local/bin ~/.cargo/bin # Add cargo binaries to path
+set -gx PATH $PATH ~/go/bin ~/.local/bin ~/.cargo/bin # Add cargo binaries to path
 
 ## Android
 set -gx PATH $PATH ~/Android/Sdk/tools/bin

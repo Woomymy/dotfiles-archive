@@ -1,4 +1,3 @@
-# This file will be migrate to new installation
 sys-apps/bat
 app-admin/bitwarden-desktop-bin
 sys-kernel/xanmod-sources
@@ -16,7 +15,6 @@ games-fps/xonotic
 dev-libs/libtpms
 www-apps/hugo
 games-action/multimc
-dev-vcs/gti **
 app-shells/pwsh-bin
 dev-lang/tcc
 net-dns/dog
@@ -25,19 +23,18 @@ app-crypt/swtpm
 net-misc/teamviewer
 net-misc/anydesk
 dev-vcs/repo
-# required by usbtop (argument)
-=sys-process/usbtop-1.0 ~amd64
-# required by idea-community (argument)
-=dev-util/idea-community-2021.2.3.212.5457.46 ~amd64
-# required by openjdk-bin:17 (argument)
-=dev-java/openjdk-bin-17_p35 ~amd64
-# required by multimc-bin (argument)
-=games-action/multimc-bin-1.6.1-r1 ~amd64
-# required by thefuck (argument)
-=app-shells/thefuck-3.30 ~amd64
-# required by rofi-calc (argument)
-=x11-misc/rofi-calc-2.0.0 ~amd64
-# required by duf (argument)
-=sys-apps/duf-0.6.2 ~amd64
-# required by duf-bin (argument)
-=sys-apps/duf-bin-0.6.2 ~amd64
+sys-libs/e2fsprogs-libs
+sys-fs/e2fsprogs
+sys-process/usbtop
+dev-util/idea-community
+dev-java/openjdk-bin
+games-action/multimc-bin
+app-shells/thefuck
+x11-misc/rofi-calc
+sys-apps/duf
+sys-apps/duf-bin
+dev-libs/mimalloc
+sys-devel/mold
+dev-cpp/tbb
+sys-apps/lsd
+x11-drivers/nvidia-drivers:0/495

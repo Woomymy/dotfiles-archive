@@ -1,37 +1,44 @@
 {
-    "workbench.colorTheme": "Ayu Dark",
-    "workbench.iconTheme": "ayu",
-    "editor.fontSize": 16,
-    "editor.fontFamily": "Iosevka",
-    "editor.formatOnSave": true,
-    "editor.bracketPairColorization.enabled": true,
-    "editor.fontLigatures": true,
-    "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "redhat.telemetry.enabled": false,
-    "latex-workshop.view.pdf.viewer": "tab",
-    "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[c]": {
-        "editor.formatOnSave": false
-    },
-    "rust-analyzer.checkOnSave.overrideCommand": null,
-    "git.enableSmartCommit": true,
-    "git.enableCommitSigning": true,
-    "editor.cursorStyle": "line-thin",
-    "glassit.alpha": 248,
-    "typescript.updateImportsOnFileMove.enabled": "always",
-    "workbench.editor.untitled.hint": "hidden",
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[dockerfile]": {
-        "editor.defaultFormatter": "ms-azuretools.vscode-docker"
-    },
-    "terminal.integrated.cursorStyle": "line",
-    "terminal.integrated.fontFamily": "Iosevka",
-    "terminal.integrated.tabs.title": "${sequence}: ${process}",
-    "explorer.confirmDelete": false,
+  "workbench.colorTheme": "Ayu Dark",
+  "workbench.iconTheme": "ayu",
+  "editor.fontSize": 16,
+  "editor.fontFamily": "Iosevka",
+  "editor.formatOnSave": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.fontLigatures": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "redhat.telemetry.enabled": false,
+  "latex-workshop.view.pdf.viewer": "tab",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[c]": {
+    "editor.formatOnSave": false
+  },
+  "rust-analyzer.checkOnSave.overrideCommand": null,
+  "git.enableSmartCommit": true,
+  "git.enableCommitSigning": true,
+  "editor.cursorStyle": "line-thin",
+  "glassit.alpha": 248,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.editor.untitled.hint": "hidden",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.fontFamily": "Iosevka",
+  "terminal.integrated.tabs.title": "${sequence}: ${process}",
+  "explorer.confirmDelete": false,
+  "window.zoomLevel": 2,
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  }
 }

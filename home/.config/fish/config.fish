@@ -13,6 +13,11 @@ end
 set -gx GPG_TTY (tty) # Fixes "inapropriate Ioctl for device" errors
 set -gx PATH $PATH ~/go/bin ~/.local/bin ~/.cargo/bin # Add cargo binaries to path
 
+# Flutter
+if test -d "$HOME/Dev/Flutter/flutter"
+    set -gx PATH $PATH ~/Dev/Flutter/flutter/bin
+end
+
 ## Android
 set -gx PATH $PATH ~/Android/Sdk/tools/bin
 set -gx EDITOR nvim

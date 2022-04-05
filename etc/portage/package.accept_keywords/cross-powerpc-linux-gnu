@@ -1,0 +1,5 @@
+cross-powerpc-linux-gnu/binutils ppc -amd64 -~amd64
+cross-powerpc-linux-gnu/gcc ppc -amd64 -~amd64
+cross-powerpc-linux-gnu/linux-headers ppc -amd64 -~amd64
+cross-powerpc-linux-gnu/glibc ppc -amd64 -~amd64
+cross-powerpc-linux-gnu/gdb ppc ~ppc -amd64 -~amd64

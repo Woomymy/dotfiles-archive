@@ -1,0 +1,5 @@
+cross-aarch64-linux-musl/binutils -multilib
+cross-aarch64-linux-musl/gcc -multilib
+cross-aarch64-linux-musl/linux-headers -multilib
+cross-aarch64-linux-musl/musl -multilib
+cross-aarch64-linux-musl/gdb -multilib

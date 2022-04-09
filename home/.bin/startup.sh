@@ -29,6 +29,8 @@ common_start() {
     # Setup wallpapers
     python "${HOME}/.bin/theming/wallpapers.py"
     
+    REQUIRED_PROCS+=("${HOME}/.bin/other/switch.sh") # Switch rcm tool, automatically inject hekate
+
     # Start all required background apps
     for PROC in ${REQUIRED_PROCS[*]}
     do
@@ -36,6 +38,7 @@ common_start() {
         then
             killall "${PROC}"
         fi
+        echo "Starting ${PROC}"
         nohup "${PROC}" &> /dev/null &
     done
     ~/.bin/desktop-apps-fix.sh || notify-send -u critical "Desktop-apps-fix" "Failed to apply/remove wayland-specific CLI to electron apps!" # Fix .desktop files to support Wayland/X.Org

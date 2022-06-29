@@ -78,7 +78,7 @@ else:
     if not exists(walldestpath):
         mkdir(walldestpath)
 
-    if len(listdir(walldestpath)) >= 150:
+    if len(listdir(walldestpath)) >= 250:
         error(
-            f"Found more than 150 wallpapers in {walldestpath}", "WALLPAPERS")
+            f"Found more than 250 wallpapers in {walldestpath}", "WALLPAPERS")
     copyfile(dest, f"{walldestpath}/{wallhash}.png")

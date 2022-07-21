@@ -2,7 +2,7 @@
 require("lualine").setup{
     options = {
         icons_enabled = true,
-        theme = "ayu_dark",
+        theme = "auto",
     },
     sections = {
         lualine_a = {'mode'},

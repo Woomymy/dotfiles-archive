@@ -1,5 +1,0 @@
-cross-ppc-linux-musl/binutils -multilib
-cross-ppc-linux-musl/gcc -multilib
-cross-ppc-linux-musl/linux-headers -multilib
-cross-ppc-linux-musl/musl -multilib
-cross-ppc-linux-musl/gdb -multilib

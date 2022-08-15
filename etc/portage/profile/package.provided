@@ -10,4 +10,9 @@ dev-lang/rust-1.56.1
 virtual/rust-1.56.1
 dev-lang/rust-1.58.1
 virtual/rust-1.58.1
-
+dev-lang/rust-1.59.0
+virtual/rust-1.59.0
+dev-lang/rust-1.60.0
+virtual/rust-1.60.0
+dev-lang/rust-1.62.1
+virtual/rust-1.62.1

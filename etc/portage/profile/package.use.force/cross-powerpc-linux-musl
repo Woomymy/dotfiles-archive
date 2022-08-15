@@ -1,5 +1,0 @@
-cross-powerpc-linux-musl/binutils -multilib
-cross-powerpc-linux-musl/gcc -multilib
-cross-powerpc-linux-musl/linux-headers -multilib
-cross-powerpc-linux-musl/musl -multilib
-cross-powerpc-linux-musl/gdb -multilib

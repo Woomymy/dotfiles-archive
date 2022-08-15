@@ -3,4 +3,6 @@ games-util/steam-launcher -udev
 dev-java/openjdk-bin gentoo-vm
 net-libs/gnutls tools
 net-misc/networkmanager -modemmanager -bluetooth -ppp -wext
-
+games-emulation/dolphin discord-presence
+net-misc/openssh libedit
+app-mobilephone/heimdall gui

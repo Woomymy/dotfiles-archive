@@ -1,4 +1,0 @@
-cross-powerpc-linux-gnu/binutils -multilib
-cross-powerpc-linux-gnu/linux-headers -selinux -multilib
-cross-powerpc-linux-gnu/glibc -selinux -libraries -multilib
-cross-powerpc-linux-gnu/gcc -vtv -selinux -boundschecking -d -gcj -gtk -libffi -mudflap -objc -objc++ -objc-gc -sanitize -multilib

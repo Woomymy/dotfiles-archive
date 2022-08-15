@@ -1,5 +1,0 @@
-cross-ppc-musl-linux/binutils * -amd64 -~amd64
-cross-ppc-musl-linux/gcc * -amd64 -~amd64
-cross-ppc-musl-linux/linux-headers * -amd64 -~amd64
-cross-ppc-musl-linux/musl * -amd64 -~amd64
-cross-ppc-musl-linux/gdb * ~* -amd64 -~amd64

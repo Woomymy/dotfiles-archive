@@ -3,22 +3,26 @@
 """
 Download a random wallpaper from unsplash or choose one in ~/wallpapers
 """
-import hashlib
-import sys
-from os.path import dirname, realpath
-dotbinpath = realpath(f"{dirname(__file__)}/..")
-sys.path.append(dotbinpath)  # Because VSCode is stupid
-sys.path.append(f"{dotbinpath}/lib")
-from lib.logger import error, info
-from lib.checks import check_inet
-from lib.util import is_wayland
-from os.path import exists
-from os import environ, listdir, system, mkdir, fork
-from subprocess import DEVNULL, Popen
-from shutil import copyfile
-from random import randint
-import urllib
+
 from psutil import process_iter
+import urllib
+from random import randint
+from shutil import copyfile
+from subprocess import DEVNULL, Popen
+from os import environ, listdir, system, mkdir, fork
+from os.path import exists, dirname, relpath
+from hashlib import sha256
+from os.path import dirname, realpath
+from sys import path as syspath
+
+dotbinpath = realpath(f"{dirname(__file__)}/..")
+syspath.append(dotbinpath)  # Because VSCode is stupid
+syspath.append(f"{dotbinpath}/lib")
+
+from mu import set_palette, load_themes_d
+from lib.checks import check_inet
+from lib.logger import error, info
+from lib.util import is_wayland
 
 def set_wall(wallpath="/tmp/wallpaper.png"):
     if is_wayland():
@@ -29,7 +33,8 @@ def set_wall(wallpath="/tmp/wallpaper.png"):
                         process.kill()
                     except:
                         error("Can't kill swaybg!")
-            Popen(["swaybg", "-i", wallpath, "-m", "fill"], stdout=DEVNULL, stderr=DEVNULL)
+            Popen(["swaybg", "-i", wallpath, "-m", "fill"],
+                  stdout=DEVNULL, stderr=DEVNULL)
     else:
         system(f"feh --bg-fill {wallpath}")
 
@@ -59,12 +64,13 @@ if not check_inet():
     info(f"Setting wallpaper to {finalwall}", "WALLPAPERS")
     # Use FEH to set the wallpaper
     set_wall(finalwall)
+    set_palette(finalwall)
 else:
     dest = "/tmp/wallpaper-"
     try:
         with urllib.request.urlopen('http://source.unsplash.com/1920x1080/?wallpaper') as res:
             resbytes = res.read()
-            wallhash = hashlib.sha256(resbytes).hexdigest()
+            wallhash = sha256(resbytes).hexdigest()
             dest += f"{wallhash}.png"
             open(dest, 'wb').write(resbytes)
     except:
@@ -78,7 +84,8 @@ else:
     if not exists(walldestpath):
         mkdir(walldestpath)
 
-    if len(listdir(walldestpath)) >= 250:
-        error(
-            f"Found more than 250 wallpapers in {walldestpath}", "WALLPAPERS")
     copyfile(dest, f"{walldestpath}/{wallhash}.png")
+    set_palette(f"{walldestpath}/{wallhash}.png")
+
+# Call the rest of scripts that generate themes
+load_themes_d()

@@ -1,5 +1,6 @@
 {
   "battery": "BAT1",
   "ping_domain": "kernel.org",
-  "ping_proto": "https"
+  "ping_proto": "https",
+  "theme": "dark"
 }

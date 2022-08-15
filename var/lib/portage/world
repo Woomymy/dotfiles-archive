@@ -27,6 +27,7 @@ app-misc/binwalk
 app-misc/jq
 app-misc/kelpdot
 app-misc/neofetch
+app-misc/pfetch
 app-misc/sl
 app-misc/tmux
 app-misc/xorg-meta
@@ -106,7 +107,6 @@ gui-libs/libadwaita
 kde-apps/kdenlive
 lxde-base/lxappearance
 mate-extra/mate-calc
-media-fonts/iosevka-nerd-font
 media-fonts/noto-emoji
 media-fonts/terminus-font
 media-gfx/feh

@@ -43,3 +43,5 @@ gui-libs/egl-wayland
 x11-drivers/nvidia-drivers
 dev-libs/tree-sitter
 app-text/pandoc-bin
+app-misc/pfetch
+

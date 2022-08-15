@@ -47,6 +47,9 @@ main()
     else
         i3lock -i "${FILE}"
     fi
+    
+    rm "${FILE}"
+
 }
 
 main || {

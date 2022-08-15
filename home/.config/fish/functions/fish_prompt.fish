@@ -1,7 +1,8 @@
 set red "\e[91m"
 set cyan "\e[96m"
 set magenta "\e[95m"
-set reset "\e[m"
+set reset "\e[0;m"
+set bold "\e[1m"
 function fish_prompt --description "Write the prompt"
 	set prevstatus $status
 	if not test $prevstatus = "0"
@@ -10,5 +11,5 @@ function fish_prompt --description "Write the prompt"
 		set prompt_status ""
 	end
 	
-	echo -nse "$magenta" "$USER" "$reset" @ (prompt_hostname) "$magenta" " " (prompt_pwd) "$reset" " (" (date +%H:%M) ")" "$cyan" (fish_vcs_prompt) "$red" "$prompt_status" "$magenta" " \$ "
+	echo -nse "$magenta" "$USER" "$reset" @ (prompt_hostname) "$magenta" " " (prompt_pwd) "$reset" " (" (date +%H:%M) ")" "$cyan$bold" (fish_vcs_prompt) "$reset$red" "$prompt_status" "$magenta" " \$ "
 end

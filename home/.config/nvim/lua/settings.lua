@@ -15,5 +15,5 @@ vim.o.smartindent = true -- autoindent new lines
 
 -- Use 2 spaces for YAML,CSS,JSON
 vim.cmd [[
-    autocmd FileType yaml,css,json setlocal shiftwidth=2 tabstop=2
+    autocmd FileType javascript,typescript,yaml,css,json setlocal shiftwidth=2 tabstop=2
 ]]

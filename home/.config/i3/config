@@ -3,7 +3,7 @@
 # Super key
 set $mod Mod1
 set $terminal alacritty
-font pango:Iosevka:style=Regular 10
+font pango:Iosevka Nerd Font:style=Regular 10
 
 # Base config
 
@@ -85,6 +85,10 @@ bindsym $mod+r mode resize
 gaps inner 10 
 gaps outer 4
 for_window [class=".*"] border none
+
+bindsym $mod+w layout tabbed
+bindsym $mod+s layout stacking
+bindsym $mod+e layout toggle split
 bindsym XF86MonBrightnessDown exec --no-startup-id brillo -U 10
 bindsym XF86MonBrightnessUp exec --no-startup-id brillo -A 10
 
@@ -103,6 +107,6 @@ client.placeholder      $bg     $bg     $fg  $bg       $bg
 
 client.background       $bg
 
-bindsym Print exec maim -s | xclip -t image/png -selection clipboard
+bindsym Print exec flameshot gui &
 exec --no-startup-id polybar top &
 exec --no-startup-id bash ~/.bin/startup.sh &

@@ -1,6 +1,10 @@
-@theme "~/.config/rofi/theme.rasi"
+@theme "theme.rasi"
 
-configuration {
-	icon-theme: "Papirus";
+configration {
     modi: "drun";
+    icon-theme: "Papirus";
+    show-icons: true;
+    drun-display: "Applications";
+    drun-display-format: "{name}";
 }
+

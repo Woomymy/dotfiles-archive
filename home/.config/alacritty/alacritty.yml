@@ -4,13 +4,14 @@ env:
   SHELL: /bin/fish
 
 window:
+  opacity: 0.95
   dimensions:
     columns: 0
     lines: 0
 
   padding:
-    x: 0
-    y: 0
+    x: 10
+    y: 10
 
   dynamic_padding: false
   decorations: none
@@ -63,8 +64,6 @@ colors:
     magenta: '0xb77ee0'
     cyan:    '0x5ccfe6'
     white:   '0xffffff'
-
-background_opacity: 0.95
 
 mouse_bindings:
   - {mouse: Middle, action: PasteSelection}

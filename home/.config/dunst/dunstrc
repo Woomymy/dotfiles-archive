@@ -8,7 +8,7 @@
     separator_color = frame
     sort = yes
     frame_width = 2
-    frame_color = "#919283"
+    frame_color = "#8a938b"
     idle_threshold = 30
     corner_radius = 15
     font = Iosevka Nerd Font Mono 10
@@ -49,18 +49,18 @@
     context = ctrl+shift+period
 
 [urgency_low]
-    background = "#a1d0c4"
-    foreground = "#04372f"
+    background = "#a3cddb"
+    foreground = "#033641"
     timeout = 10
 
 [urgency_normal]
-    background = "#c5c9a8"
-    foreground = "#2e321b"
+    background = "#b5ccba"
+    foreground = "#213528"
     timeout = 10
 
 [urgency_critical]
-    background = "#bcd063"
-    foreground = "#2b3400"
+    background = "#79da9f"
+    foreground = "#00391f"
     timeout = 0
 
 # vim: ft=cfg

@@ -12,3 +12,5 @@ jq -r ". | to_entries | .[].key" "${PAL}" | while read key; do
     sed -i "s/{${key}}/$(jq -r ".${key}" "${PAL}")/gim" "${DEST}"
 done
 
+pkill dunst || true # Kill dunst to make sure it reloads colors
+

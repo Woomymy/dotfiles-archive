@@ -8,7 +8,9 @@ def get_config():
     default_config = {
         "battery": "BAT1",  # From /sys/class/power_supply/BAT*
         "ping_domain": "kernel.org",  # Whatever you want
-        "ping_proto": "https"  # WARNING: TLS Errors
+        "ping_proto": "https",  # WARNING: TLS Errors
+        "theme": "dark",  # Materugen theme
+        "music_source": "tdesktop"  # PlayerCtl music source
     }
     confpath = f"{environ['HOME']}/.bin/config.json"
     if exists(confpath):

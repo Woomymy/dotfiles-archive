@@ -2,6 +2,7 @@
   (button
     :class "volicon"
     :tooltip "Volume: ${volume}%"
+    :onclick "pavucontrol &"
     volicon
   )
 )

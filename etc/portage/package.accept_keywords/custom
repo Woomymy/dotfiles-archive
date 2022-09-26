@@ -44,4 +44,5 @@ x11-drivers/nvidia-drivers
 dev-libs/tree-sitter
 app-text/pandoc-bin
 app-misc/pfetch
-
+app-mobilephone/heimdall
+>=virtual/linux-sources-3-r99

@@ -107,6 +107,9 @@ client.placeholder      $bg     $bg     $fg  $bg       $bg
 
 client.background       $bg
 
+bindsym $mod+Tab exec ~/.config/eww/toggleBar.sh &
+bindsym $mod+Shift+p exec ~/.bin/power/menu.sh &
+
 bindsym Print exec flameshot gui &
-exec --no-startup-id polybar top &
+exec --no-startup-id eww daemon &
 exec --no-startup-id bash ~/.bin/startup.sh &

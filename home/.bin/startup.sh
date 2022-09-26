@@ -22,30 +22,26 @@ x11_start() {
 common_start() {
     # Common start (valid for wayland and X)
     # Remove logs
-    if [[ -f "${LOGFILE}" ]]
-    then
+    if [[ -f "${LOGFILE}" ]]; then
         rm "${LOGFILE}"
     fi
     # Setup wallpapers
     python "${HOME}/.bin/theming/wallpapers.py"
-    
-    REQUIRED_PROCS+=("${HOME}/.bin/other/switch.sh") # Switch rcm tool, automatically inject hekate
 
+    REQUIRED_PROCS+=("${HOME}/.bin/other/switch.sh")                     # Switch rcm tool, automatically inject hekate
+    REQUIRED_PROCS+=("${HOME}/.bin/other/telegramMusicNotifications.sh") # Telegram desktop music notifications
     # Start all required background apps
-    for PROC in ${REQUIRED_PROCS[*]}
-    do
-        if [[ "$(pidof "${PROC}")" ]]
-        then
+    for PROC in ${REQUIRED_PROCS[*]}; do
+        if [[ "$(pidof "${PROC}")" ]]; then
             killall "${PROC}"
         fi
         echo "Starting ${PROC}"
-        nohup "${PROC}" &> /dev/null &
+        nohup "${PROC}" &>/dev/null &
     done
     ~/.bin/desktop-apps-fix.sh || notify-send -u critical "Desktop-apps-fix" "Failed to apply/remove wayland-specific CLI to electron apps!" # Fix .desktop files to support Wayland/X.Org
 }
 
-if [[ "${XDG_SESSION_TYPE}" == "wayland" ]]
-then
+if [[ "${XDG_SESSION_TYPE}" == "wayland" ]]; then
     wayland_start # Wayland-specific start
 else
     x11_start # X-Specific start

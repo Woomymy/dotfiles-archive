@@ -63,5 +63,9 @@
     "editor.suggestSelection": "first",
     "editor.tabCompletion": "onlySnippets",
     "editor.wordBasedSuggestions": false
-  }
+  },
+  "[shellscript]": {
+    "editor.defaultFormatter": "mkhl.shfmt",
+  },
+  "shfmt.executablePath": "/home/woomy/go/bin/shfmt"
 }

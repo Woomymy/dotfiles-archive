@@ -1,0 +1,10 @@
+(defwidget dgpustate []
+  (button
+    :class "gpuicon-${dgpustate}"
+    :tooltip "DGPU is ON"
+    dgpuicon
+  )
+)
+
+(defpoll dgpuicon :interval "30s" "scripts/helpers/dgpuHelper --icon")
+(defpoll dgpustate :interval "30s" "scripts/helpers/dgpuHelper --state")

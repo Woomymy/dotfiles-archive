@@ -1,0 +1,2 @@
+(defvar configroot "$HOME/.config/eww")
+(include "./windows/bar/bar.yuck")

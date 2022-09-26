@@ -1,0 +1,11 @@
+(defwidget batterystate []
+  (button
+    :class "batteryicon${batteryState}"
+    :tooltip "Battery: ${batteryCapacity}% (${batteryState})"
+    batteryIcon
+  )
+)
+
+(defpoll batteryIcon :interval "10s" "scripts/helpers/batteryHelper --icon")
+(defpoll batteryCapacity :interval "10s" "scripts/helpers/batteryHelper --capacity")
+(defpoll batteryState :interval "10s" "scripts/helpers/batteryHelper --state")

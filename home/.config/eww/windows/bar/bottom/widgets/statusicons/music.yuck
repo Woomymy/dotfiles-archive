@@ -1,0 +1,12 @@
+(defwidget musicstate []
+  (button
+    :class "musicicon${musicPlayerState}"
+    :tooltip "${musicInfo}"
+    :onclick "${configroot}/scripts/helpers/musicHelper --toggle"
+    musicIcon
+  )
+)
+
+(defpoll musicIcon :interval "5s" "scripts/helpers/musicHelper --icon")
+(defpoll musicInfo :interval "2s" "scripts/helpers/musicHelper --get-info")
+(defpoll musicPlayerState :interval "10s" "scripts/helpers/musicHelper --get-player-state")

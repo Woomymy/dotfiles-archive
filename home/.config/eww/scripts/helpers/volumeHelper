@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+VOLUME="$(pulsemixer --get-volume | awk '{print $1}')"
+
+case "${1}" in
+"--volume")
+    echo -n "${VOLUME}"
+    ;;
+"--icon")
+    case "$(((VOLUME / 25)))" in
+    0)
+        echo -n ""
+        ;;
+    1)
+        echo -n ""
+        ;;
+    2)
+        echo -n ""
+        ;;
+    3 | 4 | *)
+        echo -n ""
+        ;;
+    esac
+    ;;
+*)
+    echo "Invalid args"
+    exit 1
+    ;;
+esac

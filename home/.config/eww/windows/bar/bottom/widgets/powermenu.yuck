@@ -1,0 +1,8 @@
+(defwidget powermenu []
+  (box :orientation "v"
+    :space-evenly "false"
+    (button
+      :class "icon"
+      :onclick "${configroot}/scripts/apps/powermenu"
+    "")
+  ))

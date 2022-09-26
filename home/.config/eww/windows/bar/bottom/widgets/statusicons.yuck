@@ -1,0 +1,20 @@
+(include "./windows/bar/bottom/widgets/statusicons/soundstate.yuck")
+(include "./windows/bar/bottom/widgets/statusicons/batterystate.yuck")
+(include "./windows/bar/bottom/widgets/statusicons/dgpustate.yuck")
+(include "./windows/bar/bottom/widgets/statusicons/music.yuck")
+(include "./windows/bar/bottom/widgets/statusicons/networkstate.yuck")
+
+(defwidget statusicons []
+  (box
+    :orientation "v"
+    :space-evenly "false"
+    :valign "end"
+    :spacing 5
+    :class "statusicons"
+    (soundstate)
+    (batterystate)
+    (dgpustate)
+    (musicstate)
+    (networkstate)
+  )
+)

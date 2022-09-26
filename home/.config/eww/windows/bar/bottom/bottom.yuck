@@ -1,0 +1,14 @@
+; Include all widgets
+(include "./windows/bar/bottom/widgets/clock.yuck")
+(include "./windows/bar/bottom/widgets/powermenu.yuck")
+(include "./windows/bar/bottom/widgets/statusicons.yuck")
+
+(defwidget bottom []
+  (box :orientation "v"
+    :space-evenly "false"
+    :valign "end"
+    :spacing 5
+    (statusicons)
+    (clock)
+    (powermenu)
+  ))

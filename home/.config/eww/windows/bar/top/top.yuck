@@ -1,0 +1,13 @@
+(defwidget rofi []
+  (box :orientation "v"
+    :space-evenly "false"
+    (button :class "icon"
+    :onclick "${configroot}/scripts/rofi"  "")))
+
+(defwidget top []
+  (box
+    :orientation "v"
+    :space-evenly "false"
+    :valign "start"
+    (rofi))
+)

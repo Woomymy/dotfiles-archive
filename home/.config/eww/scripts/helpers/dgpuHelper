@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+
+# Check if NVIDIA optimus dGPU is on / off
+
+# How it works:
+# set $DEVID to NVIDIA GPU id (get it using LSPCI)
+# Check /sys/bus/pci/devices/0000:$DEVID/power_state
+# If set to D0, card is ON
+# else it is OFF (D3cold)
+
+GPU_ICON=""
+STATE="down"
+
+DEVID="$(lspci | grep -i nvidia | awk '{print $1}')"
+SYSFS_STATE_FILE="/sys/bus/pci/devices/0000:${DEVID}/power_state"
+
+# No dGPU / running an older kernel
+if [[ -f "${SYSFS_STATE_FILE}" ]]; then
+    if [[ "$(cat "${SYSFS_STATE_FILE}")" == "D0" ]]; then
+        GPU_ICON="﬙"
+        STATE="up"
+    fi
+fi
+
+if [[ "${1}" == "--icon" ]]; then
+    echo "${GPU_ICON}"
+elif [[ "${1}" == "--state" ]]; then
+    echo "${STATE}"
+fi

@@ -1,0 +1,17 @@
+(defwidget clock []
+  (box :orientation "v"
+    :space-evenly "false"
+    :class "clock"
+    (button
+      :class "clockhour"
+      hour
+    )
+    (button
+      :class "clockmins"
+      mins
+    )
+  )
+)
+
+(defpoll hour	:interval "3s"	"date '+%H'")
+(defpoll mins	:interval "3s"	"date '+%M'")

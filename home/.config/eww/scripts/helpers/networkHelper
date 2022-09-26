@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+
+get_nmcli_type() {
+    # Force LC_ALL to C to prevent lang issues
+    LC_ALL=C nmcli device status | awk "{ if (\$2 == \"${1}\") { print \$1 } }"
+}
+
+WIFI_IFACE="$(get_nmcli_type "wifi")"
+ETH_IFACE="$(get_nmcli_type "ethernet")"
+
+NET_CLASS="/sys/class/net"
+
+case "${1}" in
+"--icon")
+    if ping -c1 kernel.org 2>/dev/null >/dev/null; then
+        # Check connection type
+        if [[ "$(cat "${NET_CLASS}/${ETH_IFACE}/operstate")" == "up" ]]; then
+            echo -n ""
+        elif [[ "$(cat "${NET_CLASS}/${WIFI_IFACE}/operstate")" == "up" ]]; then
+            echo -n "直"
+        else
+            echo -n "ﯳ"
+        fi
+    else
+        echo -n ""
+    fi
+    ;;
+
+esac

@@ -1,0 +1,10 @@
+
+(defwidget networkstate []
+  (button
+    :class "networkstate"
+    :tooltip "Network"
+    networkIcon
+  )
+)
+
+(defpoll networkIcon :interval "30s" "scripts/helpers/networkHelper --icon")

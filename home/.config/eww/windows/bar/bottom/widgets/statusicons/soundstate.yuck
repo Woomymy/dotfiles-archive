@@ -1,0 +1,9 @@
+(defwidget soundstate []
+  (button
+    :class "volicon"
+    :tooltip "Volume: ${volume}%"
+    volicon
+  )
+)
+(defpoll volume :interval "5s" "scripts/helpers/volumeHelper --volume")
+(defpoll volicon :interval "2s" "scripts/helpers/volumeHelper --icon")

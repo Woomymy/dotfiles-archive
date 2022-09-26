@@ -1,0 +1,49 @@
+@import "palette.scss";
+* {
+    all: unset;
+    font-family: "Iosevka", "Material Icons";
+}
+
+.bar {
+    background-color: $background;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.icon {
+    color: $onPrimary;
+    background-color: $primary;
+    border-radius: 8px;
+    font-size: large;
+    padding: 12px;
+}
+
+.clock {
+    color: $onSecondary;
+    background-color: $secondary;
+    border-radius: 8px;
+    font-size: large;
+    padding: 12px;
+}
+
+.statusicons {
+    background-color: $tertiary;
+    color: $onTertiary;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: x-large;
+}
+
+
+.gpuicon-down {
+    font-size: 0;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.musiciconUnavailable {
+    font-size: 0;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+

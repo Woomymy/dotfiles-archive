@@ -19,7 +19,7 @@ homefiles:
     backuponly: ~
     onlyon: ~
   - name: Dunst config
-    path: ".config/dunst/dunstrc"
+    path: ".config/dunst/dunstrc.template"
     backuponly: ~
     onlyon: ~
   - name: Picom config
@@ -52,6 +52,8 @@ homefiles:
     path: ".config/nvim"
   - name: "Sway configuration"
     path: ".config/sway"
+  - name: "Eww configuration"
+    path: ".config/eww"
 rootfiles:
   - name: Sysctl config
     path: /etc/sysctl.conf

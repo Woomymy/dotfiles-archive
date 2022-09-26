@@ -48,10 +48,12 @@ if not check_inet():
     walls = []
     if exists(wallspath):
         for wall in listdir(wallspath):
-            walls.append(f"{wallspath}/{wall}")
+            if not wall.endswith(".json"):
+                walls.append(f"{wallspath}/{wall}")
     if exists(unsplashpath):
         for wall in listdir(unsplashpath):
-            walls.append(f"{unsplashpath}/{wall}")
+            if not wall.endswith(".json"):
+                walls.append(f"{unsplashpath}/{wall}")
 
     try:
         finalwall = walls[randint(0, len(walls))]

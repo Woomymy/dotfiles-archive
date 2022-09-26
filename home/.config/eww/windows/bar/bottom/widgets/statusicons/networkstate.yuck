@@ -3,6 +3,7 @@
   (button
     :class "networkstate"
     :tooltip "Network"
+    :onclick "networkmanager_dmenu &"
     networkIcon
   )
 )

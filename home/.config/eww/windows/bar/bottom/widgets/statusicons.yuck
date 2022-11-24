@@ -1,6 +1,5 @@
 (include "./windows/bar/bottom/widgets/statusicons/soundstate.yuck")
 (include "./windows/bar/bottom/widgets/statusicons/batterystate.yuck")
-(include "./windows/bar/bottom/widgets/statusicons/dgpustate.yuck")
 (include "./windows/bar/bottom/widgets/statusicons/music.yuck")
 (include "./windows/bar/bottom/widgets/statusicons/networkstate.yuck")
 
@@ -13,7 +12,6 @@
     :class "statusicons"
     (soundstate)
     (batterystate)
-    (dgpustate)
     (musicstate)
     (networkstate)
   )

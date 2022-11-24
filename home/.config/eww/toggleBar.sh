@@ -6,8 +6,6 @@ is_open() {
     eww windows | grep -q "*${WINDOW_NAME}" # Check if the window is openned
 }
 
-echo "$(which eww)" >> /tmp/path
-
 if is_open; then
     eww close "${WINDOW_NAME}"
 else

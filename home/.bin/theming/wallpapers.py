@@ -13,7 +13,7 @@ from os import environ, listdir, system, mkdir, fork
 from os.path import exists, dirname, relpath
 from hashlib import sha256
 from os.path import dirname, realpath
-from sys import path as syspath
+from sys import argv, path as syspath
 
 dotbinpath = realpath(f"{dirname(__file__)}/..")
 syspath.append(dotbinpath)  # Because VSCode is stupid
@@ -39,7 +39,7 @@ def set_wall(wallpath="/tmp/wallpaper.png"):
         system(f"feh --bg-fill {wallpath}")
 
 
-if not check_inet():
+if not check_inet() or (len(argv) >= 2 and argv[1] == "--offline"):
     wallspath = f"{environ['HOME']}/wallpapers"
     unsplashpath = f"{environ['HOME']}/unsplash-wallpapers"
     if not exists(wallspath) and not exists(unsplashpath):
@@ -75,8 +75,8 @@ else:
             wallhash = sha256(resbytes).hexdigest()
             dest += f"{wallhash}.png"
             open(dest, 'wb').write(resbytes)
-    except:
-        error("Can't download wallpaper from unsplash!", "WALLPAPERS")
+    except Exception as e:
+        error(f"Can't download wallpaper from unsplash! Error: {e}", "WALLPAPERS")
         system("notify-send -u critical Wallpaper.py \"Can\\'t reach unsplash\"")
         exit(1)
     info(f"Settings wallpaper from unsplash: {dest}", "WALLPAPERS")

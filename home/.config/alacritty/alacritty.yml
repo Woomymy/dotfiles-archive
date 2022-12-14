@@ -25,11 +25,11 @@ scrolling:
 
 font:
   normal:
-    family: Iosevka Nerd Font
+    family: FiraCode Nerd Font
     style: Regular
 
   bold:
-    family: Iosevka Nerd Font
+    family: FiraCode Nerd Font
     style: Bold
 
   size: 17.0

@@ -9,10 +9,10 @@ if test (tty) = "/dev/tty1"
     end
 end
 set -gx GPG_TTY (tty) # Fixes "inapropriate Ioctl for device" errors
-set -gx PATH $PATH ~/.dart/bin ~/go/bin ~/.local/bin ~/.cargo/bin ~/.deno/bin # Add cargo binaries to path
+set PATH $PATH ~/.dart/bin ~/go/bin ~/.local/bin ~/.cargo/bin ~/.deno/bin # Add cargo binaries to path
 
 ## Android
-set -gx PATH $PATH ~/Android/Sdk/tools/bin ~/.sdkman/candidates/kotlin/current/bin ~/.config/Code/User/globalStorage/fwcd.kotlin/langServerInstall/server/bin
+set PATH $PATH ~/Android/Sdk/tools/bin ~/.sdkman/candidates/kotlin/current/bin ~/.config/Code/User/globalStorage/fwcd.kotlin/langServerInstall/server/bin
 set -gx EDITOR nvim
 set fish_greeting ""
 

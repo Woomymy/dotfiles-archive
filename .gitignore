@@ -1,5 +1,7 @@
 **/__pycache__/
+home/.config/nvim/plugin/packer_compiled.lua
 
 # Generated color palettes
 home/.config/rofi/palette.rasi
+home/.config/eww/palette.scss
 

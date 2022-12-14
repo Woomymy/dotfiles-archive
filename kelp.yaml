@@ -54,6 +54,8 @@ homefiles:
     path: ".config/sway"
   - name: "Eww configuration"
     path: ".config/eww"
+  - name: "Profile"
+    path: ".profile"
 rootfiles:
   - name: Sysctl config
     path: /etc/sysctl.conf

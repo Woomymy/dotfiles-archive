@@ -1,7 +1,7 @@
 @import "palette.rasi"
 
 * {
-    font: "Iosevka Nerd Font 15";
+    font: "Iosevka 15";
 }
 
 window {

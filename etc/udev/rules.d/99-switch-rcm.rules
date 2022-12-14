@@ -1,0 +1,3 @@
+# Sent hekate to erista switchs booted in RCM Mode
+# NVIDIA Corp. Switch [Tegra Erista] recovery mode
+ACTION=="add", SUBSYSTEM=="usb", ATTRS{idVendor}=="0955", ATTRS{idProduct}=="7321", RUN+="/home/woomy/.bin/other/switch.sh"

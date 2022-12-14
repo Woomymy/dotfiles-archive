@@ -89,6 +89,8 @@ rootfiles:
   - name: WORLD file
     path: /var/lib/portage/world
     onlyon: gentoo
+  - name: Udev switch RCM rule
+    path: /etc/udev/rules.d/99-switch-rcm.rules
 postsave: []
 prerun: []
 postrun: []

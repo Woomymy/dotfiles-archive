@@ -23,7 +23,7 @@ local on_attach = function(_, bufnr)
 end
 
 local capabilities = vim.lsp.protocol.make_client_capabilities()
-capabilities = require('cmp_nvim_lsp').update_capabilities(capabilities)
+capabilities = require('cmp_nvim_lsp').default_capabilities()
 
 for _, lsp in ipairs({ 'pyright', 'rust_analyzer', 'html', 'clangd', 'tsserver', 'texlab', 'kotlin_language_server' }) do
   lspc[lsp].setup {

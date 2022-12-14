@@ -1,7 +1,7 @@
 {
   "workbench.colorTheme": "Ayu Dark",
   "editor.fontSize": 16,
-  "editor.fontFamily": "Iosevka, Material Icons",
+  "editor.fontFamily": "FiraCode Nerd Font Mono, Material Icons",
   "editor.formatOnSave": true,
   "editor.bracketPairColorization.enabled": true,
   "editor.fontLigatures": true,
@@ -65,7 +65,7 @@
     "editor.wordBasedSuggestions": false
   },
   "[shellscript]": {
-    "editor.defaultFormatter": "mkhl.shfmt",
+    "editor.defaultFormatter": "mkhl.shfmt"
   },
   "shfmt.executablePath": "/home/woomy/go/bin/shfmt"
 }

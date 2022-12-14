@@ -14,6 +14,5 @@ then
         exec dbus-launch --exit-with-session i3 -c "${HOME}/.config/i3/alacritty.conf"
     fi
 else
-    gentoo-pipewire-launcher &
     exec dbus-launch --exit-with-session i3
 fi

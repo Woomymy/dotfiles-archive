@@ -29,6 +29,7 @@ common_start() {
     python "${HOME}/.bin/theming/wallpapers.py"
 
     REQUIRED_PROCS+=("${HOME}/.bin/other/switch.sh")                     # Switch rcm tool, automatically inject hekate
+    REQUIRED_PROCS+=("/usr/bin/pipewire")
     REQUIRED_PROCS+=("${HOME}/.bin/other/telegramMusicNotifications.sh") # Telegram desktop music notifications
     # Start all required background apps
     for PROC in ${REQUIRED_PROCS[*]}; do

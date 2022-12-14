@@ -6,8 +6,6 @@ function setenv() {
 	eval "export ${1}=${2}"
 }
 
-. "$HOME/.cargo/env"
-
 # Init prompt
 CYAN="\e[96m"
 RESET="\e[m"

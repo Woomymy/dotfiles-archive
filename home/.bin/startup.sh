@@ -3,7 +3,6 @@ wayland_start() {
     # Wayland-specific start
     export LOGFILE="/tmp/${USER}-sway-session.log"
     REQUIRED_PROCS=(
-        dunst
         /usr/libexec/polkit-gnome-authentication-agent-1
     )
 }
@@ -15,7 +14,6 @@ x11_start() {
     bash "${HOME}/.screenlayout/dualscreen.sh"
     REQUIRED_PROCS=(
         /usr/libexec/polkit-gnome-authentication-agent-1
-        dunst
         picom
     )
 }

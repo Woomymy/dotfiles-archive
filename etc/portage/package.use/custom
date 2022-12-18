@@ -9,24 +9,6 @@ net-misc/openssh libedit
 app-mobilephone/heimdall gui
 sys-apps/openrc sysv-utils
 sys-apps/portage gentoo-dev
-# required by media-video/cheese-41.1::gentoo
-# required by @selected
-# required by @world (argument)
->=media-libs/gst-plugins-base-1.20.4 theora
-# required by kde-apps/kdenlive-22.08.3::gentoo
-# required by @selected
-# required by @world (argument)
->=media-libs/mlt-7.12.0 ffmpeg frei0r
-# required by virtual/libudev-232-r7::gentoo
-# required by media-libs/libsdl2-2.24.2::gentoo
-# required by media-sound/cava-0.8.3::gentoo[sdl]
-# required by @selected
-# required by @world (argument)
->=sys-apps/systemd-utils-251.8-r1 abi_x86_32
-# required by virtual/rust-1.65.0-r1::gentoo
-# required by gnome-base/librsvg-2.55.1::gentoo
-# required by x11-libs/gtk+-3.24.34-r1::gentoo
-# required by www-client/chromium-bin-108.0.5359.124::gentoo
-# required by @selected
-# required by @world (argument)
->=dev-lang/rust-bin-1.65.0 abi_x86_32
+
+media-libs/gst-plugins-base theora
+dev-lang/rust-bin abi_x86_32

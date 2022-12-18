@@ -9,4 +9,6 @@ sys-apps/util-linux abi_x86_32
 app-text/texlive-core xetex
 dev-libs/libdbusmenu gtk3
 sys-apps/systemd cryptsetup
+app-arch/p7zip -wxwidgets
+net-libs/libproxy -webkit
 

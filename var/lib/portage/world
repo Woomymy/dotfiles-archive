@@ -143,7 +143,6 @@ net-im/teams
 net-im/telegram-desktop-bin
 net-im/zulip-desktop-bin
 net-libs/nodejs
-net-libs/webkit-gtk
 net-misc/anydesk
 net-misc/dhcp
 net-misc/networkmanager

@@ -1,6 +1,6 @@
 [Unit]
 Description=Picom compositor (previously a compton fork)
-PartOf=graphical-session.target
+Slice=session.slice
 
 [Service]
 ExecStart=/usr/bin/picom
@@ -8,5 +8,5 @@ Restart=always
 Environment=DISPLAY=:0
 
 [Install]
-WantedBy=graphical-session.target
+WantedBy=basic.target
 

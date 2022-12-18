@@ -20,5 +20,6 @@ app-misc/pfetch
 app-mobilephone/heimdall
 >=virtual/linux-sources-3-r99
 games-action/prismlauncher
+games-arcade/osu-lazer-bin
 sys-power/tlp
 sys-apps/portage

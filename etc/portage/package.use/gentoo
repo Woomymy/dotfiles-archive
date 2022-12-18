@@ -1,0 +1,12 @@
+virtual/libintl abi_x86_32
+media-video/pipewire gstreamer v4l sound-server
+dev-libs/libpcre2 pcre32
+sys-libs/zlib minizip
+app-emulation/qemu smartcard
+sys-libs/pam abi_x86_32
+sys-libs/libcap abi_x86_32
+sys-apps/util-linux abi_x86_32
+app-text/texlive-core xetex
+dev-libs/libdbusmenu gtk3
+sys-apps/systemd cryptsetup
+

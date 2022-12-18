@@ -177,6 +177,7 @@ sys-apps/systemd
 sys-apps/usbutils
 sys-apps/xdg-desktop-portal
 sys-apps/xdg-desktop-portal-gtk
+sys-apps/zram-generator
 sys-auth/pam_update
 sys-auth/rtkit
 sys-block/gparted

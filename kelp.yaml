@@ -59,10 +59,6 @@ homefiles:
   - name: "Picom systemd service"
     path: ".config/systemd/user/picom.service"
 rootfiles:
-  - name: Sysctl config
-    path: /etc/sysctl.conf
-    backuponly: true
-    onlyon: ~
   - name: Portages repos
     path: /etc/portage/repos.conf
     backuponly: ~

@@ -8,6 +8,7 @@ app-arch/pigz
 app-arch/unrar
 app-benchmarks/bootchart2
 app-containers/docker
+app-containers/docker-cli
 app-containers/docker-compose
 app-containers/docker-credential-helpers
 app-crypt/efitools

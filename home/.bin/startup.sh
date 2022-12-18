@@ -14,7 +14,6 @@ x11_start() {
     bash "${HOME}/.screenlayout/dualscreen.sh"
     REQUIRED_PROCS=(
         /usr/libexec/polkit-gnome-authentication-agent-1
-        picom
     )
 }
 common_start() {

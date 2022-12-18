@@ -1,0 +1,12 @@
+[Unit]
+Description=Picom compositor (previously a compton fork)
+PartOf=graphical-session.target
+
+[Service]
+ExecStart=/usr/bin/picom
+Restart=always
+Environment=DISPLAY=:0
+
+[Install]
+WantedBy=graphical-session.target
+

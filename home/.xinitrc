@@ -2,6 +2,7 @@ source /etc/profile
 source ~/.profile
 xrdb -merge ~/.Xresources
 export XDG_SESSION_TYPE=x11
+export DISPLAY=:0
 
 if [[ "$(tty)" != "/dev/tty1" ]]
 then

@@ -65,7 +65,8 @@
     "editor.wordBasedSuggestions": false
   },
   "[shellscript]": {
-    "editor.defaultFormatter": "mkhl.shfmt"
+    "editor.defaultFormatter": "mkhl.shfmt",
+    "editor.formatOnSave": false
   },
   "shfmt.executablePath": "/home/woomy/go/bin/shfmt"
 }

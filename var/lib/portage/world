@@ -91,7 +91,6 @@ dev-util/pkgcheck
 dev-util/pkgdev
 dev-util/rust-analyzer-bin
 dev-util/shellcheck-bin
-dev-util/wayland-scanner
 dev-vcs/git
 dev-vcs/repo
 games-action/prismlauncher

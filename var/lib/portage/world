@@ -43,7 +43,6 @@ app-portage/euscan-ng
 app-portage/flaggie
 app-portage/gemato
 app-portage/gentoolkit
-app-portage/layman
 app-portage/mirrorselect
 app-portage/portage-utils
 app-shells/fish

@@ -19,6 +19,7 @@ app-emulation/qemu
 app-emulation/spice-vdagent
 app-emulation/virt-manager
 app-eselect/eselect-python
+app-eselect/eselect-repository
 app-misc/asciinema
 app-misc/authy
 app-misc/binwalk
@@ -194,7 +195,6 @@ sys-devel/lld
 sys-firmware/intel-microcode
 sys-firmware/nvidia-firmware
 sys-firmware/uefitool
-sys-fs/avfs
 sys-fs/btrfs-progs
 sys-fs/cryptsetup
 sys-fs/dosfstools
@@ -216,7 +216,6 @@ sys-power/tlp
 sys-process/cronie
 sys-process/htop
 sys-process/schedtool
-virtual/libintl
 virtual/linux-sources
 virtual/udev
 www-apps/hugo

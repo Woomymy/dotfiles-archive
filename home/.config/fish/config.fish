@@ -1,5 +1,9 @@
 tmux_init &>/dev/null 2>/dev/null
 
+if test -n $TMUX
+    tmux source-file $HOME/.tmux.conf
+end
+
 if test (tty) = "/dev/tty1"
     clear
     if test -f /tmp/force-wayland

@@ -1,0 +1,10 @@
+[Unit]
+Description=Telegram music notifications service
+
+[Service]
+ExecStart=/home/woomy/.bin/other/telegramMusicNotifications.sh
+Restart=always
+
+[Install]
+WantedBy=XSession.target
+

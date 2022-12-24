@@ -31,7 +31,6 @@ common_start() {
     # Setup wallpapers
     python "${HOME}/.bin/theming/wallpapers.py"
 
-    REQUIRED_PROCS+=("${HOME}/.bin/other/telegramMusicNotifications.sh") # Telegram desktop music notifications
     # Start all required background apps
     for PROC in ${REQUIRED_PROCS[*]}; do
         if [[ "$(pidof "${PROC}")" ]]; then

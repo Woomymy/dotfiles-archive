@@ -1,10 +1,7 @@
 # List of systemd services to enable
 
-## Pipewire
-
-`systemctl --user enable pipewire.socket pipewire-pulse.socket wireplumber.service`
-
-## Picom (X compistor)
-
-`systemctl --user enable picom.service`
+Pipewire: `pipewire.socket pipewire-pulse.socket wireplumber.service`
+Picom: `picom.service`
+Telegram Music Notifications: `telegram-notifs.service`
+Mate polkit auth: `polkit-mate.service`
 

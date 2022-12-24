@@ -1,3 +1,4 @@
+app-admin/doas
 app-admin/keepassxc
 app-admin/logrotate
 app-admin/sudo
@@ -6,7 +7,6 @@ app-arch/lbzip2
 app-arch/p7zip
 app-arch/pigz
 app-arch/unrar
-app-benchmarks/bootchart2
 app-containers/docker
 app-containers/docker-cli
 app-containers/docker-compose
@@ -28,7 +28,6 @@ app-misc/jq
 app-misc/kelpdot
 app-misc/neofetch
 app-misc/nnn
-app-misc/pfetch
 app-misc/sl
 app-misc/tmux
 app-mobilephone/heimdall
@@ -53,6 +52,10 @@ app-text/texlab-bin
 app-text/texlive
 app-text/xmlstarlet
 app-vim/gentoo-syntax
+cross-aarch64-unknown-linux-gnu/binutils
+cross-aarch64-unknown-linux-gnu/gcc
+cross-aarch64-unknown-linux-gnu/glibc
+cross-aarch64-unknown-linux-gnu/linux-headers
 dev-go/go-md2man
 dev-java/gradle-bin
 dev-java/maven-bin
@@ -90,14 +93,13 @@ dev-util/ninja
 dev-util/patchelf
 dev-util/pkgcheck
 dev-util/pkgdev
-dev-util/rust-analyzer-bin
 dev-util/shellcheck-bin
 dev-vcs/git
 dev-vcs/repo
 games-action/prismlauncher
-games-arcade/osu-lazer-bin
 games-fps/xonotic
 gnome-base/gconf
+gnome-base/gnome-keyring
 gnome-extra/gnome-characters
 gnome-extra/gnome-clocks
 gui-libs/libadwaita
@@ -140,7 +142,7 @@ net-im/revolt-desktop-bin
 net-im/session-desktop-bin
 net-im/signal-desktop-bin
 net-im/teams
-net-im/telegram-desktop-bin
+net-im/telegram-desktop
 net-im/zulip-desktop-bin
 net-libs/nodejs
 net-misc/anydesk
@@ -159,6 +161,7 @@ net-wireless/wpa_supplicant
 sec-keys/openpgp-keys-gentoo-release
 sys-apps/bat
 sys-apps/busybox
+sys-apps/duf
 sys-apps/ethtool
 sys-apps/fd
 sys-apps/ifplugd
@@ -178,7 +181,6 @@ sys-apps/usbutils
 sys-apps/xdg-desktop-portal
 sys-apps/xdg-desktop-portal-gtk
 sys-apps/zram-generator
-sys-auth/pam_update
 sys-auth/rtkit
 sys-block/gparted
 sys-boot/efibootmgr
@@ -192,12 +194,10 @@ sys-devel/gcc
 sys-devel/gdb
 sys-devel/lld
 sys-firmware/intel-microcode
-sys-firmware/nvidia-firmware
 sys-firmware/uefitool
 sys-fs/btrfs-progs
 sys-fs/cryptsetup
 sys-fs/dosfstools
-sys-fs/ecryptfs-utils
 sys-fs/exfat-utils
 sys-fs/f2fs-tools
 sys-fs/inotify-tools
@@ -215,7 +215,6 @@ sys-power/tlp
 sys-process/cronie
 sys-process/htop
 sys-process/schedtool
-virtual/linux-sources
 virtual/udev
 www-apps/hugo
 www-client/chromium-bin

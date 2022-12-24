@@ -1,14 +1,41 @@
-virtual/libintl abi_x86_32
+# System
+
+## Core packages
+sys-apps/systemd cryptsetup
+net-misc/networkmanager -modemmanager -bluetooth -ppp -wext
+net-misc/openssh libedit
+sys-apps/portage gentoo-dev
+
+## Development
+app-containers/docker-credential-helpers gnome-keyring
+dev-lang/rust-bin rustfmt rust-src rust-analyzer abi_x86_32
+dev-lang/python lto tk
+dev-java/openjdk-bin gentoo-vm
+
+## Documents
+app-text/texlive-core xetex
+
+## Media
 media-video/pipewire gstreamer v4l sound-server
+media-video/ffmpeg opus
+media-libs/gst-plugins-base theora
+
+## Misc system libs
+virtual/libintl abi_x86_32
 dev-libs/libpcre2 pcre32
 sys-libs/zlib minizip
-app-emulation/qemu smartcard
 sys-libs/pam abi_x86_32
 sys-libs/libcap abi_x86_32
 sys-apps/util-linux abi_x86_32
-app-text/texlive-core xetex
 dev-libs/libdbusmenu gtk3
-sys-apps/systemd cryptsetup
-app-arch/p7zip -wxwidgets
 net-libs/libproxy -webkit
+sys-auth/polkit -gtk
+net-libs/gnutls tools
+
+## Utilities
+app-arch/p7zip -wxwidgets
+
+## Virtualisation
+app-emulation/qemu smartcard
+net-misc/spice-gtk usbredir
 

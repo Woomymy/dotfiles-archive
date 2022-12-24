@@ -1,3 +1,50 @@
+# System
+sys-power/tlp
+sys-apps/bat
+
+## ZRAM Generator
 app-text/ronn-ng
 sys-apps/zram-generator
+
+# File managers
+app-misc/nnn
+
+## PcManFM
+x11-libs/libfm
+x11-misc/pcmanfm
+
+# Terminals
+x11-terms/alacritty
+
+# Developpement
+app-editors/vscode
+dev-util/android-studio
+dev-util/github-cli
+dev-vcs/repo
+www-apps/hugo
+
+# Media
 media-video/obs-studio
+
+# IM
+net-im/element-desktop-bin
+net-im/teams
+
+### Telegram
+media-libs/tg_owt
+media-libs/libtgvoip
+net-im/telegram-desktop
+
+# Games
+games-action/prismlauncher
+games-fps/xonotic
+
+# Other
+app-mobilephone/scrcpy
+dev-java/openjdk-bin
+app-text/pandoc-bin
+
+## Anydesk
+x11-libs/gtkglext
+net-misc/anydesk
+

@@ -6,7 +6,7 @@ meta_get() {
     playerctl -p "${PLAYER}" metadata --format "{{ ${1} }}" 2>/dev/null
 }
 
-playerctl --follow -p "${PLAYER}" metadata --format "{{ title }}" 2>/dev/null | while read _; do
+playerctl --follow -p "${PLAYER}" metadata --format "{{ title }}" | while read _; do
     ART="$(meta_get "mpris:artUrl")"
     TEMP_ART=""
     if [[ "${ART}" =~ ^data:image/.*\;base64,.*$ ]]; then

@@ -1,12 +1,10 @@
 [Unit]
 Description=Picom compositor (previously a compton fork)
-Slice=session.slice
 
 [Service]
 ExecStart=/usr/bin/picom
 Restart=always
-Environment=DISPLAY=:0
 
 [Install]
-WantedBy=basic.target
+WantedBy=XSession.target
 

@@ -17,6 +17,12 @@ x11_start() {
     )
 }
 common_start() {
+    # Initialise systemd services
+    ## Import envirronement variables
+    systemctl --user import-environment PATH DBUS_SESSION_BUS_ADDRESS DISPLAY XAUTHORITY
+    ## Start base "XSession" target to start user services with correct env
+    systemctl --user --no-block start XSession.target
+
     # Common start (valid for wayland and X)
     # Remove logs
     if [[ -f "${LOGFILE}" ]]; then

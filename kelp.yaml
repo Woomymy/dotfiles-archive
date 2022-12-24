@@ -56,6 +56,9 @@ homefiles:
     path: ".config/eww"
   - name: "Profile"
     path: ".profile"
+  - path: ".config/systemd/user/XSession.target"
+  - path: ".config/systemd/user/telegram-notifs.service"
+  - path: ".config/systemd/user/polkit-mate.service"
   - name: "Picom systemd service"
     path: ".config/systemd/user/picom.service"
 rootfiles:

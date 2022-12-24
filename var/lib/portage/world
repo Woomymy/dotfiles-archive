@@ -99,11 +99,11 @@ games-fps/xonotic
 gnome-base/gconf
 gnome-extra/gnome-characters
 gnome-extra/gnome-clocks
-gnome-extra/polkit-gnome
 gui-libs/libadwaita
 gui-libs/libhandy
 lxde-base/lxappearance
 mate-extra/mate-calc
+mate-extra/mate-polkit
 media-fonts/fira-code-nerd-font
 media-fonts/inter-font
 media-fonts/iosevka-nerd-font

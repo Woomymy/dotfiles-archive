@@ -4,10 +4,11 @@
 Download a random wallpaper from unsplash or choose one in ~/wallpapers
 """
 
+from subprocess import DEVNULL, Popen
 import urllib
 from random import randint
 from shutil import copyfile
-from os import environ, listdir, system, mkdir
+from os import environ, listdir, mkdir, system
 from os.path import exists, dirname
 from hashlib import sha256
 from os.path import dirname, realpath
@@ -17,25 +18,28 @@ dotbinpath = realpath(f"{dirname(__file__)}/..")
 syspath.append(dotbinpath)  # Because VSCode is stupid
 syspath.append(f"{dotbinpath}/lib")
 
-from mu import set_palette, load_themes_d
+from mu import set_scheme, load_themes_d
 from lib.checks import check_inet
 from lib.logger import error, info
 
 def set_wall(wallpath="/tmp/wallpaper.png"):
-    system(f"feh --bg-fill {wallpath}")
-
+    Popen(['feh', '--bg-fill', wallpath], stdout=DEVNULL, stderr=DEVNULL)
 
 if not check_inet() or (len(argv) >= 2 and argv[1] == "--offline"):
     wallspath = f"{environ['HOME']}/wallpapers"
     unsplashpath = f"{environ['HOME']}/unsplash-wallpapers"
+    
     if not exists(wallspath) and not exists(unsplashpath):
         error("Can't find wallpapers path", "WALLPAPERS")
         exit(1)
+    
     walls = []
+    
     if exists(wallspath):
         for wall in listdir(wallspath):
             if not wall.endswith(".json"):
                 walls.append(f"{wallspath}/{wall}")
+
     if exists(unsplashpath):
         for wall in listdir(unsplashpath):
             if not wall.endswith(".json"):
@@ -52,7 +56,7 @@ if not check_inet() or (len(argv) >= 2 and argv[1] == "--offline"):
     info(f"Setting wallpaper to {finalwall}", "WALLPAPERS")
     # Use FEH to set the wallpaper
     set_wall(finalwall)
-    set_palette(finalwall)
+    set_scheme(finalwall)
 else:
     dest = "/tmp/wallpaper-"
     try:
@@ -73,7 +77,7 @@ else:
         mkdir(walldestpath)
 
     copyfile(dest, f"{walldestpath}/{wallhash}.png")
-    set_palette(f"{walldestpath}/{wallhash}.png")
+    set_scheme(f"{walldestpath}/{wallhash}.png")
 
 # Call the rest of scripts that generate themes
 load_themes_d()

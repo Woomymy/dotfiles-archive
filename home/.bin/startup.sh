@@ -11,7 +11,7 @@ session_init() {
     systemctl --user --no-block start XSession.target
 
     ## Setup wallpapers
-    python "${HOME}/.bin/theming/wallpapers.py"
+    python "${HOME}/.bin/theming/wallpapers.py" &
 
     ## Setup dualscreen
     sh "${HOME}/.screenlayout/dualscreen.sh"

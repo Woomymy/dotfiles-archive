@@ -1,4 +1,4 @@
-@import "palette.rasi"
+@import "scheme.rasi"
 
 * {
     font: "Iosevka 15";

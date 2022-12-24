@@ -92,6 +92,8 @@ rootfiles:
     onlyon: gentoo
   - name: Udev switch RCM rule
     path: /etc/udev/rules.d/99-switch-rcm.rules
+  - name: TLP Configuration
+    path: "/etc/tlp.conf"
 postsave: []
 prerun: []
 postrun: []

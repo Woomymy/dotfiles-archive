@@ -4,13 +4,11 @@
 Download a random wallpaper from unsplash or choose one in ~/wallpapers
 """
 
-from psutil import process_iter
 import urllib
 from random import randint
 from shutil import copyfile
-from subprocess import DEVNULL, Popen
-from os import environ, listdir, system, mkdir, fork
-from os.path import exists, dirname, relpath
+from os import environ, listdir, system, mkdir
+from os.path import exists, dirname
 from hashlib import sha256
 from os.path import dirname, realpath
 from sys import argv, path as syspath
@@ -22,21 +20,9 @@ syspath.append(f"{dotbinpath}/lib")
 from mu import set_palette, load_themes_d
 from lib.checks import check_inet
 from lib.logger import error, info
-from lib.util import is_wayland
 
 def set_wall(wallpath="/tmp/wallpaper.png"):
-    if is_wayland():
-        if fork() == 0:
-            for process in process_iter():
-                if process.name() == "swaybg":
-                    try:
-                        process.kill()
-                    except:
-                        error("Can't kill swaybg!")
-            Popen(["swaybg", "-i", wallpath, "-m", "fill"],
-                  stdout=DEVNULL, stderr=DEVNULL)
-    else:
-        system(f"feh --bg-fill {wallpath}")
+    system(f"feh --bg-fill {wallpath}")
 
 
 if not check_inet() or (len(argv) >= 2 and argv[1] == "--offline"):

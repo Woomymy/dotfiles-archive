@@ -6,12 +6,9 @@ end
 
 if test (tty) = "/dev/tty1"
     clear
-    if test -f /tmp/force-wayland
-        exec ~/.bin/wayland-start.sh 2>"/tmp/errors-$USER.log" > "/tmp/session-$USER.log"
-    else
-        exec startx &>/dev/null
-    end
+    exec startx &>/dev/null
 end
+
 set -gx GPG_TTY (tty) # Fixes "inapropriate Ioctl for device" errors
 set PATH $PATH ~/.dart/bin ~/go/bin ~/.local/bin ~/.cargo/bin ~/.deno/bin # Add cargo binaries to path
 

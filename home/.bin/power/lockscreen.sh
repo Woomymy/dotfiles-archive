@@ -9,12 +9,7 @@ TEXT="$(lsb_release -d | awk -F ":	" '{print $2}')"
 screenshot()
 {
 	SCREEN_PATH="${1}"
-    if [[ "${XDG_SESSION_TYPE}" == "wayland" ]]
-    then
-        grim -o "eDP-1" "${SCREEN_PATH}"
-    else
-	    maim > "${SCREEN_PATH}"
-    fi
+	maim > "${SCREEN_PATH}"
 }
 
 # Usage: apply_blur FILE
@@ -41,12 +36,8 @@ main()
 	screenshot "${FILE}"
 	apply_blur "${FILE}"
 	add_text "${FILE}"
-    if [[ "${XDG_SESSION_TYPE}" == "wayland" ]]
-    then
-        swaylock -i "${FILE}"
-    else
-        i3lock -i "${FILE}"
-    fi
+    
+    i3lock -i "${FILE}"
     
     rm "${FILE}"
 

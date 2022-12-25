@@ -20,6 +20,7 @@ x11-terms/alacritty
 app-editors/vscode
 dev-util/android-studio
 dev-util/github-cli
+dev-util/rustup
 dev-vcs/repo
 www-apps/hugo
 

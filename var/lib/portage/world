@@ -39,7 +39,6 @@ app-pda/usbmuxd
 app-portage/cpuid2cpuflags
 app-portage/eix
 app-portage/euscan-ng
-app-portage/flaggie
 app-portage/gemato
 app-portage/gentoolkit
 app-portage/mirrorselect

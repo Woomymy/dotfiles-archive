@@ -1,4 +1,4 @@
-# Dotfiles-laptop
+# Dotfiles
 
-Dotfiles for my laptop, running on Calculate GNU/Linux
+Just my Gentoo dotfiles
 

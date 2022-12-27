@@ -1,5 +1,8 @@
 # System
 
+## Alternatives
+app-alternatives/gzip -reference pigz
+
 ## Core packages
 sys-apps/systemd cryptsetup
 net-misc/networkmanager -modemmanager -bluetooth -ppp -wext

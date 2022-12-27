@@ -55,6 +55,7 @@ cross-aarch64-unknown-linux-gnu/binutils
 cross-aarch64-unknown-linux-gnu/gcc
 cross-aarch64-unknown-linux-gnu/glibc
 cross-aarch64-unknown-linux-gnu/linux-headers
+dev-db/postgresql
 dev-go/go-md2man
 dev-java/gradle-bin
 dev-java/maven-bin

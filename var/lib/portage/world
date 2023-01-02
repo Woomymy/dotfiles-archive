@@ -11,7 +11,9 @@ app-containers/docker
 app-containers/docker-cli
 app-containers/docker-compose
 app-containers/docker-credential-helpers
+app-crypt/ccid
 app-crypt/efitools
+app-crypt/eid-mw
 app-editors/ghex
 app-editors/neovim
 app-editors/vscode
@@ -175,6 +177,7 @@ sys-apps/merge-usr
 sys-apps/moreutils
 sys-apps/nvme-cli
 sys-apps/pciutils
+sys-apps/pcsc-tools
 sys-apps/portage
 sys-apps/ripgrep
 sys-apps/systemd

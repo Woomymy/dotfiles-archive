@@ -41,6 +41,7 @@ games-action/prismlauncher
 games-fps/xonotic
 
 # Other
+app-crypt/eid-mw
 app-mobilephone/scrcpy
 dev-java/openjdk-bin
 app-text/pandoc-bin

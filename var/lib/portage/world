@@ -49,7 +49,7 @@ app-portage/portage-utils
 app-shells/fish
 app-shells/zsh
 app-text/dos2unix
-app-text/pandoc-bin
+app-text/pandoc
 app-text/texlab-bin
 app-text/texlive
 app-text/xmlstarlet

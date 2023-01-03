@@ -44,7 +44,6 @@ games-fps/xonotic
 app-crypt/eid-mw
 app-mobilephone/scrcpy
 dev-java/openjdk-bin
-app-text/pandoc-bin
 
 ## Anydesk
 x11-libs/gtkglext

@@ -39,6 +39,9 @@ net-libs/gnutls tools
 app-arch/p7zip -wxwidgets
 
 ## Virtualisation
-app-emulation/qemu smartcard
+app-emulation/qemu smartcard usbredir qxl spice
 net-misc/spice-gtk usbredir
+
+## Other
+app-crypt/eid-mw p11-kit
 

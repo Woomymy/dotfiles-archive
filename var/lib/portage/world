@@ -199,7 +199,6 @@ sys-devel/gcc
 sys-devel/gdb
 sys-devel/lld
 sys-firmware/intel-microcode
-sys-firmware/uefitool
 sys-fs/btrfs-progs
 sys-fs/cryptsetup
 sys-fs/dosfstools

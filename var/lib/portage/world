@@ -130,7 +130,6 @@ media-libs/libpng-compat:1.2
 media-libs/libva-intel-media-driver
 media-sound/cmus
 media-sound/lilypond
-media-sound/noisetorch
 media-sound/pavucontrol
 media-sound/playerctl
 media-sound/pulsemixer

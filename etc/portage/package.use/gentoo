@@ -8,6 +8,7 @@ sys-apps/systemd cryptsetup
 net-misc/networkmanager -modemmanager -bluetooth -ppp -wext
 net-misc/openssh libedit
 sys-apps/portage gentoo-dev
+sys-fs/lvm2 lvm thin
 
 ## Development
 app-containers/docker-credential-helpers gnome-keyring

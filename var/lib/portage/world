@@ -3,6 +3,7 @@ app-admin/keepassxc
 app-admin/logrotate
 app-admin/sudo
 app-admin/system-config-printer
+app-admin/xkcdpass
 app-arch/lbzip2
 app-arch/p7zip
 app-arch/pigz

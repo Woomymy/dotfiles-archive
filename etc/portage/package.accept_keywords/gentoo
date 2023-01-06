@@ -42,6 +42,7 @@ games-fps/xonotic
 
 # Other
 app-crypt/eid-mw
+app-admin/xkcdpass
 app-mobilephone/scrcpy
 dev-java/openjdk-bin
 

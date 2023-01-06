@@ -112,6 +112,7 @@ gnome-extra/gnome-clocks
 gui-libs/libadwaita
 gui-libs/libhandy
 lxde-base/lxappearance
+mail-client/thunderbird-bin
 mate-extra/mate-calc
 mate-extra/mate-polkit
 media-fonts/fira-code-nerd-font

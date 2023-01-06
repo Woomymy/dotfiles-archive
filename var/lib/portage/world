@@ -142,6 +142,7 @@ media-video/obs-studio
 media-video/pipewire
 media-video/vlc
 net-analyzer/nmap
+net-dns/bind-tools
 net-fs/sshfs
 net-im/discord-bin
 net-im/element-desktop-bin

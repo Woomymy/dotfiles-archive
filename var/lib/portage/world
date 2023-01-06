@@ -15,6 +15,7 @@ app-containers/docker-credential-helpers
 app-crypt/ccid
 app-crypt/efitools
 app-crypt/eid-mw
+app-crypt/gnupg
 app-editors/ghex
 app-editors/neovim
 app-editors/vscode

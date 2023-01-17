@@ -153,6 +153,7 @@ net-im/signal-desktop-bin
 net-im/teams
 net-im/telegram-desktop
 net-im/zulip-desktop-bin
+net-irc/irssi
 net-libs/nodejs
 net-misc/anydesk
 net-misc/dhcp

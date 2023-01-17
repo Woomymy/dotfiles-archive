@@ -27,6 +27,7 @@ app-eselect/eselect-repository
 app-misc/asciinema
 app-misc/authy
 app-misc/binwalk
+app-misc/detox
 app-misc/hexto256
 app-misc/jq
 app-misc/kelpdot

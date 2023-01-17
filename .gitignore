@@ -5,3 +5,6 @@ home/.config/nvim/plugin/packer_compiled.lua
 home/.config/rofi/scheme.rasi
 home/.config/eww/scheme.scss
 
+# fish
+home/.config/fish/fish_variables
+

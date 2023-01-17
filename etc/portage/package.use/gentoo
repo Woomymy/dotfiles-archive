@@ -38,6 +38,7 @@ net-libs/gnutls tools
 
 ## Utilities
 app-arch/p7zip -wxwidgets
+sys-fs/squashfs-tools zstd
 
 ## Virtualisation
 app-emulation/qemu smartcard usbredir qxl spice

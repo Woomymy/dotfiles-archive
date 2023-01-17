@@ -3,6 +3,7 @@ sys-power/tlp
 sys-apps/bat
 
 ## ZRAM Generator
+dev-ruby/mustache
 app-text/ronn-ng
 sys-apps/zram-generator
 

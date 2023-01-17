@@ -46,4 +46,5 @@ net-misc/spice-gtk usbredir
 
 ## Other
 app-crypt/eid-mw p11-kit
+app-crypt/gnupg tools
 

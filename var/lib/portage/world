@@ -145,7 +145,7 @@ media-video/vlc
 net-analyzer/nmap
 net-dns/bind-tools
 net-fs/sshfs
-net-im/discord-bin
+net-im/discord
 net-im/element-desktop-bin
 net-im/revolt-desktop-bin
 net-im/session-desktop-bin

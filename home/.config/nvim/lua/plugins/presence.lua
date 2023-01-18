@@ -5,7 +5,9 @@ require("presence"):setup({
     log_level           = "error",
     debounce_timeout    = 10,
     enable_line_number  = false,
-    blacklist           = {},
+    blacklist           = {
+        "/home/woomy/Cours"
+    },
     buttons             = true,
     file_assets         = {},
 

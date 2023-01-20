@@ -17,7 +17,7 @@ set PATH $PATH ~/Android/Sdk/tools/bin ~/.sdkman/candidates/kotlin/current/bin ~
 set -gx EDITOR nvim
 set fish_greeting ""
 
-if not test -f "/tmp/SSH_ENV"
+if not ps -p $SSH_AGENT_PID &>/dev/null 2>&1
     ssh-agent -c | head -n 2 >/tmp/SSH_ENV
 end
 source "/tmp/SSH_ENV"

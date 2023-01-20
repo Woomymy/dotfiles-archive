@@ -77,6 +77,7 @@ dev-lua/luarocks
 dev-python/aiohttp
 dev-python/fs
 dev-python/jinja
+dev-python/mypy
 dev-python/pip
 dev-python/psutil
 dev-python/pylint

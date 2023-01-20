@@ -1,5 +1,4 @@
 {
-  "workbench.colorTheme": "Ayu Mirage",
   "editor.fontSize": 16,
   "editor.fontFamily": "FiraCode Nerd Font Mono, Material Icons",
   "editor.formatOnSave": true,
@@ -68,5 +67,6 @@
     "editor.defaultFormatter": "mkhl.shfmt",
     "editor.formatOnSave": false
   },
-  "shfmt.executablePath": "/home/woomy/go/bin/shfmt"
+  "shfmt.executablePath": "/home/woomy/go/bin/shfmt",
+  "workbench.colorTheme": "GitHub Dark"
 }

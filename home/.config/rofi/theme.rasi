@@ -1,7 +1,7 @@
 @import "scheme.rasi"
 
 * {
-    font: "Iosevka 15";
+    font: "Iosevka Nerd Font 15";
 }
 
 window {

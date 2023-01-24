@@ -17,10 +17,16 @@ set PATH $PATH ~/Android/Sdk/tools/bin ~/.sdkman/candidates/kotlin/current/bin ~
 set -gx EDITOR nvim
 set fish_greeting ""
 
-if not ps -p $SSH_AGENT_PID &>/dev/null 2>&1
-    ssh-agent -c | head -n 2 >/tmp/SSH_ENV
+set SSH_ENV_FILE "/tmp/SSH_ENV"
+
+if test -f $SSH_ENV_FILE
+    source $SSH_ENV_FILE
 end
-source "/tmp/SSH_ENV"
+
+if not ps -p $SSH_AGENT_PID &>/dev/null 2>&1
+    ssh-agent -c | head -n 2 >$SSH_ENV_FILE
+end
+source $SSH_ENV_FILE
 
 # The next line updates PATH for the Google Cloud SDK.
 if test -f '/home/woomy/google-cloud-sdk/path.fish.inc' 

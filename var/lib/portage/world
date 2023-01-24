@@ -182,7 +182,6 @@ sys-apps/less
 sys-apps/lm-sensors
 sys-apps/lsb-release
 sys-apps/lsd
-sys-apps/merge-usr
 sys-apps/moreutils
 sys-apps/nvme-cli
 sys-apps/pciutils

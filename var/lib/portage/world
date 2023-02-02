@@ -177,6 +177,7 @@ sys-apps/busybox
 sys-apps/duf
 sys-apps/ethtool
 sys-apps/fd
+sys-apps/firejail
 sys-apps/ifplugd
 sys-apps/inxi
 sys-apps/less

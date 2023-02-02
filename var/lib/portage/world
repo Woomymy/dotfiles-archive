@@ -165,7 +165,7 @@ net-misc/networkmanager-dmenu
 net-misc/openssh
 net-misc/tigervnc
 net-misc/x11-ssh-askpass
-net-misc/youtube-dl
+net-misc/yt-dlp
 net-vpn/wireguard-tools
 net-wireless/blueman
 net-wireless/wireless-tools

@@ -162,7 +162,6 @@ net-misc/anydesk
 net-misc/dhcp
 net-misc/networkmanager
 net-misc/networkmanager-dmenu
-net-misc/ntp
 net-misc/openssh
 net-misc/tigervnc
 net-misc/x11-ssh-askpass

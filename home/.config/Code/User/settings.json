@@ -1,6 +1,6 @@
 {
   "editor.fontSize": 16,
-  "editor.fontFamily": "FiraCode Nerd Font Mono, Material Icons",
+  "editor.fontFamily": "FiraCode Nerd Font, Material Icons",
   "editor.formatOnSave": true,
   "editor.bracketPairColorization.enabled": true,
   "editor.fontLigatures": true,
@@ -28,8 +28,8 @@
   "[dockerfile]": {
     "editor.defaultFormatter": "ms-azuretools.vscode-docker"
   },
-  "terminal.integrated.cursorStyle": "line",
-  "terminal.integrated.fontFamily": "Iosevka",
+  "terminal.integrated.cursorStyle": "underline",
+  "terminal.integrated.fontFamily": "FiraCode Nerd Font",
   "terminal.integrated.tabs.title": "${sequence}: ${process}",
   "explorer.confirmDelete": false,
   "files.exclude": {
@@ -68,5 +68,6 @@
     "editor.formatOnSave": false
   },
   "shfmt.executablePath": "/home/woomy/go/bin/shfmt",
-  "workbench.colorTheme": "GitHub Dark"
+  "workbench.colorTheme": "GitHub Dark",
+  "window.zoomLevel": 1
 }

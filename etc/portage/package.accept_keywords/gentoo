@@ -1,6 +1,7 @@
 # System
 sys-power/tlp
 sys-apps/bat
+x11-wm/i3
 
 ## ZRAM Generator
 dev-ruby/mustache

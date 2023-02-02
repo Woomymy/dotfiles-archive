@@ -32,6 +32,11 @@ media-video/obs-studio
 net-im/element-desktop-bin
 net-im/teams
 
+# Games
+dev-libs/angelscript
+games-action/supertuxkart
+games-arcade/supertux
+
 ### Telegram
 media-libs/tg_owt
 media-libs/libtgvoip

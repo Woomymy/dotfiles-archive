@@ -106,6 +106,8 @@ dev-util/strace
 dev-vcs/git
 dev-vcs/repo
 games-action/prismlauncher
+games-action/supertuxkart
+games-arcade/supertux
 games-fps/xonotic
 gnome-base/gconf
 gnome-base/gnome-keyring

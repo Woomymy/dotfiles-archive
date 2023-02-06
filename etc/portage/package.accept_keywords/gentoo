@@ -27,6 +27,9 @@ dev-util/rustup
 dev-vcs/repo
 www-apps/hugo
 
+## Containers
+app-containers/docker-compose
+
 # Media
 media-video/obs-studio
 

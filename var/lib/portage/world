@@ -227,6 +227,7 @@ sys-power/cpupower
 sys-power/tlp
 sys-process/cronie
 sys-process/htop
+sys-process/lsof
 sys-process/schedtool
 virtual/udev
 www-apps/hugo

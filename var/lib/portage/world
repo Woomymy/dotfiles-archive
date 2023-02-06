@@ -99,6 +99,7 @@ dev-util/ninja
 dev-util/patchelf
 dev-util/pkgcheck
 dev-util/pkgdev
+dev-util/pmbootstrap
 dev-util/rustup
 dev-util/shellcheck-bin
 dev-util/strace

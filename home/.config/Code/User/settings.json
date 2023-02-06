@@ -69,5 +69,6 @@
   },
   "shfmt.executablePath": "/home/woomy/go/bin/shfmt",
   "workbench.colorTheme": "GitHub Dark",
-  "window.zoomLevel": 1
+  "window.zoomLevel": 1,
+  "telemetry.telemetryLevel": "off"
 }

@@ -213,6 +213,7 @@ sys-fs/btrfs-progs
 sys-fs/cryptsetup
 sys-fs/dosfstools
 sys-fs/duf
+sys-fs/erofs-utils
 sys-fs/exfat-utils
 sys-fs/f2fs-tools
 sys-fs/inotify-tools

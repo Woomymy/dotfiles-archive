@@ -30,6 +30,12 @@ www-apps/hugo
 ## Containers
 app-containers/docker-compose
 
+## Vagrant
+dev-ruby/vagrant_cloud
+dev-ruby/rubyzip
+dev-ruby/hashicorp-checkpoint
+app-emulation/vagrant
+
 # Media
 media-video/obs-studio
 

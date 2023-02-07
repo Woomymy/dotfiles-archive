@@ -21,6 +21,7 @@ app-editors/neovim
 app-editors/vscode
 app-emulation/qemu
 app-emulation/spice-vdagent
+app-emulation/vagrant
 app-emulation/virt-manager
 app-eselect/eselect-python
 app-eselect/eselect-repository

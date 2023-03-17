@@ -249,6 +249,7 @@ x11-misc/pcmanfm
 x11-misc/picom
 x11-misc/polybar
 x11-misc/qt5ct
+x11-misc/rofi
 x11-misc/virtualgl
 x11-misc/xclip
 x11-misc/xdg-user-dirs

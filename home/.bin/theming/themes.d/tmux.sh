@@ -8,7 +8,7 @@ DEST="${HOME}/.tmux.scheme"
 echo "" > "${DEST}"
 
 jq -r ". | to_entries | .[].key" "${SCH}" | while read key; do
-    echo "$key=\"$(jq -r ".${key}" "${SCH}")\"" >> "${DEST}"
+    echo "set -g @$key \"$(jq -r ".${key}" "${SCH}")\"" >> "${DEST}"
 done
 
 # For some reason TMUX needs to be sourced 2 times

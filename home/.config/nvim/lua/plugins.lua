@@ -38,6 +38,4 @@ return require('packer').startup(function()
     use 'L3MON4D3/LuaSnip' -- Snippets plugin
     use 'folke/trouble.nvim' -- Problems list
     use 'udalov/kotlin-vim'-- Kotlin support
-    -- Discord presence
-    use 'andweeb/presence.nvim'
 end)

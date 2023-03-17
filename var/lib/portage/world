@@ -1,4 +1,5 @@
 app-admin/ansible
+app-admin/ansible-lint
 app-admin/keepassxc
 app-admin/logrotate
 app-admin/sudo

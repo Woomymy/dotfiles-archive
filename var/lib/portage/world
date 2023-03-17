@@ -225,6 +225,7 @@ sys-fs/udisks
 sys-fs/xfsprogs
 sys-kernel/dracut
 sys-kernel/linux-firmware
+sys-libs/libselinux
 sys-libs/ncurses-compat
 sys-power/cpupower
 sys-power/tlp

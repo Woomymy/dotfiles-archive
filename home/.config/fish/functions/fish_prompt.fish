@@ -1,4 +1,4 @@
-set error "\e[91m"
+set fish_prompt_error "\e[91m"
 set tertiary "\e[96m"
 set primary "\e[95m"
 set reset "\e[39m"
@@ -12,7 +12,7 @@ function update_colors --description "Update prompt colors"
     if test -f "/tmp/mu_scheme.json"
         set primary (set_color (schget "primary"))
         set tertiary (set_color (schget "tertiary"))
-        set error (set_color (schget "error"))
+        set fish_prompt_error (set_color (schget "error"))
     end
 end
 
@@ -22,7 +22,7 @@ function fish_prompt --description "Write the prompt"
 	set prevstatus $status
 	update_colors
     if not test $prevstatus = "0"
-		set prompt_status "$error [$prevstatus]$reset"
+		set prompt_status "$fish_prompt_error [$prevstatus]$reset"
 	else
 		set prompt_status ""
 	end

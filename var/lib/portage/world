@@ -113,7 +113,6 @@ games-action/prismlauncher
 games-action/supertuxkart
 games-arcade/supertux
 games-fps/xonotic
-gnome-base/gconf
 gnome-base/gnome-keyring
 gnome-extra/gnome-characters
 gnome-extra/gnome-clocks

@@ -10,6 +10,7 @@ app-arch/p7zip
 app-arch/pigz
 app-arch/unrar
 app-containers/docker
+app-containers/docker-buildx
 app-containers/docker-cli
 app-containers/docker-compose
 app-containers/docker-credential-helpers

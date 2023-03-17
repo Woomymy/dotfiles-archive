@@ -239,6 +239,7 @@ www-client/chromium-bin
 www-client/firefox-bin
 www-client/links
 x11-apps/setxkbmap
+x11-apps/xkill
 x11-base/xorg-server
 x11-misc/arandr
 x11-misc/dunst

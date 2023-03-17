@@ -29,7 +29,12 @@ dev-vcs/repo
 www-apps/hugo
 
 ## Containers
+app-containers/containerd
+app-containers/docker
+app-containers/docker-proxy
+app-containers/docker-cli
 app-containers/docker-compose
+app-containers/docker-buildx
 
 ## Vagrant
 dev-ruby/vagrant_cloud

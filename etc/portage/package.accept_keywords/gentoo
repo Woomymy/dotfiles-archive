@@ -24,6 +24,7 @@ app-editors/vscode
 dev-util/android-studio
 dev-util/github-cli
 dev-util/rustup
+dev-util/patchelf
 dev-vcs/repo
 www-apps/hugo
 

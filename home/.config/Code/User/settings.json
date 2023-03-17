@@ -52,7 +52,7 @@
   },
   "dart.sdkPath": "/home/woomy/.dart",
   "Lua.telemetry.enable": false,
-  "workbench.iconTheme": "ayu",
+  "workbench.iconTheme": "material-icon-theme",
   "[dart]": {
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
@@ -69,6 +69,7 @@
   },
   "shfmt.executablePath": "/home/woomy/go/bin/shfmt",
   "workbench.colorTheme": "GitHub Dark",
-  "window.zoomLevel": 1,
-  "telemetry.telemetryLevel": "off"
+  "telemetry.telemetryLevel": "off",
+  "python.formatting.provider": "black",
+  "window.zoomLevel": -1
 }

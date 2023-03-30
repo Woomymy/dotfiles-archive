@@ -71,5 +71,6 @@
   "workbench.colorTheme": "GitHub Dark",
   "telemetry.telemetryLevel": "off",
   "python.formatting.provider": "black",
-  "window.zoomLevel": -1
+  "window.zoomLevel": -1,
+  "editor.minimap.enabled": false
 }

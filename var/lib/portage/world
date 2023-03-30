@@ -28,7 +28,6 @@ app-emulation/virt-manager
 app-eselect/eselect-python
 app-eselect/eselect-repository
 app-misc/asciinema
-app-misc/authy
 app-misc/binwalk
 app-misc/detox
 app-misc/hexto256

@@ -91,6 +91,7 @@ dev-python/xxhash
 dev-texlive/texlive-latexrecommended
 dev-util/android-studio
 dev-util/android-tools
+dev-util/android-udev-rules
 dev-util/bazel
 dev-util/ccache
 dev-util/cmake

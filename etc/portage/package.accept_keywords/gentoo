@@ -21,6 +21,7 @@ x11-terms/alacritty
 
 # Developpement
 app-editors/vscode
+dev-util/android-udev-rules
 dev-util/android-studio
 dev-util/github-cli
 dev-util/rustup

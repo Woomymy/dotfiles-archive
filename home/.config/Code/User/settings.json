@@ -68,9 +68,8 @@
     "editor.formatOnSave": false
   },
   "shfmt.executablePath": "/home/woomy/go/bin/shfmt",
-  "workbench.colorTheme": "GitHub Dark",
+  "workbench.colorTheme": "Ayu Dark Bordered",
   "telemetry.telemetryLevel": "off",
   "python.formatting.provider": "black",
-  "window.zoomLevel": -1,
   "editor.minimap.enabled": false
 }

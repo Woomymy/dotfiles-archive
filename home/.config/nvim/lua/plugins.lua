@@ -26,8 +26,9 @@ return require('packer').startup(function()
         requires = {'kyazdani42/nvim-web-devicons'}
     }
     use { 'lewis6991/gitsigns.nvim', requires = { 'nvim-lua/plenary.nvim' } }
-    -- Add gentoo ebuilds
+    -- Add gentoo ebuilds and typst syntax
     use 'gentoo/gentoo-syntax'
+    use { 'kaarmu/typst.vim', ft = {'typst'} }
     -- Lualine
     use 'nvim-lualine/lualine.nvim'
     -- Lsp configuration

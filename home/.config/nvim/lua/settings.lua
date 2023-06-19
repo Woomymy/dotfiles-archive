@@ -22,3 +22,4 @@ vim.cmd [[
 vim.cmd [[
     autocmd FileType javascript,typescript,yaml,css,json setlocal shiftwidth=2 tabstop=2
 ]]
+

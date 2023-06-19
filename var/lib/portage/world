@@ -52,7 +52,6 @@ app-portage/gentoolkit
 app-portage/mirrorselect
 app-portage/portage-utils
 app-shells/fish
-app-shells/zsh
 app-text/dos2unix
 app-text/texlab-bin
 app-text/texlive
@@ -85,19 +84,20 @@ dev-python/pylint
 dev-python/python-dbusmock
 dev-python/python-systemd
 dev-python/pyusb
-dev-python/toml
 dev-python/xxhash
 dev-texlive/texlive-latexrecommended
 dev-util/android-studio
 dev-util/android-tools
 dev-util/android-udev-rules
 dev-util/bazel
+dev-util/cargo-ebuild
 dev-util/ccache
 dev-util/cmake
 dev-util/git-delta
 dev-util/github-cli
 dev-util/gn
 dev-util/gperf
+dev-util/idea-community
 dev-util/meson
 dev-util/ninja
 dev-util/patchelf
@@ -117,6 +117,7 @@ games-fps/xonotic
 gnome-base/gnome-keyring
 gnome-extra/gnome-characters
 gnome-extra/gnome-clocks
+gnome-extra/gnome-system-monitor
 gui-libs/libadwaita
 gui-libs/libhandy
 lxde-base/lxappearance
@@ -146,6 +147,7 @@ media-sound/playerctl
 media-sound/pulsemixer
 media-sound/sox
 media-video/cheese
+media-video/handbrake
 media-video/obs-studio
 media-video/pipewire
 media-video/vlc
@@ -169,6 +171,7 @@ net-misc/openssh
 net-misc/tigervnc
 net-misc/x11-ssh-askpass
 net-misc/yt-dlp
+net-p2p/syncthing
 net-vpn/wireguard-tools
 net-wireless/blueman
 net-wireless/wireless-tools
@@ -182,6 +185,7 @@ sys-apps/fd
 sys-apps/firejail
 sys-apps/ifplugd
 sys-apps/inxi
+sys-apps/kmscon
 sys-apps/less
 sys-apps/lm-sensors
 sys-apps/lsb-release
@@ -248,7 +252,6 @@ x11-misc/i3lock
 x11-misc/numlockx
 x11-misc/pcmanfm
 x11-misc/picom
-x11-misc/polybar
 x11-misc/qt5ct
 x11-misc/rofi
 x11-misc/virtualgl

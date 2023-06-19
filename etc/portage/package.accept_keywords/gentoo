@@ -1,6 +1,8 @@
 # System
 sys-power/tlp
 sys-apps/bat
+dev-libs/libtsm
+sys-apps/kmscon
 x11-wm/i3
 sys-fs/duf
 
@@ -21,9 +23,11 @@ x11-terms/alacritty
 
 # Developpement
 app-editors/vscode
+dev-util/idea-community
 dev-util/android-udev-rules
 dev-util/android-studio
 dev-util/android-tools
+dev-util/cargo-ebuild
 dev-util/github-cli
 dev-util/rustup
 dev-util/patchelf
@@ -37,6 +41,7 @@ app-containers/docker-proxy
 app-containers/docker-cli
 app-containers/docker-compose
 app-containers/docker-buildx
+app-containers/runc
 
 ## Vagrant
 dev-ruby/vagrant_cloud
@@ -59,6 +64,8 @@ games-arcade/supertux
 ### Telegram
 media-libs/tg_owt
 media-libs/libtgvoip
+dev-cpp/glibmm
+dev-cpp/cppgir
 net-im/telegram-desktop
 
 # Games
